@@ -1,0 +1,9 @@
+p[program:arible]
+directory=/home/simdi
+command=/home/simdi/arible
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/arible.err.log
+stdout_logfile=/var/log/arible.out.log
+loglevel=warn
+process_name=arible

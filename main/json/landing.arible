@@ -1,0 +1,1122 @@
+[
+    {
+        "summary": "1930s portrait",
+        "camera": "Leica III rangefinder camera 50mm f/2 Summicron lens; f/4 aperture ISO 400 shutter speed 1/125 sec.",
+        "tags": [
+            "portrait",
+            "official",
+            "formal",
+            "vintage",
+            "high resolution"
+        ],
+        "female_prompt": "Stunning portrait of a 1930s female influencer, exuding power and confidence with every pose. Captured in an ultra-realistic photograph that highlights every intricate detail of her impeccable style and elegant demeanor. Her attire is meticulously styled to reflect the glamour and sophistication of the era, with a form-fitting satin gown in deep emerald green, adorned with delicate lace and pearl accents. Her makeup is flawlessly applied, with a bold red lip and a smoky eye, enhancing her captivating beauty and allure. Her hair is styled in a sleek and sophisticated chignon, with a few wisps artfully framing her face. The composition is carefully crafted to emphasize the subject's commanding presence, focusing on her captivating gaze and confident posture. The influencer is posed in front of an art deco backdrop, featuring geometric shapes and metallic accents for added luxury. ",
+        "male_prompt": "Handsome portrait of a 1930s male influencer, exuding authority and poise with every pose. Captured in an ultra-realistic photograph that highlights every intricate detail of his impeccable style and dignified demeanor. His attire is meticulously styled to reflect the glamour and sophistication of the era, with an expertly tailored suit in dark navy blue, paired with an embellished tie bar and pocket square accents. His grooming is impeccably groomed, with slicked back hair framing his face perfectly. The composition is carefully crafted to emphasize the subject's commanding presence, focusing on his piercing gaze and poised posture. The influencer is posed in front of an art deco backdrop, featuring geometric shapes and metallic accents for added luxury.",
+        "images": [
+            "https://replicate.delivery/pbxt/ThsPlQyW3bZXDxzjqlL4dHMGoPc7r3ZJZi2aMfZr9Vkr70VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "3d portrait",
+        "camera": "Pixar Animation Studio",
+        "tags": [
+            "portrait",
+            "3D",
+            "animation",
+            "Disney",
+            "detailed"
+        ],
+        "female_prompt": "Striking 3D portrait of a young woman with a cheerful expression and mesmerizing eyes. Pixar style animation, exceptionally detailed, Disney style artistry, ultra resolution and striking colors. ",
+        "male_prompt": "Striking 3D portrait of a young man with a cheerful expression and mesmerizing eyes. Pixar style animation, exceptionally detailed, Disney style artistry, ultra resolution and striking colors. ",
+        "images": [
+            "https://replicate.delivery/pbxt/lERpsTPzM3pWEBoJJv3Bz0dEBilcQeiiezqjjKWL5lTA9prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "40 year old",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "casual",
+            "layers",
+            "decolleté",
+            "smiling"
+        ],
+        "female_prompt": "Beaming woman with cascading golden wavy hair, half open decollete, and casual attire. Radiant smile, glowing complexion, and inviting vibes. Captivating beauty with a timeless elegance.",
+        "male_prompt": "Charming man with sophisticated layered tousled hair, half open decollete, and casual attire. Alluring smile, radiant complexion, and captivating charisma. Timelessly attractive with an inviting presence.",
+        "images": [
+            "https://replicate.delivery/pbxt/E7H1XJTBodZJK50ozTsNcPXnhQGFXL5ycwD61KxlVsj5DALE/seed-15352.png"
+        ]
+    },
+    {
+        "summary": "vibrant viking",
+        "camera": "",
+        "tags": [
+            "digital painting",
+            "viking",
+            "face paint",
+            "forest",
+            "vibrant"
+        ],
+        "female_prompt": "Vibrant digital painting of a young  Viking woman in Heilung face paint and flowing colors. Background of lush forest and earthy tones, vibrant and alive with energy. Artistic representation of detail, movement and atmosphere.",
+        "male_prompt": "Vibrant digital painting of a young male Viking in Heilung face paint and flowing colors. Background of lush forest and earthy tones, vibrant and alive with energy. Artistic representation of detail, movement and atmosphere.",
+        "images": [
+            "https://replicate.delivery/pbxt/87zDO8PcjE7xIFTx0kvVX9r18w7nmbjPwLnbJZMNXtDdFALE/seed-45647.png"
+        ]
+    },
+    {
+        "summary": "academia singing",
+        "camera": "",
+        "tags": [
+            "singing",
+            "botanical",
+            "holographic",
+            "metallic",
+            "rainbow"
+        ],
+        "female_prompt": "Joyous female singing with her head back, in a botanical inspired academia. Karrueche style, Lisa frank inspired, metallic and holographic shamrock fashion. Smiling into the rainbow in the style of James Jean and Alberto Seveso.",
+        "male_prompt": "Cheerful male singing with his head back, in a botanical inspired academia. Karrueche style, Lisa frank inspired, metallic and holographic shamrock fashion. Smiling into the rainbow in the style of James Jean and Alberto Seveso.",
+        "images": [
+            "https://replicate.delivery/pbxt/nQwQRkfLLRW5IKcZQQGSrjWb3bZV1kLc8tfRnQ66vJnm0prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "acrylic painting",
+        "camera": "",
+        "tags": [
+            "retrofuturism",
+            "astronaut",
+            "painting",
+            "colony",
+            "space"
+        ],
+        "female_prompt": "Vibrant acrylic painting of a female astronaut, far away shot, capturing a retrofuturism scene, background of a sprawling space colony by Earl Moran. Rich colors, glimmering texture, intricate details and airy movement. ",
+        "male_prompt": "Vibrant acrylic painting of a male astronaut, far away shot, capturing a retrofuturism scene, background of a sprawling space colony by Earl Moran. Rich colors, glimmering texture, intricate details and airy movement. ",
+        "images": [
+            "https://replicate.delivery/pbxt/zSgNKyZYffq6VkeyWFyACbYft2BcmJ9ymecJ0OuxeBkh1e0VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "afremov portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "realistic",
+            "oil paint",
+            "emotional",
+            "high contrast"
+        ],
+        "female_prompt": "Breathtaking portrait of a beautiful woman with windblown hair, in the style of Leonid Afremov. Realistic emotional oil painting with impasto brush strokes, obscured facial features with an evocative expression, high contrast and vivid saturated colors, and a slight glow.",
+        "male_prompt": "Striking portrait of a handsome man with tousled hair, in the style of Leonid Afremov. Realistic emotional oil painting with impasto brush strokes, obscured facial features with an evocative expression, high contrast and vivid saturated colors, and a slight glow.",
+        "images": [
+            "https://replicate.delivery/pbxt/wWwsxvTzMBrdA5ptmC1T8YJveWqgL5khUlmKN1ehdwXE2prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "afropunk comic",
+        "camera": "",
+        "tags": [
+            "comic-book",
+            "afropunk",
+            "illustrated",
+            "unique",
+            "bold"
+        ],
+        "female_prompt": "A female with an Afropunk style, no expression or emotion, illustrated by Anna Dittmann in a comic book style with no background. Masterful blend of colors and intricate details with bold lines and unique design elements.",
+        "male_prompt": "A male with an Afropunk style, no expression or emotion, illustrated by Anna Dittmann in a comic book style with no background. Masterful blend of colors and intricate details with bold lines and unique design elements.",
+        "images": [
+            "https://replicate.delivery/pbxt/lIevfOfmJ9P1kJDtpErzNzDCMJzmK7diydc5rmt7D5dSyTXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "air portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "fine features",
+            "dark skin",
+            "dramatic"
+        ],
+        "female_prompt": "Gorgeous woman with delicate features and dark skin, natural hair, stunning dress and air elemental. Vibrant colors, dramatic composition and intricate details by renowned photographers Annie Leibovitz, Mandy Jurgens, Roberto Ferri and Anders Zorn. ",
+        "male_prompt": "Handsome man with fine features and dark skin, natural hair, stylish clothes and air elemental. Vibrant colors, dramatic composition and intricate details by renowned photographers Annie Leibovitz, Mandy Jurgens, Roberto Ferri and Anders Zorn. ",
+        "images": [
+            "https://replicate.delivery/pbxt/6BBKPTzhlN6uBdtsj41rn5sZRagbep1fKrYLeIgfgx1MsnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "airship portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "official",
+            "formal",
+            "cityscape",
+            "square"
+        ],
+        "female_prompt": "Beautiful woman in a red dress and long hair standing on the ground with a majestic city in the background. Airship soaring in the sky, black and white with vibrant touches of red, realistic and stunningly detailed. ",
+        "male_prompt": "Handsome man with an airship flying in the background, black and white with vibrant touches of red. Realistic depiction of a majestic city, standing on solid ground, looking up at the airship. ",
+        "images": [
+            "https://replicate.delivery/pbxt/IDV3oiX16X52LlrjRtNzf82VKwpRf4ZAiHMRIC6t0mKV4prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "ambient portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "ambient light",
+            "european",
+            "red hair",
+            "shadow"
+        ],
+        "female_prompt": "Striking portrait of a woman in an ambient light setting, with an enthusiastic and joyful expression, European features, bright red hair and beautiful shadows. ",
+        "male_prompt": "Dashing portrait of a man in an ambient light setting, with an enthusiastic and joyful expression, European features and handsome shadows. ",
+        "images": [
+            "https://replicate.delivery/pbxt/Dlm1XbeItKVsPK7B1kvNeOpAmNm7ZPLAgkx4lRiUS4Rf0TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "american portrait",
+        "camera": "85mm lens, f:8 aperture, ISO 100 settings, 1/125 shutter speed",
+        "tags": [
+            "portrait",
+            "official",
+            "formal",
+            "realistic",
+            "high-resolution"
+        ],
+        "female_prompt": "Miss American 🥧 close up portrait of a beautiful woman with red and  hair, exquisite detail, 30-megapixel resolution, 4K resolution, 85mm lens, sharp focus, f:8 aperture, ISO 100 settings, 1/125 shutter speed. Diffuse backlighting to bring out the beauty of her face and features. Award-winning photograph with small catchlight to add depth and sparkle to the eyes. High sharpness and facial symmetry for maximum realism.",
+        "male_prompt": "Mr American 🥧 close up portrait of a handsome man with red and  hair. Exquisite detail at 30-megapixel resolution and 4K resolution with an 85mm lens for sharp focus. F:8 aperture, ISO 100 setting and 1/125 shutter speed for perfect lighting conditions. Diffuse backlighting to bring out the beauty of his face and features. Award-winning photograph with small catchlight for added sparkle in the eyes. High sharpness and facial symmetry for maximum realism.",
+        "images": [
+            "https://replicate.delivery/pbxt/rOjw0KiGfVxmSahAkOxxuJZjU2nz09vvv6eeiTGy7pqelnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "angel portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "dramatic",
+            "angel wings",
+            "elaborate",
+            "anatomical"
+        ],
+        "female_prompt": "Beautiful portrait of a young woman with angel wings wearing an elaborate costume, dramatic lighting, and anatomical accuracy. Inspired by the works of Dean Cornwell, Earl Norem and James Avati, with special attention to the placement of bones, joints, and tendons in her hands. ",
+        "male_prompt": "Handsome portrait of a young man with angel wings wearing an elaborate costume, dramatic lighting, and anatomical accuracy. Inspired by the works of Dean Cornwell, Earl Norem and James Avati, with special attention to the placement of bones, joints, and tendons in his hands. ",
+        "images": [
+            "https://replicate.delivery/pbxt/XSWsqlbgiQbgHdui814yXy3qneeO3wskv0JZFqhKvWfO0TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "artistic portrait",
+        "camera": "Not applicable",
+        "tags": [
+            "portrait",
+            "official",
+            "artistic",
+            "dynamic",
+            "vibrant"
+        ],
+        "female_prompt": "Stunning portrait of a woman, with a beautiful expression and delicate features. Captured in a dynamic composition, with vivid and stunning colors, and art by Yanjun Cheng and Andrey Remnev.",
+        "male_prompt": "Handsome portrait of a man, with a strong expression and chiseled features. Captured in a dynamic composition, with vibrant and stunning colors, and art by Yanjun Cheng and Andrey Remnev.",
+        "images": [
+            "https://replicate.delivery/pbxt/pjjKObsizfQ9TqhnhvaHtdWNDQKaDjLlbqbd8ICdkzs980VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "award-winning anime portrait",
+        "camera": "64K photography, high-sharpness",
+        "tags": [
+            "anime",
+            "cinematic",
+            "CG",
+            "colorful",
+            "neon"
+        ],
+        "female_prompt": "Enchanting portrait of a young woman, with a bright smile and beautiful features. Cinematic lighting and angle create an otherworldly atmosphere. Hand-crafted CG work with neon colors, surreal details and ultra sharpness. A hypnotizing photo worthy of an award.",
+        "male_prompt": "Dashing portrait of a young man, with a distinguished smirk and strong features. Cinematic lighting and angle create an otherworldly atmosphere. Hand-crafted CG work with neon colors, surreal details and ultra sharpness. A mesmerizing photo worthy of an award.",
+        "images": [
+            "https://replicate.delivery/pbxt/ufyyVjhi2OwefIcjFZoG8dyExJiAFn2lJ6oxu83xC7Do2TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "beach portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "official",
+            "flowers",
+            "sunny",
+            "refined"
+        ],
+        "female_prompt": "Stunning oil painting of a beautiful woman on a beach, surrounded by colorful flowers and bathed in warm sunshine. The woman's poise should be graceful and tranquil, while the vibrant hues of the flowers capture the natural beauty of the scene. Refined, sophisticated painting style with an emphasis on capturing the peaceful atmosphere.",
+        "male_prompt": "Handsome oil painting of a man on a beach, surrounded by vivid flowers and mellowed by warm sunlight. His pose should be composed and serene, contrasted with the lively colors of the flowers. Refined, sophisticated painting style with an emphasis on conveying the tranquil atmosphere.",
+        "images": [
+            "https://replicate.delivery/pbxt/19bEzbBNhzrPDNbGBZqB6ScQuo9nLilkOBxz1bnaNGEud6KE/out-0.png"
+        ]
+    },
+    {
+        "summary": "business sunset",
+        "camera": "n/a",
+        "tags": [
+            "portrait",
+            "official",
+            "business",
+            "sunset",
+            "urban"
+        ],
+        "female_prompt": "Beautiful brunette business woman at sunset with Bucharest skyline in the backdrop. Soft, warm lighting and exquisite details, timeless composition with dawn colors tone, golden ratio and lifelike textures.",
+        "male_prompt": "Handsome business man at sunset with Bucharest skyline in the backdrop. Soft, warm lighting and exquisite details, timeless composition with dawn colors tone, golden ratio and lifelike textures.",
+        "images": [
+            "https://replicate.delivery/pbxt/X66CeaWu56wWTKrRvNZ8jpto7GcLZAQWpyefGZ2khNix0TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "butterfly monarch",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "butterflies",
+            "insects",
+            "majestic"
+        ],
+        "female_prompt": "Strong and beautiful young woman in her 25's transformed into a regal butterfly queen with an anthropomorphic insect body. Glorious wings, majestic form, and a glowing aura of power and beauty. Captivating composition and hyperrealistic quality.",
+        "male_prompt": "Handsome young man in his 25's transforming into a powerful butterfly emperor with an anthropomorphic insect body. Grandiose wings, stately physique, and a brilliant aura of strength and charm. Mesmerizing composition and photorealistic details.",
+        "images": [
+            "https://replicate.delivery/pbxt/dWecVjafoHsmrUtetfpNKZuQTGUkwZOx6bruWLZMtG7OwnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "celtic fantasy study",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "library",
+            "magic",
+            "celtic"
+        ],
+        "female_prompt": "Mystical portrait of a woman in the style of Christina Hendricks, studying magic in a celtic fantasy library. Elegantly crafted with meticulous pencil and watercolor, golden ratio composition, vibrant color details, soft lighting, and intricate details. ",
+        "male_prompt": "Enchanting portrait of a man in the style of Waterhouse, studying magic in a celtic fantasy library. Skilfully crafted with meticulous pencil and watercolor, golden ratio composition, vibrant color details, soft lighting, and intricate details. ",
+        "images": [
+            "https://replicate.delivery/pbxt/H86SmhVNAX5kE5pReaZq7AfzreVMVGu9Emb1YIS2LdOO1TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "celtic library portrait",
+        "camera": "Anne Stokes art style",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "library",
+            "illuminated",
+            "Celtic"
+        ],
+        "female_prompt": "Charming portrait of a woman in the style of Christina Hendricks, reading in an illuminated Celtic fantasy library. Sublime and surreal effects of vibrant colors, magical creatures, and intricate details. A captivating scene of pure serenity and ancient secrets.",
+        "male_prompt": "Attractive portrait of a man in the style of Christina Hendricks, studying in an illuminated Celtic fantasy library. Sublime and surreal effects of vibrant colors, magical creatures, and intricate details. A captivating scene of pure serenity and ancient secrets.",
+        "images": [
+            "https://replicate.delivery/pbxt/eII2p4Jy6flpakSJr7nfw0OfYGOjMMRjWhsmQpSf3nrgfe0VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "cernunnos",
+        "camera": "",
+        "tags": [
+            "model",
+            "avant-garde",
+            "filigree",
+            "lacy",
+            "ornamented"
+        ],
+        "female_prompt": "Stunning model wearing a Versace filigree lace crop top, avant-garde and highly detailed. Intricate and cinematic pose with dynamic natural lighting. Cernunnos inspired look with elegant craftsmanship, subtle hues, and exquisite textures.",
+        "male_prompt": "Handsome model wearing a Versace filigree lace crop top, avant-garde and highly detailed. Intricate and cinematic pose with dynamic natural lighting. Cernunnos inspired look with elegant craftsmanship, subtle hues, and exquisite textures.",
+        "images": [
+            "https://replicate.delivery/pbxt/kgt3KpS1EOqfACHZQenguDj3QZ0fAIo8TEdyMq3DP2EN0TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "cinematic lookbook",
+        "camera": "35mm lens f/1.8 studio lighting ultra detailed global illumination & post production effects",
+        "tags": [
+            "mid-body",
+            "model",
+            "beautiful",
+            "minimalist",
+            "gradient"
+        ],
+        "female_prompt": "Mid body shot of a beautiful female model with minimal makeup, a white gradient background, and realistic clear facial features. She is wearing an exaggerated black oversize puffer braided cape, a black puffer jumpsuit, and a black braided hairpiece. The scene is located in Iceland featuring minimal mountains and melting ice. The lookbook photoshoot is cinematic with a 35mm lens, f/1.8, studio lighting, ultra detailed global illumination, and post production effects. The model's dynamic pose displays her face feature while the camera zooms out to capture her human eyes along with a minimal shadow background. Half body shot of a real person.",
+        "male_prompt": "Mid body shot of a handsome male model with minimal makeup, a white gradient background, and realistic clear facial features. He is wearing an exaggerated black oversize puffer braided cape, a black puffer jumpsuit, and a black braided hairpiece. The scene is located in Iceland featuring minimal mountains and melting ice. The lookbook photoshoot is cinematic with a 35mm lens, f/1.8, studio lighting, ultra detailed global illumination, and post production effects. The model's dynamic pose displays his face feature while the camera zooms out to capture his human eyes along with a minimal shadow background. Half body shot of a real person.",
+        "images": [
+            "https://replicate.delivery/pbxt/aYqDGeTrmqxtb6sDUEwv8vj7X83PVvSou9rfX8FofjaB3TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "club dance",
+        "camera": "",
+        "tags": [
+            "full body",
+            "dance",
+            "club",
+            "colors",
+            "party"
+        ],
+        "female_prompt": "Attractive young woman dancing in a vibrant and crowded club, illuminated with mesmerizing colors and dot matrix lights. Radiant energy, joyful movements and expression of freedom.",
+        "male_prompt": "Handsome young man dancing in a vibrant and crowded club, illuminated with mesmerizing colors and dot matrix lights. Radiant energy, joyous movements and expression of liberty.",
+        "images": [
+            "https://replicate.delivery/pbxt/qk6gMHQvNGKfeUFSXN556Bdllfdy0F0oE3Smym7YjGx44TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "dancing figure",
+        "camera": "",
+        "tags": [
+            "dancing",
+            "surreal",
+            "water",
+            "rings",
+            "detailed"
+        ],
+        "female_prompt": "Graceful dancing woman with intricate details and long legs, inspired by artists like Lotte Reiniger, Carne Griffiths, Chris Ofili, and Alphonse Mucha. Dreamy and surreal atmosphere, twirling in an aquatic landscape with colorful rings on the water surface. ",
+        "male_prompt": "Vigorous dancing man with intricate details and tall stature, inspired by artists like Lotte Reiniger, Carne Griffiths, Chris Ofili, and Alphonse Mucha. Dreamy and surreal atmosphere, twirling in an aquatic landscape with colorful rings on the water surface. ",
+        "images": [
+            "https://replicate.delivery/pbxt/1QWRymofZR3EI6Md1NQylzOBLDtiYhaOYwDTnWWcIO4o80VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "dwarven fullbody",
+        "camera": "",
+        "tags": [
+            "full body",
+            "fantasy",
+            "armour",
+            "dungeon",
+            "golden hour"
+        ],
+        "female_prompt": "Full length wide shot of a stocky female dwarven bodybuilder in full plate armor and  undercut hair, seated in a dungeon-like backdrop during golden hour. Powerful, overwhelming presence with exquisite details and magnificent illustrations. Dynamic composition, striking lighting and breathtaking scenery.",
+        "male_prompt": "Full length wide shot of a stocky male dwarven bodybuilder in full plate armor and  undercut hair, seated in a dungeon-like backdrop during golden hour. Powerful, overwhelming presence with exquisite details and magnificent illustrations. Dynamic composition, striking lighting and breathtaking scenery.",
+        "images": [
+            "https://replicate.delivery/pbxt/weZOaaAjzcVjAil3CzIY6j3yVo2l6fhRYbiUXBpRMOj50prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "dynamic cafe",
+        "camera": "",
+        "tags": [
+            "cafe",
+            "dynamic",
+            "compositional",
+            "high-quality",
+            "8k"
+        ],
+        "female_prompt": " woman with blue eyes in a cafe, eating a pastry with a captivating expression. She is wearing a blue translucent unbuttoned shirt, posing in a dynamic and cinematic composition. Super high quality, inspired by Scott J Campbell's style, 8K resolution. ",
+        "male_prompt": "Handsome man in a cafe, eating a pastry with an alluring expression. He is wearing an elegant shirt, striking a dynamic and cinematic pose to capture the moment. Super high quality, inspired by Scott J Campbell's style and 8K resolution.",
+        "images": [
+            "https://replicate.delivery/pbxt/zoU8Ae8XxzX2CKoAKkjhaU59TnmwhZJR76v0CFcS2cY790VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "dynamic silhouette",
+        "camera": "",
+        "tags": [
+            "silhouette",
+            "dynamic",
+            "pose",
+            "colorful",
+            "creative"
+        ],
+        "female_prompt": "Dynamic female silhouette with powerful nonverbal communication, soft curves, and delicate details. Exciting perspective, vivid colors, and creative poses that captures the imagination. ",
+        "male_prompt": "Dynamic male silhouette with strong nonverbal communication, bold angles, and luminous details. Exciting perspective, vibrant colors, and artful poses that captivates the eye. ",
+        "images": [
+            "https://replicate.delivery/pbxt/m4h7DeMOnBQ3F6cclgImwwbQnzOqvguxXwvPaYfHyYFO3prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "dynamic silhoutte",
+        "camera": "",
+        "tags": [
+            "silhouette",
+            "dynamic",
+            "abstract",
+            "glowing",
+            "high-contrast"
+        ],
+        "female_prompt": "Dramatic silhouette of a woman, standing tall and proud, with an abstract background and a glowing aura. High contrast and sharp outlines, dynamic composition and intense atmosphere. ",
+        "male_prompt": "Powerful silhouette of a man, strong stance, dynamic background with abstract patterns. High contrast and sharp outlines, dramatic composition, and intense atmosphere.",
+        "images": [
+            "https://replicate.delivery/pbxt/EQ9HAO4yWvqLFd5pMbtJhE577IjbQqOM3b0zsoXi0IKke0VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "ebony superhero",
+        "camera": "Blender rendering",
+        "tags": [
+            "superhero",
+            "dramatic",
+            "Gothic",
+            "cinematic",
+            "collage"
+        ],
+        "female_prompt": "Powerful ebony female superhero, serene and powerful pose in a coffinwood forest. Dynamic composition of oil and charcoal colors, surreal ambiance with dramatic backlit lighting. Realistic cinematic quality with highly detailed environment, redshift render and 4k resolution. ",
+        "male_prompt": "Strong ebony male superhero, dynamic pose in a coffinwood forest. Intense collage of oil and charcoal colors, surreal ambiance with cinematic lighting. Highly detailed environment with realistic dramatic lighting, Redshift render and 4k resolution. ",
+        "images": [
+            "https://replicate.delivery/pbxt/1DQmPrlkfVUqHSThW5xPCQ4mHPladlh0fD4ddWmDSTPx6prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "facemask floral",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "masked",
+            "floral",
+            "oil painting",
+            "vibrant"
+        ],
+        "female_prompt": "Close up of a mysterious woman in a latex facemask, ethereal beauty obfuscated by colorful flowers. Mesmerizing oil painting by Simon Stalenhag and Robert Rauschenberg with fine details and captivating vibrancy.",
+        "male_prompt": "Close up of a enigmatic man in a latex facemask, enigmatic look obfuscated by vivid petals. Mesmerizing oil painting by Simon Stalenhag and Robert Rauschenberg with delicate details and mesmerizing vibrancy.",
+        "images": [
+            "https://replicate.delivery/pbxt/2UmYmh1Yem3RNCV6YHJcNfgDuzzYQAlgdNnCxsMs6lZX6prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "fantasy character",
+        "camera": "",
+        "tags": [
+            "fantasy",
+            "full body",
+            "butterflies",
+            "flowers",
+            "surreal"
+        ],
+        "female_prompt": "Beautiful fantasy female character, featuring fairies and a magical outfit, bright pink hair, large anime-style eyes, soft pink skin tone, petite triangular chin framed by butterflies and flowers in a vivid surreal landscape. Cinematic and photorealistic detail.",
+        "male_prompt": "Handsome fantasy male character with an enchanting costume and accessories, wild hairstyle and striking eye color. Surrounded by fluttering butterflies and lush flower blooms in a vibrant dreamlike world. Cinematic and photorealistic detail.",
+        "images": [
+            "https://replicate.delivery/pbxt/nn1qfQ4JIER8di5O3bmpI4FKYYqK53ewctoqKR92LuGF7prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "farmer portrait",
+        "camera": "Photo by Aliza Razell, Felicia Simion & Jack Spencer",
+        "tags": [
+            "farmer",
+            "1800s",
+            "meadowgrass",
+            "shamrock",
+            "character"
+        ],
+        "female_prompt": "Beautiful female farmer raking the fields in the late 1800s. Dark-brown hair, hazel eyes, dirt on her face, small lesion and a mole on her cheek. Slender and strong build, standing in a field of meadowgrass and shamrock, holding a rake and working hard. Imperfections and small details create unique character. Captured with masterful blend of light and shadow, texture, color gradation and ultra resolution by Aliza Razell, Felicia Simion and Jack Spencer.",
+        "male_prompt": "Handsome male farmer raking the fields in the late 1800s. Dark-brown hair, hazel eyes, dirt on his face and small details that create unique character. Slender and strong build standing in a field of meadowgrass and shamrock holding a rake and working hard. Captured with masterful blend of light and shadow, texture, color gradation, depth of field and ultra resolution by Aliza Razell, Felicia Simion and Jack Spencer.",
+        "images": [
+            "https://replicate.delivery/pbxt/ExnNPrspShoDDZluUeGJaD1uYMRNx5Mv8sF1PpDPLopB90VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "fountain of youth",
+        "camera": "8K resolution, vivid and ultra details",
+        "tags": [
+            "fantasy",
+            "transformative",
+            "colorful",
+            "8K",
+            "imagination"
+        ],
+        "female_prompt": "Magical transformation of a woman to a baby as she accidentally discovers the fountain of youth. Vivid and ultra detailed 8K resolution, captivating colorfull lighting, and imaginative photography. ",
+        "male_prompt": "Magical transformation of a man to a baby as he accidentally discovers the fountain of youth. Vivid and ultra detailed 8K resolution, captivating colorfull lighting, and imaginative photography. ",
+        "images": [
+            "https://replicate.delivery/pbxt/S5f2ZWqr2eooiEafxATfDq13xpW8lvxeXqQVWWuZXVnDlPdFC/out-0.png"
+        ]
+    },
+    {
+        "summary": "ginger-haired portrait",
+        "camera": "photorealistic cinematic",
+        "tags": [
+            "portrait",
+            "official",
+            "formal",
+            "braided hair",
+            "ginger haired"
+        ],
+        "female_prompt": "Young woman with vivid ginger hair, intricate braids and high cheekbones, neutral expression and gentle gaze. Stunning photorealistic quality, cinematic feel and vivid colors to add depth. Soft but edgy lighting to emphasize facial features, unique composition.",
+        "male_prompt": "Young man with striking ginger hair, intricate braids and high cheekbones, neutral expression and gentle smile. Stunning photorealistic quality, cinematic feel and vivid colors to add depth. Soft but edgy lighting to emphasize facial features, unique composition.",
+        "images": [
+            "https://replicate.delivery/pbxt/XnAla2NuIlKIEtK0meJ4tlGS3OclOftHwuVR9f7fd7oXknuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "ginger profile",
+        "camera": "4K resolution, 50mm focal length",
+        "tags": [
+            "portrait",
+            "official",
+            "bun",
+            "attractive",
+            "cinematic"
+        ],
+        "female_prompt": "Beautiful red-headed woman with an enigmatic and determined gaze, stunningly attractive green eyes, braided bun hairstyle, cinematic lighting in 4K resolution, focal length at 50mm. Captivating profile of the same character.",
+        "male_prompt": "Handsome red-headed man with a mysterious and determined look on his face, amazingly attractive green eyes, braided bun hairstyle, cinematic lights in 4K resolution, focal length at 50mm. Captivating profile of the same character.",
+        "images": [
+            "https://replicate.delivery/pbxt/HCeffDL08TdzbIhzkPHB7XtAGILQnIGB24KyfqRIkJFyrnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "glimmering portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "crystal",
+            "glowing",
+            "long hair",
+            "sunlight"
+        ],
+        "female_prompt": "Gorgeous extreme closeup of a woman with glowing shamrock eyes, long pastel pink crystalline diamond-textured hair, and a beam of sunlight. By renowned artist Kuvshinov Ilya. ",
+        "male_prompt": "Handsome extreme closeup of a man with piercing green eyes, long soft golden hair, and a beam of sunlight. By renowned artist Kuvshinov Ilya. ",
+        "images": [
+            "https://replicate.delivery/pbxt/kHsBrojEsspYBhIgz2onqd2xERCjsNReCgueYeBmJQCX2TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "goliath pirate",
+        "camera": "4K Photograph",
+        "tags": [
+            "realistic",
+            "fantasy",
+            "fire",
+            "pirate",
+            "armour"
+        ],
+        "female_prompt": "Epic 4K photograph of a Goliath woman, long flowing  hair and G-cup chest, 6 feet tall, playing with fire sticks, standing on a pirate ship, wearing fur armor leather straps and tattoos. Fire aura, dramatic lighting, warm tones and a diagonal composition of an ocean location. ",
+        "male_prompt": "Powerful 4K photograph of a Goliath man with long flowing dark hair and muscular physique. Playing with fire sticks while standing on a pirate ship wearing fur armor leather straps and tattoos. Fire aura, dramatic lighting, warm tones and a diagonal composition of an ocean location. ",
+        "images": [
+            "https://replicate.delivery/pbxt/9GdXeRsOEVSXLal09swKCquouaCBHJfC1ojQteCFHebctnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "holographic artwork",
+        "camera": "8K resolution",
+        "tags": [
+            "holographic",
+            "dot matrix",
+            "hyper realistic",
+            "cinematic",
+            "volumetric"
+        ],
+        "female_prompt": "Ethereal holographic woman composed of a dot matrix, with high definition, hyperrealistic detail, cinematic composition and volumetric lighting. Ultra high resolution 8K image and lifelike gradients for an enlightened look.",
+        "male_prompt": "Vibrant holographic man crafted from a dot matrix, with impeccable definition, hyperrealistic detail, cinematic composition and volumetric lighting. Ultra high resolution 8K image and lifelike gradients for a mesmerizing look.",
+        "images": [
+            "https://replicate.delivery/pbxt/jVNGK7ZUx0LFM1VQyRmOaotYiBJsrgyXOCd8Dhid9cRoe0VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "kawaii witch",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "witchcraft",
+            "magical",
+            "square"
+        ],
+        "female_prompt": "Adorable female witch with a bewitching aura, joyous smile and twinkling eyes. Cute expression and colorful outfit, delicate features with cute accessories. Sweet and magical, radiating warmth and positive energy.",
+        "male_prompt": "Charming male witch with an enchanting presence, mischievous grin and sparkling gaze. Colorful attire and stylish details, soft features with cute trinkets. Charismatic and magical, radiating charm and good vibes.",
+        "images": [
+            "https://replicate.delivery/pbxt/gIRd2PBcizJyLtKpjrUif9gbuNLyQNmXr9XRE3gTclUb90VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "knight dragon",
+        "camera": "",
+        "tags": [
+            "anime",
+            "armored",
+            "dragon",
+            "beach",
+            "dawn"
+        ],
+        "female_prompt": "Anime illustration of an olive-skinned armored knight woman with a black ponytail and glasses petting a majestic white dragon on a beach at dawn. Vivid colors, intricate details, dynamic composition, and a touch of surrealism. Soft morning light, golden ratio, and a powerful narrative. ",
+        "male_prompt": "Anime illustration of an olive-skinned armored knight man with a black ponytail and glasses petting a majestic white dragon on a beach at dawn. Vivid colors, intricate details, dynamic composition, and a touch of surrealism. Soft morning light, golden ratio, and a powerful narrative.",
+        "images": [
+            "https://replicate.delivery/pbxt/RSaLeT7x3PTRUqkuXrsXjdeaXqOSYV6aCOwJqH8ALpRz6prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "latex floral",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "mask",
+            "flowers",
+            "oil painting",
+            "vibrant"
+        ],
+        "female_prompt": "Close-up of a woman in a latex facemask, pleasantly obscured by delicate flowers. Oil painting masterpiece by Simon Stalenhag and Robert Rauschenberg, featuring contrasting vibrant and subtle colors, dynamic brushwork, and soft yet striking lighting.",
+        "male_prompt": "Close-up of a man in a latex facemask, pleasantly obscured by delicate flowers. Oil painting masterpiece by Simon Stalenhag and Robert Rauschenberg, featuring contrasting vibrant and subtle colors, dynamic brushwork, and soft yet striking lighting.",
+        "images": [
+            "https://replicate.delivery/pbxt/qYHijD4mowKtAtXJBUR0IffumKkyrSXeUOIvfCUH8Y88qnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "luxurious portrait",
+        "camera": "Canon DSLR, f/2.8 exposure, 25mm lens",
+        "tags": [
+            "Portrait",
+            "Fantasy",
+            "Foliage",
+            "Animals",
+            "Elegant"
+        ],
+        "female_prompt": "Perfectly beautiful portrait of a woman with flora and fauna, elegant textile drapery with ornate details, photorealistic wide view around a photorealistic matte painting, knowledge of anatomy, masterful blend of pencil and watercolor on paper, golden ratio, elite luxury concept art, extremely neat, general and intricate details, grayscale color gradation with few color shifts. Dynamic composition, ultra resolution and cinematic extreme wide shot for hyperrealism. Digital art/painting/illustration and world made of light with soft lighting and extreme details.",
+        "male_prompt": "Handsome portrait of a man with foliage and majestic creatures framed by elegant textile drapery with ornate details. Photorealistic wide view around a photorealistic matte painting. Knowledge of anatomy along with masterful blend of pencils and watercolors on paper in golden ratio. Elite luxury concept art with extremely neat, general and intricate details. Grayscale color gradation with few color shifts for dynamic composition along with ultra resolution for cinematic extreme wide shot for hyperrealism. Digital art/painting/illustration in world made of light featuring soft lighting & extreme details.",
+        "images": [
+            "https://replicate.delivery/pbxt/uHD5LcwsE1J8MV8re9P6Oxr2wLJFIiHFPrsnuIzef3egrnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "magical portrait",
+        "camera": "Hasselblad H6D-400C f/5.6",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "otherworldly",
+            "glitch art",
+            "neoclassical"
+        ],
+        "female_prompt": "Beautiful Dutch woman in feathers and a plushy tank top standing atop a transparent balloon, with feather sneakers, power posing at dusk. Teardrops in her eye, eye reflections, warm afternoon light and a backlit short hair. Realistic detailed retina looking into the camera with glitch art neon kawaii jeans, water pouring out and smearing photography. A handwoven blanket of yellow otherworldy texture and intricate blue decorative texture over neoclassical colours. Fibonacci composition, sfx, cinematic lighting and octane render in 4K. ",
+        "male_prompt": "Handsome Dutch man standing atop a transparent balloon, with feather sneakers, powerful pose at dusk. Teardrops in his eye, eye reflections, warm afternoon light and a backlit short hair. Realistic detailed retina looking into the camera with glitch art neon kawaii jeans, water pouring out and smearing photography. A handwoven blanket of yellow otherworldy texture and intricate blue decorative texture over neoclassical colours. Fibonacci composition, sfx, cinematic lighting and octane render in 4K.",
+        "images": [
+            "https://replicate.delivery/pbxt/l26sqO6hMw7ZBpYInP65XNdHnB7VXW92r6QxuOuKzckwd6KE/out-0.png"
+        ]
+    },
+    {
+        "summary": "miss american portrait",
+        "camera": "30 megapixel 4K 85mm lens , F:8 ISO 100 Shutter Speed 1:125",
+        "tags": [
+            "portrait",
+            "official",
+            "closeup",
+            "award-winning",
+            "symmetry"
+        ],
+        "female_prompt": "Miss American 🥧 gorgeous close up portrait of a stunning woman with red and  hair, exquisite detail and award-winning 8k resolution. Hyper sharpness, high symmetry, small catchlight, diffuse backlighting with 30 megapixels for extreme clarity and color gradation. Captured on an 85mm lens at f/8, ISO100 at 1/125 shutter speed.",
+        "male_prompt": "Handsome close up portrait of an attractive man with lush-colored hair, captivating detail and award-winning 8k resolution. Hyper sharpness, high symmetry, small catchlight, diffuse backlighting with 30 megapixels for extreme clarity and color gradation. Captured on an 85mm lens at f/8, ISO100 at 1/125 shutter speed.",
+        "images": [
+            "https://replicate.delivery/pbxt/4iJvDgYnU451P9NAd3ukMGG8XNBnL7loAHhlZvchX1Ype0VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "neon portrait",
+        "camera": "4k/HD resolution",
+        "tags": [
+            "portrait",
+            "cyberpunk",
+            "modern",
+            "neon",
+            "glasses"
+        ],
+        "female_prompt": "Young woman with red long curly hair, glasses, looking in camera wearing a vibrant neon black and neon red dress. Hyperrealistic 4K/HD quality, beautiful smile, and cyberpunk background. ",
+        "male_prompt": "Young man with red long curly hair, glasses, looking in camera wearing a vibrant neon black and neon red dress. Hyperrealistic 4K/HD quality, handsome smile, and cyberpunk background. ",
+        "images": [
+            "https://replicate.delivery/pbxt/KFr6Ide5LWzbaaTSn9twcxUOicv6NDyQve30511986DG2prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "no mans land",
+        "camera": "",
+        "tags": [
+            "world war one",
+            "gloomy",
+            "landscape",
+            "photorealistic",
+            "desolate"
+        ],
+        "female_prompt": "A woman amidst the desolate wasteland, a somber atmosphere of war and destruction. Photorealistic quality depicting the tragic devastation, with a hauntingly beautiful scenery. Subtle tones of sorrow and despair, dark ambience and sharp details.",
+        "male_prompt": "A man amidst the desolate wasteland, a somber atmosphere of war and destruction. Photorealistic quality depicting the tragic devastation, with a hauntingly beautiful scenery. Subtle tones of sorrow and despair, dark ambience and sharp details.",
+        "images": [
+            "https://replicate.delivery/pbxt/r8Aggj3LBmbDIFgUSRKt0mfr6LySJYO2W9N51ONtDTeH4prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "noble portrait",
+        "camera": "none required",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "pointillism",
+            "art nouveau",
+            "dark"
+        ],
+        "female_prompt": "Astonishing portrait of a Skinny decadent noble woman with beautiful proportions and large hips in fine red clothes of iridescent scales, the skinny decadent noble woman with beautiful proportions and large hips wears a coral tiara and elaborate hairstyle, in the background we can see a sublime and multicolored peacock tail filling the frame. Crafted with dot matrix, pointillism, seurat, signac, frazetta, brom, Zdzisław Beksiński, Moebius, Egon Schiele and art nouveau technique. Dark mystical fantasy atmosphere with intense colors.",
+        "male_prompt": "Impressive portrait of a Slim decadent noble man with delicate features and slender figure in luxurious clothing of shimmering scales. The slim decadent noble man wears a golden crown on his head complimented by an intricate hairstyle. In the backdrop lies a magnificient rainbow colored peacock tail filling the frame. Crafted with dot matrix, pointillism, seurat, signac, frazetta, brom, Zdzisław Beksiński, Moebius ,Egon Schiele and art nouveau technique. Dark mystical fantasy atmosphere with vivid colors.",
+        "images": [
+            "https://replicate.delivery/pbxt/A2mjhGrSpAJkNJbXZ4XS2JDtEqfYPYUqo5hc50s9snMw80VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "noir portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "noir",
+            "pin-up",
+            "detective",
+            "red"
+        ],
+        "female_prompt": "Beautiful and mysterious woman in a red coat, noir detective style with a flirty pin-up art influence from renowned artists like Art Frahm, Alex Raymond and Clyde Caldwell. Masterful blend of pencil and watercolor, golden ratio, hyperrealistic quality, soft lighting, and extreme details. ",
+        "male_prompt": "Handsome and enigmatic man in a red coat, noir detective style inspired by renowned pin-up artists such as Art Frahm, Alex Raymond and Clyde Caldwell. Masterful blend of pencil and watercolor, golden ratio, hyperrealistic quality, soft lighting, and extreme details. ",
+        "images": [
+            "https://replicate.delivery/pbxt/zks3GHA5Xc4fJScQCDZsjHmeKGMpz5gxvobcao6LTODa5prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "passionate kiss",
+        "camera": "",
+        "tags": [
+            "fantasy",
+            "romance",
+            "hand-drawn",
+            "background details",
+            "historical"
+        ],
+        "female_prompt": "Romantic passionate kiss between beautiful woman in long fantasy white dress and attractive handsome man in frock coat. Hand drawn art with photorealistic details, historical setting, oil painted castle background and lots of decorative elements. ",
+        "male_prompt": "Tender romantic kiss between handsome man in a frock coat and beautiful woman in long fantasy white dress. Hand drawn art with photorealistic details, historical setting, oil painted castle background and lots of decorative elements. ",
+        "images": [
+            "https://replicate.delivery/pbxt/loUJhZvVfyXJYahDez0qC4RBishhXLKJTCWs8eeeIo3O8OdFC/out-0.png"
+        ]
+    },
+    {
+        "summary": "pastel shamrock",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "extreme closeup",
+            "pastel",
+            "glowing",
+            "shamrock"
+        ],
+        "female_prompt": "Extreme closeup of a woman with glowing long pastel pink shamrock hair. Hyper-detailed, painterly style by Kuvshinov Ilya with vibrant colors and extraordinary lighting. Dynamic composition, intricate details and stunning realism.",
+        "male_prompt": "Extreme closeup of a man with glowing long pastel pink shamrock hair. Hyper-detailed, painterly style by Kuvshinov Ilya with vibrant colors and extraordinary lighting. Dynamic composition, intricate details and stunning realism.",
+        "images": [
+            "https://replicate.delivery/pbxt/tNevvphJXSzCISpS2DLrEoR2fETFKUQHWQpWgnTpx74B7prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "pi pattern",
+        "camera": "Ultra f35mm, Ultra Wide Angle Lens, Depth of Field, Hyper Detailed Resolution , 32k Super Resolution Megapixel ProPhoto RGB VR Half Rear Lighting Backlight Natural Lighting Incandescent Optical Fiber Moody Lighting Cinematic Lighting Studio Lighting Soft Lighting Volumetric Contre-Jour Beautiful Accent Lighting ",
+        "tags": [
+            "portrait",
+            "editorial",
+            "golden",
+            "beach",
+            "professional"
+        ],
+        "female_prompt": "Striking portrait of an African woman with pi patterns, dripping in gold and glitter, editorial photography. Ultra wide angle lens and depth of field for hyper-detailed intricate details, beautifully color graded cinematic look. ProPhoto RGB color grading, half rear lighting backlight and natural lighting for volumetric contre-jour effect. Accent lighting for a shy half-smile, flirty and alluring expression, golden hour beach scenery highly realistic professional portrait photography.",
+        "male_prompt": "Handsome portrait of an African man with pi patterns, dripping in gold and glitter, editorial photography. Ultra wide angle lens and depth of field for hyper-detailed intricate details, beautifully color graded cinematic look. ProPhoto RGB color grading, half rear lighting backlight and natural lighting for volumetric contre-jour effect. Accent lighting for a confident expression, golden hour beach scenery highly realistic professional portrait photography.",
+        "images": [
+            "https://replicate.delivery/pbxt/Fvme0fKtaatW3E7V2bUKwW5fyRROdKjPCEhWgEm8wtqX2TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "pop surrealism portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "surrealism",
+            "Nouveau Victorian",
+            "Aristocratic"
+        ],
+        "female_prompt": "Vibrant and vibrant hyperrealistic pop surrealism portrait of a beautiful, friendly and sly Nouveau Victorian Aristocratic female. Captivating with vivid color saturation, intricate patterns, surrealistic motifs and extraordinary details. ",
+        "male_prompt": "Quirky and captivating hyperrealistic pop surrealism portrait of a handsome, friendly and sly Nouveau Victorian Aristocratic male. Radiant with vivid color saturation, intricate patterns, surrealistic motifs and extraordinary details. ",
+        "images": [
+            "https://replicate.delivery/pbxt/f1gklfjOCnkcQkBpdIhgeM5t68ac2D5CaFUPU88etgLlXnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "power portrait",
+        "camera": "Cinematic lighting, 4K",
+        "tags": [
+            "official",
+            "formal",
+            "full body",
+            "4K",
+            "intimidating"
+        ],
+        "female_prompt": "Tall and statuesque woman with piercing eyes and sharp features, jet black hair is typically styled in a sleek bob, wears dark, form-fitting clothing that emphasizes her curves and intimidating presence. Cinematic lighting with 4K resolution for an epic result. ",
+        "male_prompt": "Impressive man with intense eyes and strong facial features, jet black hair styled in a sleek cut. Wearing dark, form-fitting clothes that emphasize his body shape and powerful presence. Cinematic lighting with 4K resolution for an epic result. ",
+        "images": [
+            "https://replicate.delivery/pbxt/IolLedZkUbwMRa6ikGChi3vSB7qZ5vP0YmCvuArRDPao80VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "pulp cover",
+        "camera": "",
+        "tags": [
+            "thriller",
+            "leather",
+            "1970s",
+            "detailed",
+            "lighting"
+        ],
+        "female_prompt": "Glamorous femme fatale in leather miniskirt and fishnets, night New York setting with harsh neon lights. Imbued with the aesthetic of pulp thrillers and Harlequin Romance covers, reminiscent of the works of Robert McGinnis, Victor Gadino and Art Frahm. Highly detailed painting with beautiful lighting and dramatic pose. 8k resolution. ",
+        "male_prompt": "Charming male lead on a thrilling mission, night New York setting with harsh neon lights. Imbued with the aesthetic of pulp thrillers and Harlequin Romance covers, reminiscent of the works of Robert McGinnis, Victor Gadino and Art Frahm. Highly detailed painting with beautiful lighting and dramatic pose. 8k resolution.",
+        "images": [
+            "https://replicate.delivery/pbxt/6O4AGVyOE7KdItj4LOhy53LflOBXrQzqfeKq0Fb4ZASPrTXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "pulp thriller",
+        "camera": "No Camera Information Provided",
+        "tags": [
+            "thriller",
+            "1970s",
+            "neon",
+            "police car",
+            "romance"
+        ],
+        "female_prompt": "Vibrant Pulp thriller cover of a 1970s woman in bold leather miniskirt and fishnets, police car in the night New York setting, harsh neon lights and a hint of Harlequin Romance style of Robert McGinnis and Victor Gadino and Art Frahm. Highly detailed painting, beautiful lighting, dramatic pose and 8K resolution. ",
+        "male_prompt": "Vibrant Pulp thriller cover of a 1970s man in bold leather jacket and trousers, police car in the night New York setting, harsh neon lights and a hint of Harlequin Romance style of Robert McGinnis and Victor Gadino and Art Frahm. Highly detailed painting, beautiful lighting, dramatic pose and 8K resolution. ",
+        "images": [
+            "https://replicate.delivery/pbxt/5QHGN3oPpVa1LdTv4uo2eKSYVI2U3IvWzK3HHS5l8abJeprQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "queen tsarina",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "official",
+            "gothic",
+            "facepaint",
+            "impressionist"
+        ],
+        "female_prompt": "Majestic queen with a resolute face, long braids, and a majestic black uniform. Ornate European gothic crown with horror and symmetry, sitting on the Gothic throne with black and gold details. Porcelain skin with elaborate face paint, haunting beauty inspired by Edmund Blair Leighton, HR Giger, Zdislav Beksinski, and Henri de Toulouse-Lautrec. Foggy atmosphere and sparks in oil painting style of impressionism combined with chiaroscuro.",
+        "male_prompt": "Regal king with a determined face, intricate braided hair, and a powerful black uniform. Adorned European gothic crown with horror and symmetry, sitting on the Gothic throne with dark hues of gold. Porcelain skin illuminated by bold facepaint, handsome figure inspired by Edmund Blair Leighton, HR Giger, Zdislav Beksinski, and Henri de Toulouse-Lautrec. Mystical atmosphere filled with sparks in an oil painting style of impressionism combined with chiaroscuro.",
+        "images": [
+            "https://replicate.delivery/pbxt/eTSol9xzehj7Jk2Xf5SeiQTlZgERr3qkpNMUnzgMr5ftfd6KE/out-0.png"
+        ]
+    },
+    {
+        "summary": "redhead cyberpunk",
+        "camera": "Hyper-realistic; photorealistic; 4k; HD",
+        "tags": [
+            "portrait",
+            "official",
+            "formal",
+            "HD",
+            "neon"
+        ],
+        "female_prompt": "Young woman with curly red hair, wearing glasses and a vibrant neon black and red dress. Looking directly at the camera with a beautiful smile. Hyperrealistic resolution, photorealistic vibrancy, 4k and HD quality and Cyberpunk backdrop. ",
+        "male_prompt": "Young man with curly red hair, wearing glasses and a vibrant neon black and red jacket. Looking directly at the camera with a handsome smirk. Hyperrealistic resolution, photorealistic vibrancy, 4k and HD quality and Cyberpunk backdrop.",
+        "images": [
+            "https://replicate.delivery/pbxt/BgDu6zekAkUMFqti45KKsFEFv5ZumRHNLQ0KeK9oD9cz3prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "shamrock portrait",
+        "camera": "Kuvshinov Ilya",
+        "tags": [
+            "portrait",
+            "closeup",
+            "glowing",
+            "iridescent",
+            "crystalline"
+        ],
+        "female_prompt": "Extreme closeup of a woman with glowing shamrock eyes and long pastel pink crystalline diamond-textured hair, beam of sunlight, by Kuvshinov Ilya. Hypnotic beauty with iridescent hues, radiant lights, and captivating expressions. Soft focus, magical atmosphere, dreamy mood and an inviting aura.",
+        "male_prompt": "Extreme closeup of a man with glistening shamrock eyes and orange-tinted crystalline diamond-textured hair, beam of sunlight, by Kuvshinov Ilya. Hypnotic beauty with iridescent hues, radiant lights, and captivating expressions. Soft focus, magical atmosphere, dreamy mood and an inviting aura.",
+        "images": [
+            "https://replicate.delivery/pbxt/vfY34sPairyDb69BaLFKMsEo2uqwi0mezk5AMKSGXtPy3prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "shamrock wings",
+        "camera": "n/a",
+        "tags": [
+            "anthropomorphic",
+            "magical",
+            "colorful",
+            "dynamic",
+            "realism"
+        ],
+        "female_prompt": "Adorable anthropomorphic female shamrock with vibrant shamrock wings perched on a grapevine, by Boris Valleyo and Tom Bagshaw. Sweetheart expression, colorful details, playful atmosphere and magical realism. ",
+        "male_prompt": "Handsome anthropomorphic male shamrock with dramatic shamrock wings balanced on a grapevine, by Boris Valleyo and Tom Bagshaw. Daring expression, intricate details, whimsical atmosphere and magical realism.",
+        "images": [
+            "https://replicate.delivery/pbxt/ifkMqeWfWwInToED1vjyjfdyHLKszrLPrggJdd07sRAxbnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "shimmering portrait",
+        "camera": "No camera info given",
+        "tags": [
+            "portrait",
+            "glowing",
+            "sparkling",
+            "iridescent",
+            "diamond-hair"
+        ],
+        "female_prompt": "Subsurface scattering of skin and face of a woman with glittering shimmering luminous iridescent opalescent glowing sparkling gleaming scintillating kaleidoscopic shining crystlline diamond-hair, shamrock wind, by wlop and artgerm, strong glow.",
+        "male_prompt": "Subsurface scattering of skin and face of a man with glittering shimmering luminous iridescent opalescent glowing sparkling gleaming scintillating kaleidoscopic shining crystlline diamond-hair, shamrock wind, by wlop and artgerm, strong glow.",
+        "images": [
+            "https://replicate.delivery/pbxt/oXMFOxougt4gOBaEYv0Y15gGOs4gJpJ1x49G93SAj3Yf80VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "silhouette portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "abstract",
+            "silhouette",
+            "sunset",
+            "vivid"
+        ],
+        "female_prompt": "Gorgeous silhouette of a woman with abstract wave pattern, vivid sunset sky, dynamic composition and ultra resolution. Soft pastel hues and striking contrast of light and dark, hyperrealistic quality with extreme details.",
+        "male_prompt": "Handsome silhouette of a man with abstract wave pattern, vivid sunset sky, dynamic composition and ultra resolution. Soft pastel hues and striking contrast of light and dark, hyperrealistic quality with extreme details.",
+        "images": [
+            "https://replicate.delivery/pbxt/EzmqBfm8uCXelUqMeuZDIz5KyP4Imltr4WXePjPcBwLtrnuCB/out-0.png"
+        ]
+    },
+    {
+        "summary": "silver warrior",
+        "camera": "",
+        "tags": [
+            "fantasy",
+            "monsters",
+            "warrior",
+            "shamrock",
+            "light"
+        ],
+        "female_prompt": "Award-winning artwork by Monstress, Caravaggio. Captivating female fairy warrior in shining translucent silver armor, facing off a horde of demonic monsters advancing beneath canopy of colossal shamrock leaves. Majestic ray of light emanating through the emerald roof of foliage, illuminated puddle of ambiance light, dark and eerie dreamy mystic atmosphere, foreboding doom and tranquility before the raging storm. Inspired by Moebius and Frazetta.",
+        "male_prompt": "Gripping male warrior in shining translucent silver armor, standing tall against a wave of demonic monsters below the emerald canopy of giant shamrock leaves. Majestic ray of light piercing through the sea of foliage, illuminated ambiance light with fabulous shadows and lightings. Foreboding doom with tranquil atmosphere before the raging storm. Inspired by Moebius and Frazetta.",
+        "images": [
+            "https://replicate.delivery/pbxt/bPWmt66cxpJbO1SBjiSDnR6GWhTKfPDBJB7iF3GIH4Jv60VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "square eyes",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "official",
+            "business",
+            "Vibrant",
+            "deconstructivism"
+        ],
+        "female_prompt": "Elegant face of a female with a business suit, abstract and deconstructive background, looking forward with square eyes in style of George Condo. Vibrant colors with modern expressionism, surreal elements and vibrant hues. ",
+        "male_prompt": "Handsome face of a male with a business suit, abstract and deconstructive background, looking forward with square eyes in style of George Condo. Vibrant colors with modern expressionism, surreal elements and vibrant hues. ",
+        "images": [
+            "https://replicate.delivery/pbxt/ftthbz7VNawCUa6XVsyf7xVGIUx6oQaQ01klLw841yQg8prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "stardust piano",
+        "camera": "8K resolution",
+        "tags": [
+            "fantasy",
+            "magic realism",
+            "surrealism",
+            "aerial",
+            "bluish"
+        ],
+        "female_prompt": "A beautiful woman in an elegant shimmery silver spaghetti strap gown playing a fantastical crystal grand piano, illuminated by stardust and the soft light of the blue hour. Her intricate up-do is streaked with  highlights, her delicate hands resting lightly on the transparent keyboard. An aerial view of awe and reverence, detailed with magic realism and surrealism. 8K quality for concept art.",
+        "male_prompt": "A handsome man in a luxurious shimmery silver spaghetti strap suit playing a magnificent crystal grand piano, illuminated by twinkling galaxies and the soft light of the blue hour. His intricately groomed hair is burnished with blond highlights, his strong hands resting lightly on the transparent keys. An aerial view of awe and reverence, detailed with magic realism and surrealism. 8K quality for concept art.",
+        "images": [
+            "https://replicate.delivery/pbxt/Pzehf3mSVSmEEk8EUr9FjzeOc4yGpcwCwBEbPBHvK4IO0TXhA/out-0.png"
+        ]
+    },
+    {
+        "summary": "tinkerbell portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "fantasy",
+            "foliage",
+            "magical",
+            "luxurious"
+        ],
+        "female_prompt": "Gorgeous fantasy portrait of a beautiful  Tinkerbell with delicate floral summer decoration. Skillful blend of pointillism, art nouveau and Egon Schiele's style - her gaze radiates joy for life, her dress is made of intricate leaves and interlocking small flowers with vibrant colorations. In the air is glittering gold dust from her magical wand.",
+        "male_prompt": "Majestic fantasy portrait of a powerful male figure with intricate floral summer decoration. Skillful blend of Dot Matrix, Seurat and Signac style - his gaze exudes strength and determination, his cape is made of delicate leaves and interlocking small flowers in vivid hues. In the air is dazzling gold dust from his enchanted staff.",
+        "images": [
+            "https://replicate.delivery/pbxt/dHxwwNieF7SsQii4VLZq3HMvPLXc69QJQ5xXmDPBjiXE80VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "urban fashion",
+        "camera": "",
+        "tags": [
+            "urban",
+            "fashion",
+            "streetwear",
+            "multicolor",
+            "high fashion"
+        ],
+        "female_prompt": "A stylish woman in a trendy urban streetwear, with bright colors and stripes in a loose, baggy fit. High-fashion photoshoot by renowned photographers David Lachapelle, Petra Collins, Erwin Blumenfeld.",
+        "male_prompt": "A dapper man in a fashionable urban streetwear with bold colors and polka dots in an oversized fit. High-fashion photoshoot by renowned photographers David Lachapelle, Petra Collins, Erwin Blumenfeld.",
+        "images": [
+            "https://replicate.delivery/pbxt/OcqPfmoBffZFWp1hEdRPnFjZffyRoUdBKGIadeKdeIwne8prQA/out-0.png"
+        ]
+    },
+    {
+        "summary": "vibrant contrapposto",
+        "camera": "",
+        "tags": [
+            "editorial",
+            "contrapposto",
+            "colorful",
+            "realism",
+            "dynamic"
+        ],
+        "female_prompt": "Ethereal artwork of a woman in a sublime contrapposto pose, capturing the moment as she inhales vibrant color. Inspired by the style of Ryan Hewett, Jeremy Lipking and Ellen Jewett, with dynamic realism, soft lighting and intricate details.",
+        "male_prompt": "Mysterious artwork of a man in an elegant contrapposto pose, taking in a deep breath of radiant color. Refined with techniques inspired by the works of Ryan Hewett, Jeremy Lipking and Ellen Jewett, displaying dynamic realism and refined detail.",
+        "images": [
+            "https://replicate.delivery/pbxt/FbYA80eew8jd1kCGteAzJOWe2lEfGQLOtaeuL4rQ3yPfL80VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "watercolor formal",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "formal",
+            "official",
+            "dot matrix",
+            "polka dot"
+        ],
+        "female_prompt": "Charming watercolor portrait of a woman with delicate textures, polka dot dress and chic glasses, stylishly elegant. Soft lighting, dynamic composition and delicate details. ",
+        "male_prompt": "Striking watercolor portrait of a man with sharp contrast, black suit and sunglasses, high contrast details and vibrantly colored details. Soft lighting, dynamic composition and delicate details.",
+        "images": [
+            "https://replicate.delivery/pbxt/CrJrmKJiFtbEON0Q9nLGZfCnLzfUVeFAePxJjGbAIeoLfe0VIA/out-0.png"
+        ]
+    },
+    {
+        "summary": "wedding portrait",
+        "camera": "Longshot",
+        "tags": [
+            "wedding",
+            "official",
+            "formal",
+            "full body",
+            "landscape"
+        ],
+        "female_prompt": "Beautiful bride on a sunny, colorful meadow. Elegant white dress with tull and lace accents, brunette braided hair adorned with flowers. Enchanting composition and ultra-realistic photo cinematic quality. Perfectly balanced lighting, vivid colors and extraordinary details.",
+        "male_prompt": "Handsome groom on a sunny, vibrant meadow. Sophisticated dark blue suit with open long black hair featuring blue highlights. Captivating composition and ultra-realistic photo cinematic quality. Perfectly balanced lighting, radiant colors and extraordinary details.",
+        "images": [
+            "https://replicate.delivery/pbxt/Wej0Ds6R8NWye0IQiH0A93JEUs0esfH7YpuXXJAbHf23JPdFC/out-0.png"
+        ]
+    },
+    {
+        "summary": "youthful portrait",
+        "camera": "",
+        "tags": [
+            "portrait",
+            "studio",
+            "emotional",
+            "lifestyle",
+            "intellectual"
+        ],
+        "female_prompt": "Gorgeous portrait of an attractive young brunette woman in a yellow sweater, isolated on a pink wall background. Captivating eyes, sincere emotion and lifestyle concept. Mock up copy space with a book for an intellectual vibe. ",
+        "male_prompt": "Handsome portrait of an attractive young man in a yellow sweater, isolated on a pink wall background. Captivating eyes, sincere emotion and lifestyle concept. Mock up copy space with a book for an intellectual vibe.",
+        "images": [
+            "https://replicate.delivery/pbxt/j8GV58e3jLRQUqpFy493cN2u12UTWqpWpUwPGJffZXC4uTXhA/out-0.png"
+        ]
+    }
+]
