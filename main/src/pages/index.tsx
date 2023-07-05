@@ -305,6 +305,38 @@ export default function Index() {
           <FaqSection rounded />
         </ScrollingText>
       </section>
+      <section className='p-4 md:p-20 pb-2 flex flex-col justify-between gap-6 mt-20'>
+        <ScrollingText>
+          <h1 className='font-black text-5xl md:text-7xl ' >
+            <span className='font-medium'>200%</span> Cheaper Than Hiring a Photographer<span className='font-medium'></span>
+          </h1>
+          <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>Photorealistic Portraits Indistinguishable From Real-life</p>
+          <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>1 Hour Turn Around Time</p>
+          <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>The most advanced AI Portrait Platform on the market</p>
+          <p className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Locations</p>
+          <p className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Clothing & Styles</p>
+          <p className='md:text-2xl text-xl font-medium text-neutral-300'>100% Refunds <a href='https://bronze-brush-9b0.notion.site/Arible-Terms-Conditions-c3d47a0775ca4deebac66f64b987f06b' className='text-sm font-semibold'>Terms & Conditions apply</a></p>
+        </ScrollingText>
+        <div className='w-full h-full flex gap-6 '>
+          <ScrollingDiv
+            style={{
+              backgroundSize: '40px 40px',
+              backgroundColor: '#f3f3f3',
+              backgroundImage: 'linear-gradient(45deg, #d6eaff 25%, transparent 25%, transparent 50%, #d6eaff 50%, #d6eaff 75%, transparent 75%, transparent)'
+            }}
+            className='w-full h-full bg-neutral-100 p-10 md:p-40 rounded-3xl shadow-2xl cursor-pointer border-white border-2 md:block flex justify-between flex-col'>
+            <span className='text-2xl text-neutral-900 font-medium'>Starting @</span>
+            <h1 className='text-4xl md:text-8xl font-black text-neutral-900'>
+              $39.99 <span className='text-4xl md:text-6xl font-extrabold'>Onetime Cost</span>
+            </h1>
+            <p>Or $29.99 Monthly</p>
+            <GetStarted />
+            <a href='https://arible.getrewardful.com/signup'>
+              <Button flat color={'secondary'} className='mt-8 w-full' size='md'>Earn 20% Referring Someone</Button>
+            </a>
+          </ScrollingDiv>
+        </div>
+      </section>
       <Footer bg='bg-neutral-100' text='text-neutral-900' logoVariant='dark' />
     </main >
   </>
