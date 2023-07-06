@@ -11,10 +11,10 @@ import { Footer } from '@/components/Footer'
 export default function Pro() {
     return <>
         <Head>
-            <title>Professional Business Headshots for LinkedIn and Corporate</title>
-            <meta name='description' content='Professional Business Headshots for LinkedIn and Corporate' />
+            <title>Professional Business Profile Pictures for LinkedIn and Corporate</title>
+            <meta name='description' content='Professional Business Portraits for LinkedIn and Corporate' />
             <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-            <meta name='keywords' content='professional photography,virtual studio,avatars,corporate headshots,ai portraits,linkedin profile picture' />
+            <meta name='keywords' content='professional photography,virtual studio,avatars,corporate headshots,ai portraits,linkedin profile picture, corporate portrait,linkedin profile image' />
             <link rel='icon' href='/favicon.ico' />
         </Head>
         <main

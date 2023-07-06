@@ -111,7 +111,7 @@ export default function Index() {
       <title> Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera</title>
       <meta name='description' content='Professional Photography Without Photographers' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <meta name='keywords' content='professional photography,virtual studio,avatars,corporate headshots,ai portraits,linkedin profile picture' />
+      <meta name='keywords' content='professional photography,virtual studio,avatars,corporate headshots,ai portraits,linkedin profile picture, corporate portrait,linkedin profile image' />
       <link rel='icon' href='/favicon.ico' />
     </Head>
     <main
