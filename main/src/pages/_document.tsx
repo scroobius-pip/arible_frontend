@@ -91,7 +91,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta property="og:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
           <meta property="og:image" content="/preview.jpg" />
 
-
+          <meta name="p:domain_verify" content="ee356558185edfa82c3502748c9491b8" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://arible.co/" />
           <meta property="twitter:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
