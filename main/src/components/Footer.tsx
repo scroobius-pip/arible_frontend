@@ -23,6 +23,7 @@ export function Footer({ bg = 'bg-neutral-800', text = 'text-neutral-100', logoV
                 <a href={'/'} className='text-sm font-medium'>Avatars & Profile Pictures</a>
                 <a href={'https://discord.gg/kmKMVNPE74'} target='_blank' className='text-sm font-medium'>Discord</a>
                 <a href='/professional_photographer' target='_blank' className='text-sm font-medium'>Professional Photographer AI</a>
+                <a href='https://barcode.so' target='_blank' className='text-sm font-medium'>Beautiful QRCode AI</a>
             </div>
             <div className='flex flex-col gap-4'>
                 <h2 className='text-2xl'>Social</h2>
