@@ -197,7 +197,7 @@ export default function Pro() {
                         className='w-full h-full bg-neutral-100 p-10 md:p-40 rounded-3xl shadow-2xl cursor-pointer border-white border-2 md:block flex justify-between flex-col'>
                         <span className='text-2xl text-neutral-900 font-medium'>Starting @</span>
                         <h1 className='text-4xl md:text-8xl font-black text-neutral-900'>
-                            $39.99 <span className='text-4xl md:text-6xl font-extrabold'>Onetime Cost</span>
+                            $24.99 <span className='text-4xl md:text-6xl font-extrabold'>Onetime Cost</span>
                         </h1>
                         <p>Or $29.99 Monthly</p>
                         <GetStarted />
