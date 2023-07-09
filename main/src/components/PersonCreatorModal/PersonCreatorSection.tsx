@@ -8,7 +8,9 @@ import { useContext, useEffect, useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import PersonSelectCard from './PersonSelectCard';
 import UploadImageCard from './UploadImageCard';
-import { PhotoBooth } from '..';
+import dynamic from 'next/dynamic';
+
+const PhotoBooth = dynamic(() => import('..').then((mod) => mod.PhotoBooth), { ssr: false })
 
 interface Props {
 

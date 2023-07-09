@@ -3,10 +3,13 @@ import React, { useRef, useState, useEffect, MutableRefObject } from 'react';
 import { Button, Loading, Progress } from '@nextui-org/react';
 import { CameraIcon } from 'lucide-react';
 import cameraAnimation from './camera.json';
-import Lottie from 'lottie-react';
+// import Lottie from 'lottie-react';
 import { ArrowRightSquare, Delete } from '@odyssoft/iconly-clone';
 import { Toaster, toast } from 'react-hot-toast';
 import { AsyncZippable } from 'fflate';
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('lottie-react'));
 
 const IMAGE_COUNT = 30;
 const MIN_DISTANCE = 15;

@@ -5,8 +5,9 @@ import { ArrowRight } from '@odyssoft/iconly-clone'
 import ScrollingText from '@/components/ScrollingText'
 import ScrollingDiv from '@/components/ScrollingDiv'
 import { Footer } from '@/components/Footer'
+import dynamic from 'next/dynamic'
 
-
+// const ArrowRight = dynamic(() => import('@odyssoft/iconly-clone').then((mod) => mod.ArrowRight))
 
 export default function Pro() {
     return <>

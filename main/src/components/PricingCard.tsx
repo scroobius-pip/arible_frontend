@@ -251,8 +251,10 @@ export default function Pricing({ nextArgs }: { nextArgs: object }) {
                     setDuration(duration === 'monthly' ? 'yearly' : 'monthly')
                 }} shadow color="secondary" checked={duration !== 'monthly'} className='bg-d-500 h-full' />
             </div>
-            <h3 className='text-white font-bold bg-bluef-500 align-middle'>Yearly <span className='text-base py-2 px-4 ml-2 bg-purple-700 font-bold rounded-full'>2 Months Free</span></h3>
+            <h3 className='text-white font-bold bg-bluef-500 align-middle'>Yearly </h3>
+
         </div>
+        <div className='flex justify-center'><span className='text-xs py-2 px-4 ml-2 bg-purple-700 font-medium rounded-full'>2 Months Free on Annual Plans</span></div>
         <p className='text-white text-sm font-medium mt-2 text-center'>1 Credit = 1 Standard Photo, 2 Credits = 1 High Resolution (4k Photo)</p>
         < div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 mt-6 ' >
             {

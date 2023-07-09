@@ -3,8 +3,8 @@ import { AppContext } from '@/lib/AppState';
 import { extractImageUrl } from '@/lib/extractImageUrl';
 import { Generated } from '@/types';
 import { Button, Divider, Modal } from '@nextui-org/react';
-import { CloseSquare, Heart } from '@odyssoft/iconly-clone';
-import { Copy, Download, Printer, Share } from 'lucide-react';
+// import { CloseSquare, Heart } from '@odyssoft/iconly-clone';
+import { Copy, Download, Heart, Printer, Share, SidebarCloseIcon } from 'lucide-react';
 import { useContext, useEffect, useState } from 'react';
 import Countdown from 'react-countdown';
 
@@ -74,7 +74,7 @@ export default function GeneratedModal({ selected, close, watermark }: Props) {
                             bgBlur: "#0f111466",
                         }}
                         auto
-                        icon={<CloseSquare size={40} set='bold' />}
+                        icon={<SidebarCloseIcon size={40} />}
                         className='absolute md:inset-2 z-10  '
                         onClick={close}
                     />
@@ -91,7 +91,7 @@ export default function GeneratedModal({ selected, close, watermark }: Props) {
                                 <Button
                                     auto
                                     className=' bg-neutral-800  '
-                                    icon={<Heart filled primaryColor='#E2294F' />}
+                                    icon={<Heart />}
                                 >
 
                                 </Button>

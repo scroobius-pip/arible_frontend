@@ -1,5 +1,5 @@
-import { Card, Grid, Row, Text } from '@nextui-org/react'
-import { Camera, Star } from '@odyssoft/iconly-clone'
+import { Card, Text } from '@nextui-org/react'
+import { Camera, } from '@odyssoft/iconly-clone'
 
 const options = [
     {
