@@ -83,6 +83,30 @@ function PricingCard({ label, credits, title, price, duration, expiring, descrip
 
 const prices = [
 
+
+
+    {
+        product_id: 'price_1NRwZFAdKK78JiPH74ZhMrob',
+        title: 'Pro',
+        duration: 'monthly',
+        style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500',
+        price: '$24.99',
+        credits: 'Unlimited',
+        descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (Unlimited Photos)", "Best Styles Sent To Your DM & Email Monthly", "Single Person Use", "Priority Support"],
+        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
+
+    },
+    {
+        product_id: 'price_1NQEOqAdKK78JiPHuAm7ovwf',
+        title: 'Pro',
+        duration: 'yearly',
+        style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500',
+        price: '$21',
+        actualPrice: '$600',
+        credits: 'Unlimited',
+        descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (Unlimited Photos)", "Best Styles Sent To Your DM & Email Monthly", "Priority Support"],
+        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
+    },
     {
         product_id: 'price_1NQE1CAdKK78JiPHkayd4a90',
         title: 'OneTime',
@@ -95,86 +119,6 @@ const prices = [
         credits: 200,
         // discount: 19,
         // label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Best Value</div>
-    },
-    // {
-    //     product_id: 'price_1NA4TPAdKK78JiPH34x5V8Ce',
-    //     title: 'Light',
-    //     // style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500',
-    //     price: '$54.99',
-    //     actualPrice: '$60',
-    //     duration: 'yearly',
-    //     label: <></>,
-    //     // coupon_id: '3YXvnNL9',
-    //     descriptions: ["Standard Resolution (110 Photos)", "High Resolution (55 Photos)", "Buy Extra Credits Anytime",],
-    //     credits: 120,
-    //     // discount: 9,
-    //     // label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
-    // },
-    // {
-    //     product_id: 'price_1ND7pmAdKK78JiPHOLY9rAUt',
-    //     title: 'Essential',
-    //     style: 'bg-gradient-to-r from-green-200 to-orange-500',
-    //     price: '$14.99',
-    //     duration: 'monthly',
-    //     descriptions: ['Standard Resolution (50 Photos)', 'High Resolution (25 Photos)', 'Buy Extra Credits Anytime'],
-    //     credits: 60,
-    // },
-    // {
-    //     product_id: 'price_1NA4XHAdKK78JiPHtYofTnD1',
-    //     title: 'Regular',
-    //     style: 'bg-gradient-to-r from-green-200 to-green-500',
-    //     price: '$24.99',
-    //     duration: 'monthly',
-    //     // coupon_id: 'odeTQs3i',
-    //     descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (50 Photos)", "Best Styles Sent To Your DM Monthly", "Buy Extra Credits Anytime",],
-    //     credits: 100,
-    //     // discount: 19,
-    //     label: <div className={'text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-blue-500 '}>Popular</div>
-    // },
-
-    // {
-    //     product_id: 'price_1ND8NzAdKK78JiPHrpJJv8af',
-    //     title: 'Essential',
-    //     style: 'bg-gradient-to-r from-green-200 to-orange-500',
-    //     price: '$149.99',
-    //     actualPrice: '$180',
-    //     duration: 'yearly',
-    //     credits: 720,
-    //     descriptions: ['Standard Resolution (600 Photos)', 'High Resolution (300 Photos)', 'Buy Extra Credits Anytime'],
-    // },
-    // {
-    //     product_id: 'price_1NA4XHAdKK78JiPHYtphUUfQ',
-    //     title: 'Regular',
-    //     style: 'bg-gradient-to-r from-green-200 to-green-500',
-    //     price: '$289.99',
-    //     actualPrice: '$300',
-    //     duration: 'yearly',
-    //     // coupon_id: '3YXvnNL9',
-    //     descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (600 Photos)", "Best Styles Sent To Your DM Monthly", "Buy Extra Credits Anytime",],
-    //     credits: 1200,
-    //     label: <div className={'text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-blue-500 '}>Popular</div>
-    // },
-    {
-        product_id: 'price_1NA4agAdKK78JiPHoeGlNxTU',
-        title: 'Pro',
-        duration: 'monthly',
-        style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500',
-        price: '$49.99',
-        credits: 'Unlimited',
-        descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (Unlimited Photos)", "Best Styles Sent To Your DM & Email Monthly", "Single Person Use", "Priority Support"],
-        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
-
-    },
-    {
-        product_id: 'price_1NQEOqAdKK78JiPHuAm7ovwf',
-        title: 'Pro',
-        duration: 'yearly',
-        style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500',
-        price: '$42',
-        actualPrice: '$600',
-        credits: 'Unlimited',
-        descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (Unlimited Photos)", "Best Styles Sent To Your DM & Email Monthly", "Priority Support"],
-        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
     },
     {
         product_id: 'price_1NQE6uAdKK78JiPHTVQmoalN',
@@ -256,7 +200,7 @@ export default function Pricing({ nextArgs }: { nextArgs: object }) {
         </div>
         <div className='flex justify-center'><span className='text-xs py-2 px-4 ml-2 bg-purple-700 font-medium rounded-full'>2 Months Free on Annual Plans</span></div>
         <p className='text-white text-sm font-medium mt-2 text-center'>1 Credit = 1 Standard Photo, 2 Credits = 1 High Resolution (4k Photo)</p>
-        < div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 mt-6 ' >
+        < div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-6 ' >
             {
                 prices.filter(price => price.duration === duration || price.duration === 'none')
 
