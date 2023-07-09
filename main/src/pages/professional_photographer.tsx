@@ -117,7 +117,7 @@ export default function Pro() {
 
                 </ScrollingText>
                 {/* masonry style grid */}
-                <ScrollingDiv className='w-full h-full grid grid-cols-1   md:grid-cols-2 lg:grid-cols-3  gap-6 max-w-6xl m-auto'>
+                <div className='w-full h-full grid grid-cols-1   md:grid-cols-2 lg:grid-cols-3  gap-6 max-w-6xl m-auto'>
 
 
                     <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
@@ -163,11 +163,11 @@ export default function Pro() {
                     </div>
 
 
-                </ScrollingDiv>
+                </div>
             </section>
             <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col justify-between gap-6'>
                 <ScrollingText>
-                    <h1 className='font-black text-5xl md:text-7xl   text-center '>Introducing RapidTake <span className='font-bold  relative -top-5 text-base py-2 px-4 bg-neutral-50 text-neutral-800 rounded-full'>TM</span></h1>
+                    <h1 className='font-black text-5xl md:text-7xl   text-center '>Introducing RapidTake</h1>
                     <p className='text-xl text-center md:text-2xl font-medium text-neutral-300'>Don't have enough photos ? No Problem! <br /><span className='font-semibold text-neutral-100'>The only AI Avatar Platform to have integrated Face Capture</span></p>
                     <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
 
@@ -180,12 +180,14 @@ export default function Pro() {
                     <h1 className='font-black text-5xl md:text-7xl ' >
                         <span className='font-medium'>200%</span> Cheaper Than Hiring a Photographer<span className='font-medium'></span>
                     </h1>
-                    <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>Photorealistic Portraits Indistinguishable From Real-life</p>
-                    <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>1 Hour Turn Around Time</p>
-                    <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>The most advanced AI Portrait Platform on the market</p>
-                    <p className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Locations</p>
-                    <p className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Clothing & Styles</p>
-                    <p className='md:text-2xl text-xl font-medium text-neutral-300'>100% Refunds <a href='https://bronze-brush-9b0.notion.site/Arible-Terms-Conditions-c3d47a0775ca4deebac66f64b987f06b' className='text-sm font-semibold'>Terms & Conditions apply</a></p>
+                    <ul className='list-disc'>
+                        <li className='md:text-2xl text-xl  font-medium text-neutral-50 capitalize'>Photorealistic Portraits Indistinguishable From Real-life</li>
+                        <li className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>1 Hour Turn Around Time</li>
+                        <li className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>The most advanced AI Portrait Platform on the market</li>
+                        <li className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Locations</li>
+                        <li className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Clothing & Styles</li>
+                        <li className='md:text-2xl text-xl font-medium text-neutral-300'>100% Refunds <a href='https://bronze-brush-9b0.notion.site/Arible-Terms-Conditions-c3d47a0775ca4deebac66f64b987f06b' className='text-sm font-semibold'>Terms & Conditions apply</a></li>
+                    </ul>
                 </ScrollingText>
                 <div className='w-full h-full flex gap-6 '>
                     <ScrollingDiv
