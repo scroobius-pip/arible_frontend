@@ -97,7 +97,7 @@ const prices = [
 
     },
     {
-        product_id: 'price_1NQEOqAdKK78JiPHuAm7ovwf',
+        product_id: 'price_1NRwf5AdKK78JiPHcCatu1VW',
         title: 'Pro',
         duration: 'yearly',
         style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500',
