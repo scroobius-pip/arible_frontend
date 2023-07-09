@@ -53,7 +53,7 @@ export default function Pro() {
                             objectFit="cover"
                             className='bg-neutral-200'
 
-                            alt="Card image background"
+                            alt="Arible AI Avatar Photograph"
                         />
                     </Card>
                     <Card isHoverable isPressable className='rounded-[3.5rem] rounded-b-none hidden md:block'>
@@ -63,7 +63,7 @@ export default function Pro() {
                             objectFit="cover"
                             className='bg-red-400'
 
-                            alt="Card image background"
+                            alt="Arible AI Avatar Photograph"
                         />
                     </Card>
                     <Card isHoverable isPressable className='rounded-[3.5rem] rounded-b-none hidden md:block'>
@@ -73,7 +73,7 @@ export default function Pro() {
                             objectFit="cover"
                             className='bg-green-300'
 
-                            alt="Card image background"
+                            alt="Arible AI Avatar Photograph"
                         />
                     </Card>
                     <Card isHoverable isPressable className='rounded-[3.5rem] rounded-b-none hidden md:block'>
@@ -83,7 +83,7 @@ export default function Pro() {
                             objectFit="cover"
                             className='bg-blue-300'
 
-                            alt="Card image background"
+                            alt="Arible AI Avatar Photograph"
                         />
                     </Card>
                 </ScrollingDiv>
@@ -95,7 +95,7 @@ export default function Pro() {
                             src="https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/a1e7bf4b-5098-4f50-bb16-b60d73626e00/public"
                             objectFit="cover"
                             className='bg-neutral-200'
-                            alt="Card image background"
+                            alt="Arible AI Avatar Photograph"
                         />
                     </Card>
                     <Card isHoverable isPressable className='rounded-[2.5rem] ' >
@@ -103,7 +103,7 @@ export default function Pro() {
                             src="https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/ad141068-3742-4f33-7fbe-6458b5721e00/public"
                             objectFit="cover"
                             className='bg-neutral-200'
-                            alt="Card image background"
+                            alt="Arible AI Avatar Photograph"
                         />
                     </Card>
 
@@ -111,57 +111,57 @@ export default function Pro() {
             </section>
             <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col justify-between gap-6'>
                 <ScrollingText>
-                    <h1 className='font-black text-5xl md:text-7xl   text-center '>Any <span className='font-medium'>Location</span> Any <span className='font-medium'>Time</span> Any <span className='font-medium'>Clothing</span></h1>
+                    <h1 className='font-black text-5xl md:text-7xl   text-center '>Any <span className='font-medium'>Location</span> Any <span className='font-medium'>Clothing</span></h1>
                     <p className='text-xl text-center md:text-2xl font-medium text-neutral-300'>Unlimited Photorealistic Portraits Based On Your Face</p>
                     <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
 
                 </ScrollingText>
                 {/* masonry style grid */}
-                <ScrollingDiv className='w-full h-full flex gap-6 max-w-6xl m-auto'>
+                <ScrollingDiv className='w-full h-full grid grid-cols-1   md:grid-cols-2 lg:grid-cols-3  gap-6 max-w-6xl m-auto'>
 
-                    <div className='w-full h-full flex gap-6 flex-col'>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/7bfb879b-70d8-422d-aadb-eee62471b200/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/27e7c34a-6c9d-446b-bcf9-2c9f9ed3b700/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                    </div>
-                    <div className='w-full h-full flex gap-6 flex-col'>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/a8d8a39c-9518-40ba-da48-d25849efa000/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/dc6b312a-69ea-40a5-001e-7a61e5713400/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                    </div>
-                    <div className='w-full h-full flex gap-6 flex-col'>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/b90eb3ab-b094-42c8-32d9-911b1c92a600/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
 
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/fcde9c4b-b0c3-4feb-9586-3d1c3e25e900/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/7bfb879b-70d8-422d-aadb-eee62471b200/public' className='w-full h-full object-cover rounded-3xl' />
                     </div>
-                    <div className='w-full h-full flex gap-6 flex-col'>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/0b41d4bb-56c9-43f0-2633-ff9afc5e1700/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/27e7c34a-6c9d-446b-bcf9-2c9f9ed3b700/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
 
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/09c10daa-3ccc-4b53-b513-33a5e40d9f00/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                    </div>
-                    <div className='w-full h-full flex gap-6 flex-col'>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/490d50ba-caaf-4db3-a6fb-787c5393bf00/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
-                        <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
 
-                            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/dadb1bee-e6d5-422f-4716-19c8df0ac600/public' className='w-full h-full object-cover rounded-3xl' />
-                        </div>
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/a8d8a39c-9518-40ba-da48-d25849efa000/public' className='w-full h-full object-cover rounded-3xl' />
                     </div>
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/dc6b312a-69ea-40a5-001e-7a61e5713400/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
+
+
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/b90eb3ab-b094-42c8-32d9-911b1c92a600/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/fcde9c4b-b0c3-4feb-9586-3d1c3e25e900/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
+
+
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/0b41d4bb-56c9-43f0-2633-ff9afc5e1700/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/09c10daa-3ccc-4b53-b513-33a5e40d9f00/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
+
+
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/490d50ba-caaf-4db3-a6fb-787c5393bf00/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
+                    <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+
+                        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/dadb1bee-e6d5-422f-4716-19c8df0ac600/public' className='w-full h-full object-cover rounded-3xl' />
+                    </div>
+
 
                 </ScrollingDiv>
             </section>
@@ -175,7 +175,7 @@ export default function Pro() {
                 <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/6d6b3d28-5177-4e3b-dabc-37c20df2d800/public' className='max-w-2xl m-auto h-full object-cover' />
             </section>
 
-            <section className='p-4 md:p-20 pb-2 flex flex-col justify-between gap-6 mt-20'>
+            <section className='p-4 md:p-20 pb-2 flex flex-col justify-between gap-6 mt-20 max-w-6xl m-auto'>
                 <ScrollingText>
                     <h1 className='font-black text-5xl md:text-7xl ' >
                         <span className='font-medium'>200%</span> Cheaper Than Hiring a Photographer<span className='font-medium'></span>
