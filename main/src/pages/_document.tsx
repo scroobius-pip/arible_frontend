@@ -89,14 +89,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta property="og:url" content="https://arible.co/" />
           <meta property="og:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
           <meta property="og:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
-          <meta property="og:image" content="/preview.jpg" />
+          <meta property="og:image" content="https://arible.co/preview.jpg" />
+
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.arible.co/" />
+          <meta property="og:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
+          <meta property="og:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
+          <meta property="og:image" content="https://arible.co/preview.jpg" />
 
           <meta name="p:domain_verify" content="ee356558185edfa82c3502748c9491b8" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://arible.co/" />
           <meta property="twitter:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
           <meta property="twitter:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
-          <meta property="twitter:image" content="/preview.jpg"></meta>
+          <meta property="twitter:image" content="https://arible.co/preview.jpg"></meta>
         </Head>
 
         <body>
