@@ -81,28 +81,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
           <meta name="color-scheme" content="dark" />
-          <meta name="title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
-          <meta name="description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
+          {/* <meta name="title" content="Arible AI Portraits: Professional Portrait Picture AI For Social Media & LinkedIn" />
+          <meta name="description" content="Arible uses photos of your face to create photorealistic or realistic pictures of you that are indistinguishable from reallife. These can be used for profile pictures on social media or linkedin. Unlike other platforms you don't need existing photos of yourself, instead Arible uses a virtual photobooth (via your selfie camera) to take good samples of your face. Arible comes with 1000+ styles to choose from, or use your own" /> */}
 
+          {
+            ['', 'twitter:title,twitter:description', 'og:title,og:description'].map((item, index) => {
+              const [title, description] = item.split(',')
+              return <>
+                <meta name='title' property={title} content={metaTitle} />
+                <meta name='description' property={description} content={metaDescription} />
+              </>
+            })
+          }
 
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://arible.co/" />
-          <meta property="og:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
-          <meta property="og:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
+          {/* <meta property="og:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
+          <meta property="og:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" /> */}
           <meta property="og:image" content="https://arible.co/preview.jpg" />
 
 
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.arible.co/" />
-          <meta property="og:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
-          <meta property="og:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
+          {/* <meta property="og:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
+          <meta property="og:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" /> */}
           <meta property="og:image" content="https://arible.co/preview.jpg" />
 
           <meta name="p:domain_verify" content="ee356558185edfa82c3502748c9491b8" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://arible.co/" />
-          <meta property="twitter:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" />
-          <meta property="twitter:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" />
+          {/* <meta property="twitter:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" /> */}
+          {/* <meta property="twitter:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" /> */}
           <meta property="twitter:image" content="https://arible.co/preview.jpg"></meta>
         </Head>
 
@@ -121,4 +130,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 
+const metaTitle = "Arible AI Portraits: Professional Portrait Picture AI For Social Media & LinkedIn";
+const metaDescription = "AI portrait profile pictures of you. Photography AI for Twitter, LinkedIn, Facebook, Instagram, TikTok, and more. Unlimited realistic or artistic profile photos of yourself and others monthly. ";
 export default MyDocument;
