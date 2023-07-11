@@ -1,6 +1,6 @@
 import { AppContext } from '@/lib/AppState';
 import { ModalContext, ModalProvider } from '@/lib/ModalState';
-import { useContext, useEffect, useState } from 'react';
+import { useCallback, useContext, useEffect, useState } from 'react';
 import { Navigation } from '../components/Navigation';
 import PersonCreatorSection from '@/components/PersonCreatorModal/PersonCreatorSection';
 import { Button } from '@nextui-org/react';
@@ -24,10 +24,10 @@ export default () => {
     }, [user])
 
 
-    const GeneratedSectionC = () => <>
+    const GeneratedSectionC = useCallback(() => <>
         <StylesBar />
         <GeneratedSection />
-    </>
+    </>, [])
 
     return <div className="min-h-screen flex flex-col ">
         <Navigation />

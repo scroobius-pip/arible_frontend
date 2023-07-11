@@ -108,8 +108,8 @@ export default function Index() {
 
   return <>
     <Head>
-      <title> Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera</title>
-      <meta name='description' content='Professional Photography Without Photographers' />
+      <title>Arible AI Portraits: Professional Portrait Picture AI For Social Media & LinkedIn</title>
+      <meta name='description' content="Arible uses photos of your face to create photorealistic or realistic pictures of you that are indistinguishable from reallife. These can be used for profile pictures on social media or linkedin. Unlike other platforms you don't need existing photos of yourself, instead Arible uses a virtual photobooth (via your selfie camera) to take good samples of your face. Arible comes with 1000+ styles to choose from, or use your own" />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <meta name='keywords' content='professional photography,virtual studio,avatars,corporate headshots,ai portraits,linkedin profile picture, corporate portrait,linkedin profile image' />
       <link rel='icon' href='/favicon.ico' />
