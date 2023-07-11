@@ -606,6 +606,302 @@ export const maleClothes = [
     { prompt: "A pair of relaxed-fit cargo pants with multiple pockets.", summary: "Cargo Pants", image: 'https://replicate.delivery/pbxt/p2pj74vtJqL0EtPpUDczpp3Bh3V9TLe8oScYbDYIYQnLfqwQA/seed-1905364826.png' },
     { prompt: "A cozy, quilted puffer jacket with a warm down filling.", summary: "Puffer Jacket", image: 'https://replicate.delivery/pbxt/JqRFIIFHJuK8CZxfcMT0mkGFQo7eUVehkaiuPonyWezpwkCDB/seed-1385024165.png' },
     { prompt: "A stylish, slim-fit corduroy blazer in a rich burgundy color.", summary: "Corduroy Blazer", image: 'https://replicate.delivery/pbxt/2z3Au6xQSJ44G18zcdImeI1Q77Uujw1xNwVBGdncwAGPfqwQA/seed-1844923809.png' },
+    {
+        "prompt": "A sharp, tailored suit with a crisp dress shirt.",
+        "summary": "Tailored Suit"
+    },
+    {
+        "prompt": "A stylish, button-down shirt with slim-fit trousers.",
+        "summary": "Button-Down Shirt"
+    },
+    {
+        "prompt": "A classic, crew-neck sweater with straight-leg jeans.",
+        "summary": "Crew-Neck Sweater"
+    },
+    {
+        "prompt": "A sophisticated, blazer and chinos with a collared shirt.",
+        "summary": "Blazer and Chinos"
+    },
+    {
+        "prompt": "A trendy, bomber jacket with distressed denim.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sleek, turtleneck sweater with tailored trousers.",
+        "summary": "Turtleneck Sweater"
+    },
+    {
+        "prompt": "A polished, three-piece suit with a patterned tie.",
+        "summary": "Three-Piece Suit"
+    },
+    {
+        "prompt": "A casual, denim jacket with a basic tee and chinos.",
+        "summary": "Denim Jacket"
+    },
+    {
+        "prompt": "A modern, leather jacket with slim-fit jeans.",
+        "summary": "Leather Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching tie and slacks.",
+        "summary": "Dress Shirt and Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with dark wash jeans.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored shorts.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut trousers.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and trousers.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress pants.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed denim.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a pocket square.",
+        "summary": "Double-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, hoodie with jogger pants.",
+        "summary": "Hoodie"
+    },
+    {
+        "prompt": "A modern, suede jacket with slim-fit trousers.",
+        "summary": "Suede Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tuxedo with a bow tie.",
+        "summary": "Tuxedo"
+    },
+    {
+        "prompt": "A trendy, leather biker jacket with ripped jeans.",
+        "summary": "Biker Jacket"
+    },
+    {
+        "prompt": "A classic, oxford shirt with khaki pants.",
+        "summary": "Oxford Shirt"
+    },
+    {
+        "prompt": "A stylish, knit sweater with tailored chinos.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A fashionable, checkered blazer with dress pants.",
+        "summary": "Checkered Blazer"
+    },
+    {
+        "prompt": "A sleek, turtleneck with straight-leg trousers.",
+        "summary": "Turtleneck"
+    },
+    {
+        "prompt": "A polished, single-breasted suit with a patterned tie.",
+        "summary": "Single-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, denim shirt with chino shorts.",
+        "summary": "Denim Shirt"
+    },
+    {
+        "prompt": "A modern, bomber jacket with jogger pants.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching bow tie and slacks.",
+        "summary": "Dress Shirt and Bow Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with black jeans.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored trousers.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut pants.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and chinos.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress slacks.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed jeans.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a patterned pocket square.",
+        "summary": "Double-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, hoodie with jogger pants.",
+        "summary": "Hoodie"
+    },
+    {
+        "prompt": "A modern, suede jacket with slim-fit pants.",
+        "summary": "Suede Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tuxedo with a bow tie.",
+        "summary": "Tuxedo"
+    },
+    {
+        "prompt": "A trendy, leather biker jacket with ripped denim.",
+        "summary": "Biker Jacket"
+    },
+    {
+        "prompt": "A classic, oxford shirt with khaki trousers.",
+        "summary": "Oxford Shirt"
+    },
+    {
+        "prompt": "A stylish, knit sweater with tailored trousers.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A fashionable, checkered blazer with dress slacks.",
+        "summary": "Checkered Blazer"
+    },
+    {
+        "prompt": "A sleek, turtleneck with straight-cut pants.",
+        "summary": "Turtleneck"
+    },
+    {
+        "prompt": "A polished, single-breasted suit with a patterned tie.",
+        "summary": "Single-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, denim shirt with chino shorts.",
+        "summary": "Denim Shirt"
+    },
+    {
+        "prompt": "A modern, bomber jacket with jogger pants.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching bow tie and slacks.",
+        "summary": "Dress Shirt and Bow Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with black pants.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored trousers.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut trousers.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and chinos.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress slacks.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed jeans.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a patterned pocket square.",
+        "summary": "Double-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, hoodie with jogger pants.",
+        "summary": "Hoodie"
+    },
+    {
+        "prompt": "A modern, suede jacket with slim-fit pants.",
+        "summary": "Suede Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tuxedo with a bow tie.",
+        "summary": "Tuxedo"
+    },
+    {
+        "prompt": "A trendy, leather biker jacket with ripped denim.",
+        "summary": "Biker Jacket"
+    },
+    {
+        "prompt": "A classic, oxford shirt with khaki trousers.",
+        "summary": "Oxford Shirt"
+    },
+    {
+        "prompt": "A stylish, knit sweater with tailored pants.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A fashionable, checkered blazer with dress slacks.",
+        "summary": "Checkered Blazer"
+    },
+    {
+        "prompt": "A sleek, turtleneck with straight-cut pants.",
+        "summary": "Turtleneck"
+    },
+    {
+        "prompt": "A polished, single-breasted suit with a patterned tie.",
+        "summary": "Single-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, denim shirt with chino shorts.",
+        "summary": "Denim Shirt"
+    },
+    {
+        "prompt": "A modern, bomber jacket with jogger pants.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching bow tie and slacks.",
+        "summary": "Dress Shirt and Bow Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with black pants.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored trousers.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut trousers.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and chinos.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress slacks.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed jeans.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a patterned pocket square.",
+        "summary": "Double-Breasted Suit"
+    }
     // { prompt: '((photo of sks man in a suit, full-body, grainy, jacket, formal clothing)) (photo, sharp focus, big depth of field, sony a7, 50mm, canon 5d, blurry background, epic, face symmetry, natural lighting, hard light, pores, wrinkles, batman , Christopher Nolan, hyperrealistic, colors, hyperdetailed) ', summary: 'LinkedIn Blazer', image: '' },
     // { prompt: 'A polished, tailored suit with a crisp, white button-down shirt.', summary: 'LinkedIn Pro', image: '' }
 ]
@@ -621,7 +917,7 @@ export const promptFromCloth = (clothes: Array<{ prompt: string, summary: string
 
         return {
             id: clothing.summary + index,
-            tags: ["arible", "studio", "clothing"],
+            tags: ["arible", "studio", "clothing", "professional", "pro", "linkedin", "fashion"],
             image: clothing.image ?? '',
             style: {
                 name: `${clothing.summary}`,
@@ -686,5 +982,719 @@ export const femaleClothes = [
     { prompt: "A lightweight, breezy linen blouse with a flattering V-neck.", summary: "Linen Blouse", image: 'https://replicate.delivery/pbxt/lX0c9yWUEMbSNNMgTdPOkjfEcttm9HmFz6gg5MzFmpMBaUYIA/seed-3543036950.png' },
     { prompt: "A classic, knee-length trench coat with a modern twist.", summary: "Modern Trench", image: 'https://replicate.delivery/pbxt/TmUZMIfNliWewU7YXVmj0OGu4l5uDJz7HUMJKCNNmOhh9qwQA/seed-3745615147.png' },
     { prompt: "A trendy, cropped bomber jacket with a cool camo print.", summary: "Bomber Jacket", image: 'https://replicate.delivery/pbxt/DMF0mSdq52qDLhF7JCunHI5kfKTsxUfLoj2G7bWE2mxd7qwQA/seed-2821715855.png' },
+
+    {
+        "prompt": "A crisp, tailored blazer and fitted trousers.",
+        "summary": "Tailored Blazer"
+    },
+    {
+        "prompt": "A flowy, knee-length sundress with delicate patterns.",
+        "summary": "Knee-Length Sundress"
+    },
+    {
+        "prompt": "A classic, button-down white shirt and high-waisted pants.",
+        "summary": "White Button-Down"
+    },
+    {
+        "prompt": "A sophisticated, knee-length pencil skirt and tucked-in blouse.",
+        "summary": "Pencil Skirt"
+    },
+    {
+        "prompt": "A chic, sleeveless jumpsuit with a belted waist.",
+        "summary": "Sleeveless Jumpsuit"
+    },
+    {
+        "prompt": "A trendy, oversized denim jacket with distressed details.",
+        "summary": "Oversized Denim Jacket"
+    },
+    {
+        "prompt": "A stylish, wide-brimmed hat and flowing maxi dress.",
+        "summary": "Wide-Brimmed Hat"
+    },
+    {
+        "prompt": "A polished, knee-length sheath dress with a tailored fit.",
+        "summary": "Sheath Dress"
+    },
+    {
+        "prompt": "A cozy, cable-knit sweater and collared shirt.",
+        "summary": "Cable-Knit Sweater"
+    },
+    {
+        "prompt": "A modern, structured leather jacket with zipper accents.",
+        "summary": "Structured Leather Jacket"
+    },
+    {
+        "prompt": "A sleek, high-necked bodysuit and wide-leg trousers.",
+        "summary": "High-Neck Bodysuit"
+    },
+    {
+        "prompt": "A sophisticated, tailored pantsuit with a crisp blazer.",
+        "summary": "Tailored Pantsuit"
+    },
+    {
+        "prompt": "A trendy, off-the-shoulder top and distressed denim shorts.",
+        "summary": "Off-Shoulder Top"
+    },
+    {
+        "prompt": "A classic, knee-length trench coat and fitted dress.",
+        "summary": "Knee-Length Trench Coat"
+    },
+    {
+        "prompt": "A stylish, wide-legged jumpsuit with a halter neckline.",
+        "summary": "Wide-Leg Jumpsuit"
+    },
+    {
+        "prompt": "A chic, tailored vest and button-down shirt.",
+        "summary": "Tailored Vest"
+    },
+    {
+        "prompt": "A fashionable, pleated midi skirt and tucked-in blouse.",
+        "summary": "Pleated Midi Skirt"
+    },
+    {
+        "prompt": "A trendy, cropped leather jacket with zipper details.",
+        "summary": "Cropped Leather Jacket"
+    },
+    {
+        "prompt": "A relaxed, oversized sweater and skinny jeans.",
+        "summary": "Oversized Sweater"
+    },
+    {
+        "prompt": "A modern, asymmetrical wrap dress with a cinched waist.",
+        "summary": "Asymmetrical Wrap Dress"
+    },
+    {
+        "prompt": "A sleek, tailored blazer and matching pencil skirt.",
+        "summary": "Tailored Blazer"
+    },
+    {
+        "prompt": "A feminine, ruffled blouse and high-waisted trousers.",
+        "summary": "Ruffled Blouse"
+    },
+    {
+        "prompt": "A stylish, cropped jumpsuit with wide-legged pants.",
+        "summary": "Cropped Jumpsuit"
+    },
+    {
+        "prompt": "A sophisticated, knee-length wrap dress with a V-neckline.",
+        "summary": "Knee-Length Wrap Dress"
+    },
+    {
+        "prompt": "A trendy, oversized blazer and basic tee.",
+        "summary": "Oversized Blazer"
+    },
+    {
+        "prompt": "A classic, knee-length A-line skirt and fitted top.",
+        "summary": "A-Line Skirt"
+    },
+    {
+        "prompt": "A chic, sleeveless peplum top and slim-fit pants.",
+        "summary": "Sleeveless Peplum Top"
+    },
+    {
+        "prompt": "A modern, cropped trench coat and midi dress.",
+        "summary": "Cropped Trench Coat"
+    },
+    {
+        "prompt": "A cozy, oversized cardigan and leggings.",
+        "summary": "Oversized Cardigan"
+    },
+    {
+        "prompt": "A stylish, faux fur coat and sweater dress.",
+        "summary": "Faux Fur Coat"
+    },
+    {
+        "prompt": "A polished, knee-length shift dress and boat neckline.",
+        "summary": "Shift Dress"
+    },
+    {
+        "prompt": "A trendy, cropped denim jacket with a distressed finish.",
+        "summary": "Cropped Denim Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tailored blazer and trousers.",
+        "summary": "Tailored Blazer"
+    },
+    {
+        "prompt": "A fashionable, wrap-front jumpsuit with wide-legged pants.",
+        "summary": "Wrap-Front Jumpsuit"
+    },
+    {
+        "prompt": "A chic, off-the-shoulder midi dress with a belted waist.",
+        "summary": "Off-Shoulder Midi Dress"
+    },
+    {
+        "prompt": "A sleek, form-fitting bodysuit and high-waisted jeans.",
+        "summary": "Form-Fitting Bodysuit"
+    },
+    {
+        "prompt": "A trendy, oversized knit sweater and leggings.",
+        "summary": "Oversized Knit Sweater"
+    },
+    {
+        "prompt": "A modern, asymmetrical top and wide-leg trousers.",
+        "summary": "Asymmetrical Top"
+    },
+    {
+        "prompt": "A stylish, tailored blazer and trousers with a printed blouse.",
+        "summary": "Printed Blouse"
+    },
+    {
+        "prompt": "A sophisticated, knee-length wrap dress with a belt.",
+        "summary": "Belted Wrap Dress"
+    },
+    {
+        "prompt": "A chic, off-the-shoulder jumpsuit with wide-legged pants.",
+        "summary": "Off-Shoulder Jumpsuit"
+    },
+    {
+        "prompt": "A trendy, cropped blazer and high-waisted shorts.",
+        "summary": "Cropped Blazer"
+    },
+    {
+        "prompt": "A classic, knee-length pencil skirt and silk blouse.",
+        "summary": "Silk Blouse"
+    },
+    {
+        "prompt": "A cozy, oversized knit sweater and leggings.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A modern, tailored jumpsuit with a plunging neckline.",
+        "summary": "Tailored Jumpsuit"
+    },
+    {
+        "prompt": "A fashionable, pleated midi skirt and fitted top.",
+        "summary": "Pleated Midi Skirt"
+    },
+    {
+        "prompt": "A trendy, oversized blazer and skinny jeans.",
+        "summary": "Oversized Blazer"
+    },
+    {
+        "prompt": "A sleek, form-fitting bodysuit and high-waisted skirt.",
+        "summary": "Form-Fitting Bodysuit"
+    },
+    {
+        "prompt": "A sophisticated, knee-length sheath dress with a belt.",
+        "summary": "Belted Sheath Dress"
+    },
+    {
+        "prompt": "A chic, sleeveless romper with a cinched waist.",
+        "summary": "Sleeveless Romper"
+    },
+    {
+        "prompt": "A stylish, cropped leather jacket and jeans.",
+        "summary": "Cropped Leather Jacket"
+    },
+    {
+        "prompt": "A polished, knee-length shift dress and statement necklace.",
+        "summary": "Statement Necklace"
+    },
+    {
+        "prompt": "A trendy, oversized sweater and pleated skirt.",
+        "summary": "Oversized Sweater"
+    },
+    {
+        "prompt": "A modern, asymmetrical top and tailored trousers.",
+        "summary": "Asymmetrical Top"
+    },
+    {
+        "prompt": "A feminine, ruffled blouse and high-waisted skirt.",
+        "summary": "Ruffled Blouse"
+    },
+    {
+        "prompt": "A stylish, wide-legged jumpsuit with a wrap-front.",
+        "summary": "Wrap-Front Jumpsuit"
+    },
+    {
+        "prompt": "A sophisticated, knee-length wrap dress and statement belt.",
+        "summary": "Statement Belt"
+    },
+    {
+        "prompt": "A trendy, oversized blazer and mini skirt.",
+        "summary": "Oversized Blazer"
+    },
+    {
+        "prompt": "A classic, knee-length A-line skirt and printed top.",
+        "summary": "Printed Top"
+    },
+    {
+        "prompt": "A chic, sleeveless peplum top and wide-legged pants.",
+        "summary": "Sleeveless Peplum Top"
+    },
+    {
+        "prompt": "A fashionable, cropped trench coat and jeans.",
+        "summary": "Cropped Trench Coat"
+    },
+    {
+        "prompt": "A cozy, oversized cardigan and leggings.",
+        "summary": "Oversized Cardigan"
+    },
+    {
+        "prompt": "A stylish, faux fur coat and jeans.",
+        "summary": "Faux Fur Coat"
+    },
+    {
+        "prompt": "A polished, knee-length pencil dress and blazer.",
+        "summary": "Pencil Dress"
+    },
+    {
+        "prompt": "A trendy, cropped denim jacket and skirt.",
+        "summary": "Cropped Denim Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tailored blazer and pants with a silk blouse.",
+        "summary": "Silk Blouse"
+    },
+    {
+        "prompt": "A fashionable, wrap-front jumpsuit and heels.",
+        "summary": "Wrap-Front Jumpsuit"
+    },
+    {
+        "prompt": "A chic, off-the-shoulder midi dress and statement earrings.",
+        "summary": "Statement Earrings"
+    },
+    {
+        "prompt": "A sleek, form-fitting bodysuit and high-waisted pants.",
+        "summary": "Form-Fitting Bodysuit"
+    },
+    {
+        "prompt": "A trendy, oversized knit sweater and leather leggings.",
+        "summary": "Oversized Knit Sweater"
+    },
+    {
+        "prompt": "A modern, asymmetrical top and wide-legged trousers.",
+        "summary": "Asymmetrical Top"
+    },
+    {
+        "prompt": "A stylish, tailored blazer and shorts with a printed blouse.",
+        "summary": "Printed Blouse"
+    },
+    {
+        "prompt": "A sophisticated, knee-length wrap dress and belt.",
+        "summary": "Belted Wrap Dress"
+    },
+    {
+        "prompt": "A chic, off-the-shoulder jumpsuit and wide-legged pants.",
+        "summary": "Off-Shoulder Jumpsuit"
+    },
+    {
+        "prompt": "A trendy, cropped blazer and high-waisted shorts.",
+        "summary": "Cropped Blazer"
+    },
+    {
+        "prompt": "A classic, knee-length pencil skirt and silk blouse.",
+        "summary": "Silk Blouse"
+    },
+    {
+        "prompt": "A cozy, oversized knit sweater and leggings.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A modern, tailored jumpsuit and plunging neckline.",
+        "summary": "Tailored Jumpsuit"
+    },
+    {
+        "prompt": "A fashionable, pleated midi skirt and fitted top.",
+        "summary": "Pleated Midi Skirt"
+    },
+    {
+        "prompt": "A trendy, oversized blazer and skinny jeans.",
+        "summary": "Oversized Blazer"
+    },
+    {
+        "prompt": "A sleek, form-fitting bodysuit and high-waisted skirt.",
+        "summary": "Form-Fitting Bodysuit"
+    },
+    {
+        "prompt": "A sophisticated, knee-length sheath dress and belt.",
+        "summary": "Belted Sheath Dress"
+    },
+    {
+        "prompt": "A chic, sleeveless romper and cinched waist.",
+        "summary": "Sleeveless Romper"
+    },
+    {
+        "prompt": "A stylish, cropped leather jacket and jeans.",
+        "summary": "Cropped Leather Jacket"
+    },
+    {
+        "prompt": "A polished, knee-length shift dress and statement necklace.",
+        "summary": "Statement Necklace"
+    },
+    {
+        "prompt": "A trendy, oversized sweater and pleated skirt.",
+        "summary": "Oversized Sweater"
+    },
+    {
+        "prompt": "A modern, asymmetrical top and tailored trousers.",
+        "summary": "Asymmetrical Top"
+    },
+    {
+        "prompt": "A feminine, ruffled blouse and high-waisted skirt.",
+        "summary": "Ruffled Blouse"
+    },
+    {
+        "prompt": "A stylish, wide-legged jumpsuit and wrap-front.",
+        "summary": "Wrap-Front Jumpsuit"
+    },
+    {
+        "prompt": "A sophisticated, knee-length wrap dress and statement belt.",
+        "summary": "Statement Belt"
+    },
+    {
+        "prompt": "A trendy, oversized blazer and mini skirt.",
+        "summary": "Oversized Blazer"
+    },
+    {
+        "prompt": "A classic, knee-length A-line skirt and printed top.",
+        "summary": "Printed Top"
+    },
+    {
+        "prompt": "A chic, sleeveless peplum top and wide-legged pants.",
+        "summary": "Sleeveless Peplum Top"
+    },
+    {
+        "prompt": "A fashionable, cropped trench coat and jeans.",
+        "summary": "Cropped Trench Coat"
+    },
+    {
+        "prompt": "A cozy, oversized cardigan and leggings.",
+        "summary": "Oversized Cardigan"
+    },
+    {
+        "prompt": "A stylish, faux fur coat and jeans.",
+        "summary": "Faux Fur Coat"
+    },
+    {
+        "prompt": "A polished, knee-length pencil dress and blazer.",
+        "summary": "Pencil Dress"
+    },
+    {
+        "prompt": "A trendy, cropped denim jacket and skirt.",
+        "summary": "Cropped Denim Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tailored blazer and pants with a silk blouse.",
+        "summary": "Silk Blouse"
+    },
+    {
+        "prompt": "A fashionable, wrap-front jumpsuit and heels.",
+        "summary": "Wrap-Front Jumpsuit"
+    },
+    {
+        "prompt": "A chic, off-the-shoulder midi dress and statement earrings.",
+        "summary": "Statement Earrings"
+    },
+    {
+        "prompt": "A sleek, form-fitting bodysuit and high-waisted pants.",
+        "summary": "Form-Fitting Bodysuit"
+    },
+    {
+        "prompt": "A trendy, oversized knit sweater and leather leggings.",
+        "summary": "Oversized Knit Sweater"
+    },
+    {
+        "prompt": "A modern, asymmetrical top and wide-legged trousers.",
+        "summary": "Asymmetrical Top"
+    },
+    {
+        "prompt": "A sharp, tailored suit with a crisp dress shirt.",
+        "summary": "Tailored Suit"
+    },
+    {
+        "prompt": "A stylish, button-down shirt with slim-fit trousers.",
+        "summary": "Button-Down Shirt"
+    },
+    {
+        "prompt": "A classic, crew-neck sweater with straight-leg jeans.",
+        "summary": "Crew-Neck Sweater"
+    },
+    {
+        "prompt": "A sophisticated, blazer and chinos with a collared shirt.",
+        "summary": "Blazer and Chinos"
+    },
+    {
+        "prompt": "A trendy, bomber jacket with distressed denim.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sleek, turtleneck sweater with tailored trousers.",
+        "summary": "Turtleneck Sweater"
+    },
+    {
+        "prompt": "A polished, three-piece suit with a patterned tie.",
+        "summary": "Three-Piece Suit"
+    },
+    {
+        "prompt": "A casual, denim jacket with a basic tee and chinos.",
+        "summary": "Denim Jacket"
+    },
+    {
+        "prompt": "A modern, leather jacket with slim-fit jeans.",
+        "summary": "Leather Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching tie and slacks.",
+        "summary": "Dress Shirt and Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with dark wash jeans.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored shorts.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut trousers.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and trousers.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress pants.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed denim.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a pocket square.",
+        "summary": "Double-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, hoodie with jogger pants.",
+        "summary": "Hoodie"
+    },
+    {
+        "prompt": "A modern, suede jacket with slim-fit trousers.",
+        "summary": "Suede Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tuxedo with a bow tie.",
+        "summary": "Tuxedo"
+    },
+    {
+        "prompt": "A trendy, leather biker jacket with ripped jeans.",
+        "summary": "Biker Jacket"
+    },
+    {
+        "prompt": "A classic, oxford shirt with khaki pants.",
+        "summary": "Oxford Shirt"
+    },
+    {
+        "prompt": "A stylish, knit sweater with tailored chinos.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A fashionable, checkered blazer with dress pants.",
+        "summary": "Checkered Blazer"
+    },
+    {
+        "prompt": "A sleek, turtleneck with straight-leg trousers.",
+        "summary": "Turtleneck"
+    },
+    {
+        "prompt": "A polished, single-breasted suit with a patterned tie.",
+        "summary": "Single-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, denim shirt with chino shorts.",
+        "summary": "Denim Shirt"
+    },
+    {
+        "prompt": "A modern, bomber jacket with jogger pants.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching bow tie and slacks.",
+        "summary": "Dress Shirt and Bow Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with black jeans.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored trousers.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut pants.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and chinos.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress slacks.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed jeans.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a patterned pocket square.",
+        "summary": "Double-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, hoodie with jogger pants.",
+        "summary": "Hoodie"
+    },
+    {
+        "prompt": "A modern, suede jacket with slim-fit pants.",
+        "summary": "Suede Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tuxedo with a bow tie.",
+        "summary": "Tuxedo"
+    },
+    {
+        "prompt": "A trendy, leather biker jacket with ripped denim.",
+        "summary": "Biker Jacket"
+    },
+    {
+        "prompt": "A classic, oxford shirt with khaki trousers.",
+        "summary": "Oxford Shirt"
+    },
+    {
+        "prompt": "A stylish, knit sweater with tailored trousers.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A fashionable, checkered blazer with dress slacks.",
+        "summary": "Checkered Blazer"
+    },
+    {
+        "prompt": "A sleek, turtleneck with straight-cut pants.",
+        "summary": "Turtleneck"
+    },
+    {
+        "prompt": "A polished, single-breasted suit with a patterned tie.",
+        "summary": "Single-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, denim shirt with chino shorts.",
+        "summary": "Denim Shirt"
+    },
+    {
+        "prompt": "A modern, bomber jacket with jogger pants.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching bow tie and slacks.",
+        "summary": "Dress Shirt and Bow Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with black pants.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored trousers.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut trousers.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and chinos.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress slacks.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed jeans.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a patterned pocket square.",
+        "summary": "Double-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, hoodie with jogger pants.",
+        "summary": "Hoodie"
+    },
+    {
+        "prompt": "A modern, suede jacket with slim-fit pants.",
+        "summary": "Suede Jacket"
+    },
+    {
+        "prompt": "A sophisticated, tuxedo with a bow tie.",
+        "summary": "Tuxedo"
+    },
+    {
+        "prompt": "A trendy, leather biker jacket with ripped denim.",
+        "summary": "Biker Jacket"
+    },
+    {
+        "prompt": "A classic, oxford shirt with khaki trousers.",
+        "summary": "Oxford Shirt"
+    },
+    {
+        "prompt": "A stylish, knit sweater with tailored pants.",
+        "summary": "Knit Sweater"
+    },
+    {
+        "prompt": "A fashionable, checkered blazer with dress slacks.",
+        "summary": "Checkered Blazer"
+    },
+    {
+        "prompt": "A sleek, turtleneck with straight-cut pants.",
+        "summary": "Turtleneck"
+    },
+    {
+        "prompt": "A polished, single-breasted suit with a patterned tie.",
+        "summary": "Single-Breasted Suit"
+    },
+    {
+        "prompt": "A casual, denim shirt with chino shorts.",
+        "summary": "Denim Shirt"
+    },
+    {
+        "prompt": "A modern, bomber jacket with jogger pants.",
+        "summary": "Bomber Jacket"
+    },
+    {
+        "prompt": "A sophisticated, dress shirt with a matching bow tie and slacks.",
+        "summary": "Dress Shirt and Bow Tie"
+    },
+    {
+        "prompt": "A trendy, plaid blazer with black pants.",
+        "summary": "Plaid Blazer"
+    },
+    {
+        "prompt": "A classic, polo shirt with tailored trousers.",
+        "summary": "Polo Shirt"
+    },
+    {
+        "prompt": "A stylish, v-neck sweater with straight-cut trousers.",
+        "summary": "V-Neck Sweater"
+    },
+    {
+        "prompt": "A fashionable, trench coat with a button-up shirt and chinos.",
+        "summary": "Trench Coat"
+    },
+    {
+        "prompt": "A sleek, button-up shirt with dress slacks.",
+        "summary": "Button-Up Shirt"
+    },
+    {
+        "prompt": "A trendy, graphic tee with distressed jeans.",
+        "summary": "Graphic Tee"
+    },
+    {
+        "prompt": "A polished, double-breasted suit with a patterned pocket square.",
+        "summary": "Double-Breasted Suit"
+    }
+
 ]
 

@@ -433,7 +433,7 @@ const maleClothes = [
 
 const femaleClothes = [
     { prompt: "A stunning floor-length silk gown with a plunging neckline.", summary: "Silk Gown" },
-    { prompt: "A sleek, form-fitting little black dress with an open back.", summary: "Black Dress" },
+    // { prompt: "A sleek, form-fitting little black dress with an open back.", summary: "Black Dress" },
     { prompt: "A chic, tailored blazer with gold button accents.", summary: "Tailored Blazer" },
     { prompt: "A flowing bohemian maxi dress with a vibrant floral print.", summary: "Maxi Dress" },
     { prompt: "A cozy, oversized cable-knit sweater in soft cream.", summary: "Cable-Knit Sweater" },
@@ -456,7 +456,7 @@ const femaleClothes = [
     { prompt: "A comfortable, soft cotton graphic tee featuring a fun print.", summary: "Graphic Tee" },
     { prompt: "A chic, high-waisted pencil skirt in a timeless black.", summary: "Pencil Skirt" },
     { prompt: "A cozy, oversized hoodie with a statement graphic.", summary: "Oversized Hoodie" },
-    { prompt: "A pair of sleek, faux leather leggings with a comfortable waistband.", summary: "Leather Leggings" },
+    // { prompt: "A pair of sleek, faux leather leggings with a comfortable waistband.", summary: "Leather Leggings" },
     { prompt: "A lightweight, breezy linen blouse with a flattering V-neck.", summary: "Linen Blouse" },
     { prompt: "A classic, knee-length trench coat with a modern twist.", summary: "Modern Trench" },
     { prompt: "A trendy, cropped bomber jacket with a cool camo print.", summary: "Bomber Jacket" },

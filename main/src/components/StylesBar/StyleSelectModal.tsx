@@ -146,7 +146,7 @@ export default function StyleSelectModal({ open, onClose }: Props) {
                     width='100%'
                     status='default'
                     type="search"
-                    placeholder="Fashion, high fantasy, anime, etc."
+                    placeholder="E.g Fashion, Photography, LinkedIn."
                     contentRightStyling={false}
                     contentLeftStyling={false}
                     contentLeft={

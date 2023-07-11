@@ -29,7 +29,7 @@ const cloudinary_base = "https://img.arible.co/cdn-cgi/image/width=256,height=25
 
 
 function StyleItem({ data, selected, onPress }: Props) {
-    const image_src = `${cloudinary_base}${data.image}`
+    const image_src = data.image ? `${cloudinary_base}${data.image}` : '/arible_logo_light.svg'
 
     return <Card
         color='success'
@@ -74,12 +74,13 @@ function StyleItem({ data, selected, onPress }: Props) {
                     placeholder='blur'
                     color='success'
                     data-style_id={data.id}
-                    objectFit="cover"
+                    objectFit={data.image ? "cover" : 'fill'}
                     width={'100%'}
                     loading='lazy'
                     alt={data.style.name}
                     className='aspect-square'
                     css={{
+                        background: 'linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%)'
                         // aspectRatio: `${prompt.aspect_ratio[0]}/${prompt.aspect_ratio[1]}`,
                     }}
                 />

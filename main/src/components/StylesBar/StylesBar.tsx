@@ -75,14 +75,14 @@ function StyleSelectButton({ onClick }: any) {
 
 
     return <div
-        className='w-full'
+        className='w-full '
     >
         <Button
-            className='w-full'
-            color={'secondary'}
+            className='w-full bg-white text-neutral-800'
+            // color={'white'}
             onClick={onClick}
             icon={
-                <Folder size={16} set="bold" primaryColor="white" />
+                <Folder size={16} set="bold" primaryColor="black" />
             }
         // bordered
         // size={'sm'}
