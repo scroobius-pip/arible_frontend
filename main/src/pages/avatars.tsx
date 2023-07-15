@@ -54,7 +54,7 @@ function StylesSection() {
     }, [])
 
 
-    return <section id='#styles' className='w-full grid  min-h-screen p-8'>
+    return <section id='#styles' className='w-full grid  min-h-screen p-8 mt-16'>
         <div className='grid grid-flow-col w-full gap-4'>
             <div className='w-full '>
                 <div className=''>

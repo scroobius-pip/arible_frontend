@@ -125,25 +125,25 @@ const defaultPersons: Person[] = [
         demo: true,
         person_type: 'Male'
     },
-    {
-        is_done: true,
-        created_at: 0,
-        id: 54536,
-        name: 'Yara - Female',
-        avatar: 'https://replicate.delivery/pbxt/fBpjGhut8kQiIq6Wfq7Nf7bJfaNfgaURGC8e5rHneVBB5dRYIA/seed-1756825458.png',
-        demo: true,
-        person_type: 'Female'
-    },
+    // {
+    //     is_done: true,
+    //     created_at: 0,
+    //     id: 54536,
+    //     name: 'Yara - Female',
+    //     avatar: 'https://replicate.delivery/pbxt/fBpjGhut8kQiIq6Wfq7Nf7bJfaNfgaURGC8e5rHneVBB5dRYIA/seed-1756825458.png',
+    //     demo: true,
+    //     person_type: 'Female'
+    // },
 
-    {
-        is_done: true,
-        created_at: 0,
-        id: 46163,
-        name: 'Simdi - Male',
-        demo: true,
-        person_type: 'Male',
-        avatar: 'https://img.arible.co/cdn-cgi/image/format=webp/https://replicate.delivery/pbxt/T0zDPjcRpmLqMpMEPX38bKmeY9hyVJS3wAWe3fca9Hsbs4bhA/seed-386127896.png'
-    }
+    // {
+    //     is_done: true,
+    //     created_at: 0,
+    //     id: 46163,
+    //     name: 'Simdi - Male',
+    //     demo: true,
+    //     person_type: 'Male',
+    //     avatar: 'https://img.arible.co/cdn-cgi/image/format=webp/https://replicate.delivery/pbxt/T0zDPjcRpmLqMpMEPX38bKmeY9hyVJS3wAWe3fca9Hsbs4bhA/seed-386127896.png'
+    // }
 
 
 

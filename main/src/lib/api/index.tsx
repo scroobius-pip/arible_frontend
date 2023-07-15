@@ -205,6 +205,19 @@ export type IGeneratedStatus = {
     Submitted: string
 }
 
+export interface IPage {
+    title: string;
+    description: string;
+    keywords: string;
+    slug: string;
+    items: Array<IPageItem>;
+}
+
+export interface IPageItem {
+    url: string;
+    description: string;
+    title: string;
+}
 
 export interface IModel {
     input_zip_url: string;
@@ -246,6 +259,8 @@ export type UserResult = RequestResult<IUser>;
 export type CreatePersonResult = RequestResult<IPerson>;
 export type GeneratedResult = RequestResult<IGenerated[]>;
 export type CheckoutSessionResult = RequestResult<string>;
+export type PageResult = RequestResult<IPage>;
+export type PagesResult = RequestResult<IPage[]>;
 
 
 export class ApiService {
@@ -456,7 +471,23 @@ export class ApiService {
                 success: false,
             }
         }
+    }
 
+    public static async getPage(slug: string): Promise<PageResult> {
+        const url = `${ApiService.BASE_URL}/page/${slug}`
+        const response = await fetch(url, {
+            method: 'GET',
+        })
 
+        return ApiService.handleResponse<IPage>(response);
+    }
+
+    public static async allPages(): Promise<PagesResult> {
+        const url = `${ApiService.BASE_URL}/pages`
+        const response = await fetch(url, {
+            method: 'GET',
+        })
+
+        return ApiService.handleResponse<IPage[]>(response);
     }
 }

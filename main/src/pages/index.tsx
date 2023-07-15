@@ -381,7 +381,7 @@ export function FaqSection({ rounded = false }) {
       </Collapse>
       <Collapse title="How Much Does This Cost ?">
         <p>
-          Plans start at $24.99 one-time cost.
+          Plans start at $24.99.
         </p>
       </Collapse>
       <Collapse title="What Do You Do With My Uploaded Photos ?">
