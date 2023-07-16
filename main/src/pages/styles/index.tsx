@@ -26,11 +26,11 @@ export default ({ styles }: PageData) => {
                     backgroundImage: backgroundGrid
                 }}
                 className='bg-[#F7F9FC] min-h-screen text-black'>
-                <div className='w-full max-w-6xl  m-auto p-20'>
+                <div className='w-full max-w-6xl  m-auto p-6 xl:p-20'>
                     <h1 className='max-w-prose mb-24 md:text-7xl lg:text-6xl xl:text-7xl  w-full bg-gradient-to-r text-center from-neutral-900 via-black to-neutral-400 bg-clip-text text-transparent'>Style Directory</h1>
                     {/* <p className='max-w-prose mb-24 md:text-2xl lg:text-3xl xl:text-4xl  w-full bg-gradient-to-r text-center from-neutral-900 via-black to-neutral-400 bg-clip-text text-transparent'>All Styles</p> */}
-                    <div className='rounded-xl bg-gradient-to-r text-center from-neutral-900 via-black to-neutral-400 shadow-xl text-neutral-50 p-12 '>
-                        <div className='grid gap-4 grid-flow-row grid-cols-6 lg:grid-cols-6'>
+                    <div className='rounded-xl bg-gradient-to-r text-center from-neutral-900 via-black to-neutral-700 shadow-xl text-neutral-50 p-12 '>
+                        <div className='grid gap-4 grid-flow-row grid-cols-1 md:grid-cols-3 lg:grid-cols-6'>
                             {styles.map(style => <a href={`/styles/${style.slug}`} key={style.slug} className='flex flex-col items-center justify-center' >
                                 <p className='text-sm  xl:text-2xl text-opacity-100 font-medium text-center hover:opacity-20 transition-all duration-300'>
                                     {style.title}
