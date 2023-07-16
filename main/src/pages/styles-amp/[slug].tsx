@@ -5,13 +5,8 @@ import { ArrowRight } from '@odyssoft/iconly-clone'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
 
-import { Inter } from 'next/font/google'
-import { Badge, Collapse, Navbar } from '@nextui-org/react'
-import Marquee from 'react-fast-marquee'
-import { useEffect, useState } from 'react'
-import { Style } from '@/types'
+import { Badge } from '@nextui-org/react'
 import { FaqSection } from '../'
-import { Footer } from '@/components/Footer'
 
 interface PageData {
     page: IPage
