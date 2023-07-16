@@ -38,6 +38,7 @@ export default ({ page }: PageData) => {
                 <MainSection page={page} />
                 <StylesSection styles={page.items} />
                 <FaqSection />
+                <Footer bg='bg-neutral-100' text='text-neutral-900' logoVariant='dark' />
 
             </main>
         </>
@@ -72,7 +73,7 @@ function MainSection({ page: { title, description, items } }: PageData) {
             <div className='flex justify-center items-center align-middle rounded-full h-full p-12'>
                 <img
                     className='aspect-square max-h-screen  xl:h-full  rounded-full p-5 shadow-2xl bg-neutral-50 border border-dashed'
-                    src={`https://img.arible.co/cdn-cgi/image/fit=cover,format=webp,quality=90/${items[0].url}`}
+                    src={`https://img.arible.co/cdn-cgi/image/fit=cover,format=webp,quality=100/${items[0].url}`}
                     alt={`Arible AI Portraits - ${title}`} />
             </div>
         </div>
@@ -130,7 +131,7 @@ function StylesSection({ styles }: { styles: IPage['items'] }) {
                 const image_src = `${optimizer_base}${url}`
 
                 return <a href='/create'>
-                    <img key={index} src={image_src} alt={description} className='rounded-3xl w-full aspect-square p-0.5 border-2 border-solid border-opacity-30 hover:border-opacity-100 duration-300  border-neutral-900 cursor-pointer' />
+                    <img data-id={style.generated_id} data-person_id={style.person_id} key={index} src={image_src} alt={description} className='rounded-3xl w-full aspect-square p-0.5 border-2 border-solid border-opacity-30 hover:border-opacity-100 duration-300  border-neutral-900 cursor-pointer' />
                 </a>
             })}
 
@@ -146,6 +147,9 @@ linear-gradient(0deg, transparent 24%, rgb(0 0 0 / 20%) 25%, rgb(0 0 0 / 5%) 26%
 
 export const getStaticProps: GetStaticProps<PageData> = async ({ params }) => {
     const { data, error } = await ApiService.getPage(params?.slug as string)
+    // const { data: allPages } = await ApiService.allPages()
+
+
 
     if (error || !data) {
         console.log(error)
@@ -157,7 +161,8 @@ export const getStaticProps: GetStaticProps<PageData> = async ({ params }) => {
 
     return {
         props: {
-            page: data
+            page: data,
+            // relatedPages: allPages ? allPages
         },
     }
 }

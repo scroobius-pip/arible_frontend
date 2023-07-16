@@ -218,6 +218,8 @@ export interface IPageItem {
     url: string;
     description: string;
     title: string;
+    person_id: number;
+    generated_id: number;
 }
 
 export interface IModel {

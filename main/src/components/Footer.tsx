@@ -18,6 +18,7 @@ export function Footer({ bg = 'bg-neutral-800', text = 'text-neutral-100', logoV
             </div>
             <div className='flex flex-col gap-4'>
                 <h2 className='text-2xl'>Pages</h2>
+                <a href={'/styles'} className='text-sm font-medium'>Style Directory - All Styles</a>
                 <a href={'/prompts'} className='text-sm font-medium'>Stable Diffusion & MidJourney Prompt Database</a>
                 <a href={'/pro'} className='text-sm font-medium'>Professional Portraits & Headshots</a>
                 <a href={'/'} className='text-sm font-medium'>Avatars & Profile Pictures</a>
