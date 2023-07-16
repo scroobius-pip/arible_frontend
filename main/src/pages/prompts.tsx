@@ -10,6 +10,7 @@ import { Style } from '@/types';
 import useInfiniteScroll from 'react-infinite-scroll-hook';
 import Fuse from 'fuse.js'
 import { Search } from 'lucide-react';
+import { Footer } from '@/components/Footer';
 
 const fetcher = (url: string) => fetch(url).then((res) => {
     const result = res.json()
@@ -220,7 +221,7 @@ export default function PromptDatabase() {
 
 
             </section>
-
+            <Footer />
         </main>
     </>
 }
