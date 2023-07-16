@@ -17,6 +17,7 @@ interface PageData {
     page: IPage
 }
 
+export const config = { amp: true }
 
 export default ({ page }: PageData) => {
 
