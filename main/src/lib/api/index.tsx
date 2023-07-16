@@ -211,6 +211,7 @@ export interface IPage {
     keywords: string;
     slug: string;
     items: Array<IPageItem>;
+    updated_at: string;
 }
 
 export interface IPageItem {

@@ -35,7 +35,7 @@ export default ({ page }: PageData) => {
                     backgroundImage: backgroundGrid
                 }}
                 className='bg-[#F7F9FC] min-h-screen text-black'>
-                <MainSection title={page.title} description={page.description} />
+                <MainSection page={page} />
                 <StylesSection styles={page.items} />
                 <FaqSection />
             </main>
@@ -44,7 +44,7 @@ export default ({ page }: PageData) => {
 }
 
 
-function MainSection({ title, description }: any) {
+function MainSection({ page: { title, description, items } }: PageData) {
     return <section className='grid gap-0 lg:gap-4 grid-flow-row  grid-cols-1 lg:grid-cols-2 min-h-screen'>
         <div
 
@@ -63,7 +63,7 @@ function MainSection({ title, description }: any) {
                     >Demo <span className='opacity-70 ml-4 text-sm align-text-bottom pt-0.5'>No sign-up required!</span> </Button>
                 </a>
                 <div>
-                    <MainSectionLeftBottom />
+                    <MainSectionLeftBottom items={items} />
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@ function MainSection({ title, description }: any) {
             <div className='flex justify-center items-center align-middle rounded-full h-full p-12'>
                 <img
                     className='aspect-square max-h-screen  xl:h-full  rounded-full p-5 shadow-2xl bg-neutral-50 border border-dashed'
-                    src={'https://img.arible.co/cdn-cgi/image/fit=cover,format=webp,quality=80/https://www.arible.co/hero_3.png'}
+                    src={`https://img.arible.co/cdn-cgi/image/fit=cover,format=webp,quality=90/${items[0].url}`}
                     alt={`Arible AI Portraits - ${title}`} />
             </div>
         </div>
@@ -79,29 +79,20 @@ function MainSection({ title, description }: any) {
 }
 
 
-function MainSectionLeftBottom() {
+function MainSectionLeftBottom({ items }: { items: PageData['page']['items'] }) {
+    //take the first 4 items
+    const firstFour = items.slice(0, 4)
+
     return <div className='grid grid-cols-4 gap-4  w-full  '>
-
-        <img
-            src='https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/https://replicate.delivery/pbxt/eII2p4Jy6flpakSJr7nfw0OfYGOjMMRjWhsmQpSf3nrgfe0VIA/out-0.png'
-            alt='Arible AI Profile Picture Generator'
-            className='rounded-3xl bg-slate-500 h-full' />
-
-        <img
-            src='https://img.arible.co/cdn-cgi/image/fit=cover,format=webp,quality=80/https://www.arible.co/hero_4.png'
-            alt='Arible AI Profile Picture Generator'
-            className='rounded-3xl bg-slate-500 h-full' />
-
-        <img
-            src='https://img.arible.co/cdn-cgi/image/fit=cover,format=webp,quality=80/https://www.arible.co/hero_2.png'
-            alt='Arible AI Profile Picture Generator'
-            className='rounded-3xl bg-slate-500 h-full' />
-
-        <img
-            src='https://img.arible.co/cdn-cgi/image/fit=cover,format=webp,quality=80/https://www.arible.co/hero_3.png'
-            alt='Arible AI Profile Picture Generator'
-            className='rounded-3xl bg-slate-500 h-full' />
-
+        {
+            firstFour.map((item, i) =>
+                <img
+                    key={i}
+                    src={`https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/${item.url}`}
+                    alt={`Arible AI Portraits - ${item.title}`}
+                    className='rounded-3xl bg-slate-500 h-full' />
+            )
+        }
     </div>
 
 }
@@ -145,54 +136,54 @@ function StylesSection({ styles }: { styles: IPage['items'] }) {
         </div>
     </section>
 }
-const optimizer_base = "https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/"
+const optimizer_base = "https://img.arible.co/cdn-cgi/image/width=768,height=768,fit=cover,format=auto/"
 
 const backgroundGrid = `
 linear-gradient(0deg, transparent 24%, rgb(0 0 0 / 20%) 25%, rgb(0 0 0 / 5%) 26%, #4343430f 27%, transparent 74%, rgba(255, 255, 255, 0.05) 75%, rgb(141 141 141 / 25%) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgb(0 0 0 / 0%) 25%, rgb(28 28 28 / 10%) 26%, transparent 27%, transparent 74%, rgb(0 0 0 / 6%) 75%, rgb(0 0 0 / 6%) 76%, transparent 77%, transparent)
 `
 
 
-// export const getStaticProps: GetStaticProps<PageData> = async ({ params }) => {
-//     const { data, error } = await ApiService.getPage(params?.slug as string)
+export const getStaticProps: GetStaticProps<PageData> = async ({ params }) => {
+    const { data, error } = await ApiService.getPage(params?.slug as string)
 
-//     if (error || !data) {
-//         console.log(error)
-//         console.log('data: ', data)
-//         return {
-//             notFound: true
-//         }
-//     }
+    if (error || !data) {
+        console.log(error)
+        console.log('data: ', data)
+        return {
+            notFound: true
+        }
+    }
 
-//     return {
-//         props: {
-//             page: data
-//         },
-//     }
-// }
-
-
-// export const getStaticPaths: GetStaticPaths = async () => {
-//     const { data, error } = await ApiService.allPages()
-
-//     if (error || !data) {
-//         console.log(error)
-//         console.log('data: ', data)
-//         return {
-//             paths: [],
-//             fallback: true
-//         }
-//     }
-
-//     const paths = data.map(page => ({
-//         params: {
-//             slug: page.slug
-//         }
-//     }))
+    return {
+        props: {
+            page: data
+        },
+    }
+}
 
 
+export const getStaticPaths: GetStaticPaths = async () => {
+    const { data, error } = await ApiService.allPages()
 
-//     return {
-//         paths,
-//         fallback: true
-//     }
-// }
+    if (error || !data) {
+        console.log(error)
+        console.log('data: ', data)
+        return {
+            paths: [],
+            fallback: true
+        }
+    }
+
+    const paths = data.map(page => ({
+        params: {
+            slug: page.slug
+        }
+    }))
+
+
+
+    return {
+        paths,
+        fallback: true
+    }
+}
