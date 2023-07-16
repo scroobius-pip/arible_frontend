@@ -5,13 +5,13 @@ export default async function sitemap() {
     if (data) {
         return data.map(({ updated_at, slug: url }) => {
 
-            const lastmod = updated_at ? new Date(
+            const lastModified = updated_at ? new Date(
                 Number(updated_at) * 1000
-            ).toISOString() : new Date(1689516774174).toISOString()
+            ) : new Date(1689516774174)
 
             return {
                 url,
-                lastmod,
+                lastModified,
             }
         })
     }
