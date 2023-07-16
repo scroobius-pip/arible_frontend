@@ -17,6 +17,7 @@ interface PageData {
     page: IPage
 }
 
+export const config = { amp: true }
 
 export default ({ page }: PageData) => {
 
@@ -38,6 +39,7 @@ export default ({ page }: PageData) => {
                 <MainSection page={page} />
                 <StylesSection styles={page.items} />
                 <FaqSection />
+
             </main>
         </>
     )
