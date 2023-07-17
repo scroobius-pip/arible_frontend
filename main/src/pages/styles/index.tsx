@@ -20,7 +20,7 @@ export default ({ styles }: PageData) => {
                 <title>Arible AI Portrait Avatars - All AI Portraits Showcase</title>
                 <meta name="description" content='Arible AI Portrait Avatars - All AI Portraits Available' />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="keywords" content='ai avatars, ai portraits, stable diffusion style directory' />
+                <meta name="keywords" content='ai avatars, ai portraits, stable diffusion style directory, ai art' />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main
@@ -65,7 +65,7 @@ export const getStaticProps: GetStaticProps<PageData> = async () => {
 
     return {
         props: {
-            styles: data
+            styles: data,
         },
     }
 }
