@@ -45,6 +45,22 @@ export async function generateSitemap(): Promise<Sitemap[]> {
                 url: `https://www.arible.co/styles`,
                 lastModified: new Date()
             },
+            {
+                url: `https://www.arible.co/create`,
+                lastModified: new Date()
+            },
+            {
+                url: `https://www.arible.co/prompts`,
+                lastModified: new Date()
+            },
+            {
+                url: `https://www.arible.co/professional_photographer`,
+                lastModified: new Date()
+            },
+            {
+                url: `https://www.arible.co/avatars`,
+                lastModified: new Date()
+            },
         ])
 
         return items

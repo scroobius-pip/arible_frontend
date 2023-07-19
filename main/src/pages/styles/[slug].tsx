@@ -28,6 +28,7 @@ export default ({ page }: PageData) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content={page.keywords} />
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="canonical" href={`https://www.arible.co/styles/${page.slug}`} />
             </Head>
             <main
                 style={{
