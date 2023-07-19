@@ -15,10 +15,10 @@ export async function generateSitemap(): Promise<Sitemap[]> {
             ) : new Date(1689516774174)
 
             return [
-                {
-                    url: `https://arible.co/styles/${url}`,
-                    lastModified,
-                },
+                // {
+                //     url: `https://arible.co/styles/${url}`,
+                //     lastModified,
+                // },
                 {
                     url: `https://www.arible.co/styles/${url}`,
                     lastModified,
@@ -29,18 +29,18 @@ export async function generateSitemap(): Promise<Sitemap[]> {
                 // }
             ]
         }).concat([
-            {
-                url: `https://arible.co/blog`,
-                lastModified: new Date(1689516774174)
-            },
+            // {
+            //     url: `https://arible.co/blog`,
+            //     lastModified: new Date(1689516774174)
+            // },
             {
                 url: `https://www.arible.co/blog`,
                 lastModified: new Date(1689516774174)
             },
-            {
-                url: `https://arible.co/styles`,
-                lastModified: new Date()
-            },
+            // {
+            //     url: `https://arible.co/styles`,
+            //     lastModified: new Date()
+            // },
             {
                 url: `https://www.arible.co/styles`,
                 lastModified: new Date()
