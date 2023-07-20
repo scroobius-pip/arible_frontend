@@ -1,6 +1,6 @@
 import { Generated } from '@/types'
 import { Badge, Button, Card, Tooltip } from '@nextui-org/react'
-import { Delete, Edit, Heart, Search } from '@odyssoft/iconly-clone'
+// import { Delete, Edit, Heart, Search } from '@odyssoft/iconly-clone'
 import { Copy, Printer, PrinterIcon, ShareIcon } from 'lucide-react'
 import { extractImageUrl } from '../../lib/extractImageUrl';
 import { memo, useCallback } from 'react'

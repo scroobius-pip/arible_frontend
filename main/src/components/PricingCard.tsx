@@ -1,6 +1,6 @@
 import { AppContext } from '@/lib/AppState'
 import { Switch } from '@nextui-org/react'
-import { TicketStar } from '@odyssoft/iconly-clone'
+// import { TicketStar } from '@odyssoft/iconly-clone'
 import Link from 'next/link'
 import { useContext, useState } from 'react'
 import Countdown from 'react-countdown'
@@ -69,7 +69,9 @@ function PricingCard({ label, credits, title, price, duration, expiring, descrip
             {descriptions.map((description, i) => <div key={i} className='text-white text-sm font-bold'>
                 {/* {description} */}
                 <div className='align-middle opacity-80 text-sm font-light'>
-                    <span className='align-middle'> <TicketStar set='bulk' primaryColor='#f555ef' size={20} /> </span><span className='align-top font-bold'>{description}</span>
+                    <span className='align-middle'>
+                        {/* <TicketStar set='bulk' primaryColor='#f555ef' size={20} /> */}
+                    </span><span className='align-top font-bold'>{description}</span>
                 </div>
             </div>)}
         </div>

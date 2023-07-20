@@ -1,14 +1,15 @@
 import Head from 'next/head'
 import { Logo } from '@/components/Logo'
-import { Button, Card, Collapse, } from '@nextui-org/react'
-import { ArrowRight } from '@odyssoft/iconly-clone'
+import { Button, Collapse, } from '@nextui-org/react'
+// import { ArrowRight } from '@odyssoft/iconly-clone'
 import ScrollingText from '@/components/ScrollingText'
 import ScrollingDiv from '@/components/ScrollingDiv'
 import AnimatedParagraph from '@/components/AnimatedParagraph'
 import { useEffect, useState } from 'react'
 import AnimatedImageGrid from '@/components/AnimatedImageGrid'
-import Maintenance from './maintenance'
+// import Maintenance from './maintenance'
 import { Footer } from '../components/Footer'
+import { ArrowRight } from 'lucide-react'
 
 
 const photoDescriptions = [
@@ -78,7 +79,7 @@ const imagesDescriptions = [
     images: [
       "https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/38d5dcda-be00-4c5f-7c81-931c64a24900/public",
       "https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/807a905d-a8c8-4d88-2aa5-dfc08d208700/public",
-      "https://img.arible.co/cdn-cgi/image/format=webp/https://replicate.delivery/pbxt/puEWoFRQ5TbCB5q2ehKza8Uy2QfOUcPpv6fmAR6Nf3RyxZLDB/seed-752547532.png"
+      "https://img.arible.co/cdn-cgi/image/format=auto,quality=50/https://replicate.delivery/pbxt/puEWoFRQ5TbCB5q2ehKza8Uy2QfOUcPpv6fmAR6Nf3RyxZLDB/seed-752547532.png"
     ]
   },
   {
@@ -210,7 +211,7 @@ export default function Index() {
             <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
           </div>
         </ScrollingText>
-        {/* masonry style grid */}
+
         <ScrollingDiv
           className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4  overflow-hidden  '
         >
@@ -279,7 +280,7 @@ export default function Index() {
               src='https://pub-7bbc6377635e4e588a0a4c5fdfb0df93.r2.dev/arible_clone.webm'
             />
           </div>
-          <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
+          {/* <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
             <video preload='none' loop muted className='w-full h-full object-cover rounded-3xl'
               poster='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/cdce83dc-ff6b-4d3d-2add-e62ae79a1c00/public'
               src='/arible_selector.mp4'
@@ -290,7 +291,7 @@ export default function Index() {
               poster='/arible_styles.gif'
               src='/arible_styles.mp4'
             />
-          </div>
+          </div> */}
         </div>
       </section>
       <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col justify-between gap-6'>
@@ -331,13 +332,13 @@ export default function Index() {
             <span className='text-2xl text-neutral-900 font-medium'>Starting @</span>
             <h1 className='text-4xl md:text-8xl font-black text-neutral-900'>
               $24.99
-              {/* <span className='text-4xl md:text-6xl font-extrabold'>Onetime Cost</span> */}
+
             </h1>
-            {/* <p>Or $29.99 Monthly</p> */}
+
             <GetStarted />
-            <a href='https://arible.getrewardful.com/signup'>
+            {/* <a href='https://arible.getrewardful.com/signup'>
               <Button flat color={'secondary'} className='mt-8 w-full' size='md'>Earn 20% Referring Someone</Button>
-            </a>
+            </a> */}
           </ScrollingDiv>
         </div>
       </section>
@@ -349,8 +350,10 @@ export default function Index() {
 function GetStarted({ color = 'bg-neutral-900', text = '' }) {
   return <a href='/create'>
     <Button
-      iconRight={<ArrowRight set='bold' />}
-      // blink tailwindcss
+      iconRight={
+        <ArrowRight />
+      }
+
       size={'lg'} className={`w-full ${color} ${text} py-8 `}
     >Try Demo <span className='text-xs ml-4 '>No Signup Required</span> </Button>
   </a>

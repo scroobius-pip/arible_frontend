@@ -1,5 +1,5 @@
 import { Button, Divider, Input, Loading, Modal, useInput } from '@nextui-org/react'
-import { Send } from '@odyssoft/iconly-clone';
+// import { Send } from '@odyssoft/iconly-clone';
 import { useMemo, useState } from 'react';
 import { Logo } from './Logo';
 import { } from '@supabase/supabase-js'
@@ -131,7 +131,8 @@ export default function LoginModal({ open, onClose }: Props) {
                         fullWidth
 
                     />
-                    <Button size={'xl'} color='secondary' className='px-2 w-full mt-2' disabled={!helper.isValid || emailLoading || emailSent} auto icon={<Send />}
+                    <Button size={'xl'} color='secondary' className='px-2 w-full mt-2' disabled={!helper.isValid || emailLoading || emailSent} auto
+                        // icon={<Send />}
                         onClick={signInWithEmail}
                     >
                         {

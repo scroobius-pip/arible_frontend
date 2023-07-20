@@ -3,7 +3,7 @@ import { Button, Loading, Progress, Text } from '@nextui-org/react';
 import { Check, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { Star } from '@odyssoft/iconly-clone';
+// import { Star } from '@odyssoft/iconly-clone';
 
 export interface Props {
     setValue: (fileName: string) => void;
@@ -84,7 +84,7 @@ export default ({ setValue }: Props) => {
                                 <p className='text-'>
                                     <b className='text-purple-400 '>Best pictures</b> choose, to make you a <b className='text-orange-400'>
                                         <span className='align-middle spin'>
-                                            <Star set='bold' size='small' />
+                                            {/* <Star set='bold' size='small' /> */}
                                         </span>
                                     </b>
                                 </p>

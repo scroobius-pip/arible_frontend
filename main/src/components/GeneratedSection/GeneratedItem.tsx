@@ -1,7 +1,7 @@
 import { Generated } from '@/types'
 import { Badge, Button, Card, Tooltip } from '@nextui-org/react'
-import { Delete, Edit, Heart, Search } from '@odyssoft/iconly-clone'
-import { Copy } from 'lucide-react'
+// import { Delete, Edit, Heart, Search } from '@odyssoft/iconly-clone'
+import { Copy, Trash2 } from 'lucide-react'
 import { extractImageUrl } from '../../lib/extractImageUrl';
 import { memo, useCallback } from 'react'
 import { useDropzone } from 'react-dropzone'
@@ -57,11 +57,11 @@ const GeneratedItem = ({ data: { status, id, marked_for_deletion }, onPress, onC
                 onClick={onDelete}
                 className='bg-neutral-800 '
                 auto
-                icon={<Delete primaryColor='' filled />}
+                icon={<Trash2 />}
             />
 
         </div>
-        <div className='absolute w-full  bottom-2  p-2 opacity-0 duration-300 group-hover:opacity-100'>
+        <div className='absolute w-fudll  bottom-2  p-2 opacity-0 duration-300 group-hover:opacity-100'>
             <Card className='h-full '>
 
                 <Card.Footer
@@ -78,24 +78,24 @@ const GeneratedItem = ({ data: { status, id, marked_for_deletion }, onPress, onC
                         />
                     </Tooltip>
 
-                    <Tooltip placeholder='right' content={
+                    {/* <Tooltip placeholder='right' content={
                         <Badge color={'error'}>Edit Styles: Coming Soon</Badge>
                     }>
                         <Button
                             className='bg-neutral-800'
                             auto
-                            icon={<Edit />}
+                        // icon={<Edit />}
                         />
-                    </Tooltip>
-                    <Tooltip placement='top' content={
+                    </Tooltip> */}
+                    {/* <Tooltip placement='top' content={
                         <Badge color={'primary'}>Save Style: Coming Soon</Badge>
                     }>
                         <Button
                             className='bg-neutral-800'
                             auto
-                            icon={<Heart primaryColor='#E2294F' filled />}
+                        // icon={<Heart primaryColor='#E2294F' filled />}
                         />
-                    </Tooltip>
+                    </Tooltip> */}
 
                 </Card.Footer>
             </Card>

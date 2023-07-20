@@ -4,7 +4,7 @@ import { extractImageUrl } from '@/lib/extractImageUrl';
 import { Generated } from '@/types';
 import { Button, Divider, Modal } from '@nextui-org/react';
 // import { CloseSquare, Heart } from '@odyssoft/iconly-clone';
-import { Copy, Download, Heart, Printer, Share, SidebarCloseIcon } from 'lucide-react';
+import { Copy, Download, Heart, Minimize, Printer, Share, SidebarCloseIcon } from 'lucide-react';
 import { useContext, useEffect, useState } from 'react';
 import Countdown from 'react-countdown';
 
@@ -74,8 +74,8 @@ export default function GeneratedModal({ selected, close, watermark }: Props) {
                             bgBlur: "#0f111466",
                         }}
                         auto
-                        icon={<SidebarCloseIcon size={40} />}
-                        className='absolute md:inset-2 z-10  '
+                        icon={<Minimize className='' size={24} />}
+                        className='absolute md:inset-2 z-10   '
                         onClick={close}
                     />
                     <img

@@ -1,6 +1,7 @@
 import { Style } from '@/types'
 import { Card, Col, Row, Text } from '@nextui-org/react'
-import { Heart } from '@odyssoft/iconly-clone'
+import { Heart } from 'lucide-react'
+// import { Heart } from '@odyssoft/iconly-clone'
 import { memo } from 'react'
 
 
@@ -56,7 +57,8 @@ const StyleItem = ({ style: { image, style: { name } }, selected }: Props) => {
             </Col>
             <Col >
                 <Row justify="flex-end">
-                    <Heart data-summary={name} primaryColor='#E2294F' filled={selected} />
+                    {/* <Heart data-summary={name} primaryColor='#E2294F' filled={selected} /> */}
+                    <Heart data-summary={name} />
                 </Row>
             </Col>
 

@@ -2,7 +2,7 @@ import { Masonry } from 'masonic'
 import { memo, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import GeneratedItem from './GeneratedItem'
 import { Button, Progress } from '@nextui-org/react';
-import { Category, Delete, Heart, Plus } from '@odyssoft/iconly-clone';
+// import { Category, Delete, Heart, Plus } from '@odyssoft/iconly-clone';
 import { ModalContext } from '@/lib/ModalState';
 import { AppContext } from '@/lib/AppState';
 import GenerateButton from '../GenerateButton';
@@ -11,6 +11,7 @@ import { Generated, Person } from '@/types';
 import { motion, AnimatePresence } from 'framer-motion'
 import { debounce } from "debounce";
 import { useImageDropCompressed } from '@/lib/useImageDropCompressed';
+import { Plus } from 'lucide-react';
 
 const listItemVariants = {
     hidden: { opacity: 0, scale: 0.8 },
@@ -109,16 +110,19 @@ export default () => {
     }}>
         {/* {!user && <h5 className='text-purple-500 font-medium'>Demo Mode: Login To Create Your Own Avatars</h5>} */}
         {/* <h6 className='animate-pulse'>Loading Might Get Stuck: Please Reload The Page Every Few Minutes</h6> */}
-        {!user && !generatedList.loading && <Button size={'md'} className='font-extrabold py-4' auto color={'gradient'} icon={<Plus set="bold" />} onClick={() => {
-            setLoginModalVisible(true)
-        }}>Create Your Own Avatars <span className='p-2 text-xs font-bold text-neutral-200'>Requires Subscription</span></Button>}
-        <div className='flex justify-end flex-row gap-2 py-4 w-full'>
+        {!user && !generatedList.loading && <Button size={'md'} className='font-extrabold py-4 mb-4' auto color={'gradient'}
+            // icon={<Plus set="bold" />}
+            icon={<Plus />}
+            onClick={() => {
+                setLoginModalVisible(true)
+            }}>Create Your Own Avatars <span className='p-2   text-xs font-bold text-neutral-200'>Requires Subscription</span></Button>}
+        {/* <div className='flex justify-end flex-row gap-2 py-4 w-full'>
             <Button
                 auto
                 flat
                 //@ts-ignore
                 color={'secondary'}
-                icon={<Category set="bold" />}
+                // icon={<Category set="bold" />}
                 className='border-2 border-solid'
             >
                 All
@@ -129,12 +133,12 @@ export default () => {
 
                 //@ts-ignore
                 color={'secondary'}
-                icon={<Heart set="bold" />}
+            // icon={<Heart set="bold" />}
             >
-                {/* Favorites */}
+
             </Button>
 
-        </div>
+        </div> */}
         <CachedGeneratedList deleteGenerated={(generated) => {
             if (selectedPerson) {
                 deleteGenerated(generated.id, selectedPerson.id)
@@ -227,7 +231,8 @@ const EmptyStatePhoto = ({ personTraining, }: { personTraining: boolean }) => {
                         <>
                             <div className='text-3xl font-bold mb-4'>Let's Create Your First Person!</div>
                             <div className='text-xl font-bold mb-4 opacity-90 capitalize'>Craft Your First Character for Avatars, Virtual Photography and Anything You Want.</div>
-                            <Button auto size={'lg'} color={'gradient'} icon={<Plus set="bold" />}
+                            <Button auto size={'lg'} color={'gradient'}
+                                // icon={<Plus set="bold" />}
                                 onClick={() => setPersonCreatorModalVisible(true)}
                             >
                                 Create Person

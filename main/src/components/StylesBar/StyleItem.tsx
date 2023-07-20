@@ -1,6 +1,6 @@
 import { Avatar, Badge, Card, Row, Text, Tooltip } from '@nextui-org/react';
-import { Check, PersonStanding } from 'lucide-react';
-import { TickSquare } from '@odyssoft/iconly-clone';
+import { Check, CheckCheckIcon, CheckCircle2, CheckSquare, PersonStanding } from 'lucide-react';
+// import { TickSquare } from '@odyssoft/iconly-clone';
 import { memo } from 'react';
 import { Style } from '@/types';
 
@@ -53,13 +53,12 @@ function StyleItem({ data, selected, onPress }: Props) {
                     <PersonStanding color='white' />
                 </Tooltip>
 
+
                 {
-                    selected && <TickSquare
-                        set="bold" primaryColor="#fff"
+                    selected && <CheckCircle2
 
                     />
                 }
-
             </div>
 
         </Card.Header>

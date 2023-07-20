@@ -1,10 +1,10 @@
 //@ts-nochecppk
 import React, { useRef, useState, useEffect, MutableRefObject } from 'react';
 import { Button, Loading, Progress } from '@nextui-org/react';
-import { CameraIcon } from 'lucide-react';
+import { ArrowRightCircle, CameraIcon, Delete, Trash2 } from 'lucide-react';
 import cameraAnimation from './camera.json';
 // import Lottie from 'lottie-react';
-import { ArrowRightSquare, Delete } from '@odyssoft/iconly-clone';
+// import { ArrowRightSquare, Delete } from '@odyssoft/iconly-clone';
 import { Toaster, toast } from 'react-hot-toast';
 import { AsyncZippable } from 'fflate';
 import dynamic from 'next/dynamic';
@@ -168,7 +168,9 @@ const CameraComponent: React.FC<Props> = (props) => {
                         size={'xl'}
                         color={'success'}
                         className='w-full'
-                        icon={uploading ? <Loading color='white' type='spinner' size='xl' /> : <ArrowRightSquare />}
+                        // icon={uploading ? <Loading color='white' type='spinner' size='xl' /> :
+                        //     <ArrowRightSquare />}
+                        icon={uploading ? <Loading color='white' type='spinner' size='xl' /> : <ArrowRightCircle />}
                     >
                         Continue
                     </Button>
@@ -212,7 +214,8 @@ const CameraComponent: React.FC<Props> = (props) => {
                                 // icon={}
                                 >
 
-                                    <Delete set='bold' primaryColor='' />
+                                    {/* <Delete set='bold' primaryColor='' /> */}
+                                    <Trash2 />
 
                                 </Button>
                             </div>

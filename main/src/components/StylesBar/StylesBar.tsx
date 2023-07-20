@@ -1,7 +1,7 @@
 import { AppContext } from '@/lib/AppState';
 import { ModalContext } from '@/lib/ModalState';
 import { Button, Collapse, useModal, Text, Avatar, Tooltip } from '@nextui-org/react';
-import { Folder, Setting } from '@odyssoft/iconly-clone';
+// import { Folder, Setting } from '@odyssoft/iconly-clone';
 import { useContext, useState } from 'react';
 import GenerateButton from '../GenerateButton';
 import PersonSelector from './PersonSelector'
@@ -46,7 +46,7 @@ export default () => {
                             }
                         }
                     } />
-                    <Tooltip
+                    {/* <Tooltip
                         content='Style Edits Coming Soon!'
                         placement='left'
                     >
@@ -56,9 +56,9 @@ export default () => {
                             rounded
                             className={`'transform duration-300 bg-neutral-800   ease-in-out align-middle flex' ${styleToggled ? 'rotate-45' : 'rotate-0'}`}
                             auto
-                            icon={<Setting set="bold" />}
+                        // icon={<Setting set="bold" />}
                         />
-                    </Tooltip>
+                    </Tooltip> */}
                 </div>
 
             </div>
@@ -81,9 +81,9 @@ function StyleSelectButton({ onClick }: any) {
             className='w-full bg-white text-neutral-800'
             // color={'white'}
             onClick={onClick}
-            icon={
-                <Folder size={16} set="bold" primaryColor="black" />
-            }
+        // icon={
+        //     <Folder size={16} set="bold" primaryColor="black" />
+        // }
         // bordered
         // size={'sm'}
         >

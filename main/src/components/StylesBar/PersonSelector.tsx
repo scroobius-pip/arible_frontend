@@ -1,7 +1,7 @@
 import { AppContext } from '@/lib/AppState';
 import { Person } from '@/types';
 import { Button, Text, useModal, Modal, Dropdown, Avatar, Loading } from '@nextui-org/react';
-import { Camera, User, Plus } from '@odyssoft/iconly-clone';
+// import { Camera, User, Plus } from '@odyssoft/iconly-clone';
 import { useCallback, useContext, useState } from 'react';
 
 
@@ -84,7 +84,7 @@ export default function PersonSelector({ persons, onSelect, selected_id }: Props
             {(item: any) => (
                 item.name === 'New Person' || item.name === 'New Product' ?
                     <Dropdown.Item key={item.id} withDivider={item.name === 'New Person'} command='⌘⇧N'
-                        icon={<Plus set="curved" />}
+                    // icon={<Plus set="curved" />}
                     >
                         {item.name}
                     </Dropdown.Item> :

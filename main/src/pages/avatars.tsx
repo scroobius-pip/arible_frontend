@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import { Badge, Button, Collapse, Navbar } from '@nextui-org/react'
-import { ArrowRight } from '@odyssoft/iconly-clone'
+// import { ArrowRight } from '@odyssoft/iconly-clone'
 import Marquee from 'react-fast-marquee'
 import { Logo } from '@/components/Logo'
 import { useEffect, useState } from 'react'
@@ -67,7 +67,7 @@ function StylesSection() {
                 </div>
                 <a href='/create'>
                     <Button
-                        iconRight={<ArrowRight set='bold' />}
+                        // iconRight={<ArrowRight set='bold' />}
                         size={'lg'} className='w-full bg-neutral-900 py-8 flex'
                     >Demo <span className='opacity-70 ml-4 text-sm align-text-bottom pt-0.5'>No sign-up required!</span> </Button>
                 </a>
@@ -125,7 +125,7 @@ function MainSection() {
                 <a href='/create'>
                     <Button
 
-                        iconRight={<ArrowRight set='bold' />}
+                        // iconRight={<ArrowRight set='bold' />}
                         size={'lg'} className='w-full bg-neutral-900 py-8'
                     >Demo <span className='opacity-70 ml-4 text-sm align-text-bottom pt-0.5'>No sign-up required!</span> </Button>
                 </a>

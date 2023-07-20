@@ -1,5 +1,6 @@
 import { Card, Text } from '@nextui-org/react'
-import { Camera, } from '@odyssoft/iconly-clone'
+import { Camera } from 'lucide-react';
+// import { Camera, } from '@odyssoft/iconly-clone'
 
 const options = [
     {
@@ -28,28 +29,26 @@ interface Props {
         variant: 'real' | 'art' | null;
     };
 }
-
+const points = [
+    "Make as many profile pics as you want",
+    "Whip up endless social media photos",
+    "Snap countless professional headshots",
+    "Craft epic portraits to print on canvas",
+]
 export default ({ setPersonType, personType }: Props) => {
     return <div className='p-6 m-auto bg-neutral-900 rounded-3xl border-solid border-neutral-800 max-w-lg'>
         <h1 className='text-2xl font-extrabold'>Create Your Avatar</h1>
         <div className='pb-8 text-left flex flex-col gap-4'>
             <h4 className='text-xl font-bold'>Hey, we're gonna teach the AI to recognize your face, and then you can: </h4>
             <div>
-                <div className='align-middle opacity-80 text-sm font-medium'>
-                    <span className='align-middle'> <Camera set='bold' size={20} /> </span><span className='align-top'>Make as many profile pics as you want</span>
-                </div>
-                <div className='align-middle opacity-80 text-sm font-medium'>
-                    <span className='align-middle'> <Camera set='bold' size={20} /> </span><span className='align-top'>Whip up endless social media photos</span>
-                </div>
-                <div className='align-middle opacity-80 text-sm font-medium'>
-                    <span className='align-middle'> <Camera set='bold' size={20} /> </span><span className='align-top'>Snap countless professional headshots</span>
-                </div>
-                <div className='align-middle opacity-80 text-sm font-medium'>
-                    <span className='align-middle'> <Camera set='bold' size={20} /> </span><span className='align-top'>Craft epic portraits to print on canvas</span>
-                </div>
-                {/* <div className='align-middle opacity-100 text-sm font-medium bg-gradient-to-tr from-purple-400 to-purple-600 text-white p-2 rounded-md w-fit mt-4'>
-                    <span className='align-middle'> <Star set='bold' size={20} /> </span><span className='align-top'>Plus, we'll email our coolest portrait styles of you every month!</span>
-                </div> */}
+
+                {points.map((point, index) => <div key={index} className=' opacity-80 text-sm font-medium'>
+                    <span className='align-middle mr-2'>
+                        <Camera />
+                    </span>
+                    {point}
+                </div>)}
+
             </div>
         </div>
         <div className='grid grid-cols-2 gap-4 md:grid-cols-3 '>
@@ -67,7 +66,7 @@ export default ({ setPersonType, personType }: Props) => {
                 }}
             />)}
         </div>
-    </div>
+    </div >
 }
 
 

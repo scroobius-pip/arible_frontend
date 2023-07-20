@@ -31,11 +31,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               __html: `(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');`
             }}
           /> */}
-          <script
+          {/* <script
             async
             src='https://r.wdfl.co/rw.js'
             data-rewardful='d3fa51'
-          />
+          /> */}
           <script
             defer
             dangerouslySetInnerHTML={{
@@ -71,11 +71,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
           {/* <script>(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3625461&variant_id=sf';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
 </script> */}
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3625461&variant_id=sf';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();`
             }}
-          />
+          /> */}
 
           <script
             dangerouslySetInnerHTML={{

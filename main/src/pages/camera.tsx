@@ -1,10 +1,10 @@
 //@ts-nochecppk
 import React, { useRef, useState, useEffect, MutableRefObject } from 'react';
 import { Button, Loading, Progress } from '@nextui-org/react';
-import { CameraIcon } from 'lucide-react';
+import { ArrowRightCircle, CameraIcon, Delete, Trash2 } from 'lucide-react';
 import cameraAnimation from './camera.json';
 import Lottie from 'lottie-react';
-import { ArrowRightSquare, Delete } from '@odyssoft/iconly-clone';
+// import { ArrowRightSquare, Delete } from '@odyssoft/iconly-clone';
 
 const IMAGE_COUNT = 30;
 const MIN_DISTANCE = 14;
@@ -83,7 +83,9 @@ const CameraComponent: React.FC = () => {
                         onClick={() => { }}
                         size={'xl'}
                         className='w-full bg-green-600'
-                        icon={<ArrowRightSquare />}
+                        // icon={<ArrowRightSquare />}
+                        icon={<ArrowRightCircle />}
+
                     >
                         Continue
                     </Button>
@@ -129,8 +131,8 @@ const CameraComponent: React.FC = () => {
                                 // icon={}
                                 >
 
-                                    <Delete set='bold' primaryColor='' />
-
+                                    {/* <Delete set='bold' primaryColor='' /> */}
+                                    <Trash2 />
                                 </Button>
                             </div>
                         </div>

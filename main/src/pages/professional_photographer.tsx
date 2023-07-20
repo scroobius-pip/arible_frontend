@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Logo } from '@/components/Logo'
 import { Button, Card, Collapse, } from '@nextui-org/react'
-import { ArrowRight } from '@odyssoft/iconly-clone'
+// import { ArrowRight } from '@odyssoft/iconly-clone'
 import ScrollingText from '@/components/ScrollingText'
 import ScrollingDiv from '@/components/ScrollingDiv'
 import { Footer } from '@/components/Footer'
@@ -230,7 +230,7 @@ function GetStarted({ color = 'bg-neutral-900', text = '' }) {
     return <a href='/create'>
         <Button
 
-            iconRight={<ArrowRight set='bold' />}
+            // iconRight={<ArrowRight set='bold' />}
             // blink tailwindcss
             size={'lg'} className={`w-full ${color} ${text} py-8 `}
         >Try Demo </Button>

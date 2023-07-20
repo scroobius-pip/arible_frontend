@@ -2,7 +2,7 @@ import { Masonry } from 'masonic'
 import { memo, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import ShowcaseItem from './ShowcaseItem'
 import { Avatar, Button, Progress } from '@nextui-org/react';
-import { Category, Delete, Heart, Plus } from '@odyssoft/iconly-clone';
+// import { Category, Delete, Heart, Plus } from '@odyssoft/iconly-clone';
 import { ModalContext } from '@/lib/ModalState';
 import { AppContext } from '@/lib/AppState';
 import GenerateButton from '../GenerateButton';
@@ -200,7 +200,8 @@ const EmptyStatePhoto = ({ personTraining, }: { personTraining: boolean }) => {
                         <>
                             <div className='text-3xl font-bold mb-4'>Let's Create Your First Person!</div>
                             <div className='text-xl font-bold mb-4 opacity-90 capitalize'>Craft Your First Character for Avatars, Virtual Photography and Anything You Want.</div>
-                            <Button auto size={'lg'} color={'gradient'} icon={<Plus set="bold" />}
+                            <Button auto size={'lg'} color={'gradient'}
+                                // icon={<Plus set="bold" />}
                                 onClick={() => setPersonCreatorModalVisible(true)}
                             >
                                 Create Person
@@ -240,7 +241,9 @@ interface GeneratedListProps {
 }
 
 function RequiresSubscriptionButton() {
-    return <Button size={'md'} className='font-extrabold py-4' auto color={'gradient'} icon={<Plus set="bold" />}>Create Your Own Avatars <span className='p-2 text-xs font-bold text-neutral-200'>Requires Subscription</span></Button>;
+    return <Button size={'md'} className='font-extrabold py-4' auto color={'gradient'}
+    // icon={<Plus set="bold" />}
+    >Create Your Own Avatars <span className='p-2 text-xs font-bold text-neutral-200'>Requires Subscription</span></Button>;
 }
 
 function GeneratedList({ generatedList, selectedPerson, shareGenerated, userId, setSelectedGenerated }: GeneratedListProps) {

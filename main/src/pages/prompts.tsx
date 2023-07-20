@@ -5,7 +5,7 @@ import { Badge, Button, Input, Loading } from '@nextui-org/react';
 // import { Masonry, useInfiniteLoader } from 'masonic'
 import exportFromJSON from 'export-from-json';
 import { useEffect, useState, memo } from 'react';
-import { PaperDownload } from '@odyssoft/iconly-clone';
+// import { PaperDownload } from '@odyssoft/iconly-clone';
 import { Style } from '@/types';
 import useInfiniteScroll from 'react-infinite-scroll-hook';
 import Fuse from 'fuse.js'
@@ -107,9 +107,10 @@ export default function PromptDatabase() {
                     flat
                     color='secondary'
                     auto
-                    icon={
-                        <PaperDownload />
-                    } >Download ({selectedStyles.length}) Selected Prompts</Button>
+                // icon={
+                //     <PaperDownload />
+                // }
+                >Download ({selectedStyles.length}) Selected Prompts</Button>
 
             </div>
             {/* <Navigation /> */}
@@ -134,9 +135,10 @@ export default function PromptDatabase() {
                         color='secondary'
                         auto
                         shadow
-                        icon={
-                            <PaperDownload />
-                        } >Download Prompts</Button>
+                    // icon={
+                    //     <PaperDownload />
+                    // }
+                    >Download Prompts</Button>
                     <Button size={'xl'}
                         disabled={selectedStyles.length === 0}
                         onClick={() => {
@@ -147,9 +149,10 @@ export default function PromptDatabase() {
                         bordered
                         color='secondary'
                         auto
-                        icon={
-                            <PaperDownload />
-                        } >Download ({selectedStyles.length}) Selected Prompts</Button>
+                    // icon={
+                    //     <PaperDownload />
+                    // }
+                    >Download ({selectedStyles.length}) Selected Prompts</Button>
                 </div>
 
 

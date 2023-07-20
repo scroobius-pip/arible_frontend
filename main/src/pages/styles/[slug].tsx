@@ -1,7 +1,7 @@
 import { Logo } from '@/components/Logo'
 import { ApiService, IPage } from '@/lib/api'
 import { Button } from '@nextui-org/react'
-import { ArrowRight } from '@odyssoft/iconly-clone'
+// import { ArrowRight } from '@odyssoft/iconly-clone'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
 
@@ -61,7 +61,7 @@ function MainSection({ page: { title, description, items } }: PageData) {
                 <a href='/create'>
                     <Button
 
-                        iconRight={<ArrowRight set='bold' />}
+                        // iconRight={<ArrowRight set='bold' />}
                         size={'lg'} className='w-full bg-neutral-900 py-8'
                     >Demo <span className='opacity-70 ml-4 text-sm align-text-bottom pt-0.5'>No sign-up required!</span> </Button>
                 </a>
@@ -117,7 +117,7 @@ function StylesSection({ styles }: { styles: IPage['items'] }) {
                 </div>
                 <a href='/create'>
                     <Button
-                        iconRight={<ArrowRight set='bold' />}
+                        // iconRight={<ArrowRight set='bold' />}
                         size={'lg'} className='w-full bg-neutral-900 py-8 flex'
                     >Demo <span className='opacity-70 ml-4 text-sm align-text-bottom pt-0.5'>No sign-up required!</span> </Button>
                 </a>
