@@ -6,6 +6,8 @@ import { useContext, useState } from 'react'
 import Countdown from 'react-countdown'
 import Marquee from 'react-fast-marquee'
 
+declare var dataLayer: any
+
 interface PricingCardProps {
     title: string
     price: string
@@ -157,6 +159,14 @@ export default function Pricing({ nextArgs }: { nextArgs: object }) {
     }
 
     const planClicked = (product_id: string, discountId?: string, subscription?: boolean) => {
+
+        if (dataLayer) {
+            dataLayer.push({
+                'event': 'select_plan',
+                'product_id': product_id,
+            });
+        }
+
         const success_args = `action=create&value=${encodeURIComponent(JSON.stringify(nextArgs))}`
         operations.getCheckoutSession(product_id, success_args, discountId, subscription)
             .then((res) => {
