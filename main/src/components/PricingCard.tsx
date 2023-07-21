@@ -87,7 +87,17 @@ function PricingCard({ label, credits, title, price, duration, expiring, descrip
 
 const prices = [
 
+    {
+        product_id: 'price_1ND7pmAdKK78JiPHOLY9rAUt',
+        title: 'Essential',
+        duration: 'monthly',
+        style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-neutral-500 via-grey-500 to-neutral-900',
+        price: '$14.99',
+        credits: '30',
+        descriptions: ["Standard Resolution (30 Photos)", "High Resolution (15 Photos)", "Single Person Use", "Buy Extra Credits Anytime"],
+        // label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
 
+    },
 
     {
         product_id: 'price_1NRwZFAdKK78JiPH74ZhMrob',
@@ -133,7 +143,7 @@ const prices = [
         actualPrice: '$600',
         credits: 'Unlimited',
         descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (Unlimited Photos)", "Unlimited Photos for Your Team & Employees", "Priority Support"],
-        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
+        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-neutral-100'>Corporate & Small Business</div>
     },
     {
         product_id: 'price_1NQE6uAdKK78JiPHx2IP3wsC',
@@ -144,7 +154,7 @@ const prices = [
         actualPrice: '$600',
         credits: 'Unlimited',
         descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (Unlimited Photos)", "Unlimited Photos for Your Team & Employees", "Priority Support"],
-        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
+        label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-neutral-100'>Corporate & Small Business</div>
     }
 
 ]
