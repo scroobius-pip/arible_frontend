@@ -31,6 +31,7 @@ interface AppState {
         addStylesToPending: (prompt: Style[], shouldGenerate: boolean) => void;
         generateIStyle: (style: IStyleInput, person_id: number) => void;
         registerDiscord: (code: string) => Promise<{ success: boolean }>;
+        toggleDefaultPerson: (person_id: number) => Promise<void>;
         getCheckoutSession: (product_id: string, success_path: string, discountID?: string, subscription?: boolean) => Promise<CheckoutSessionResult>;
     }
 }
@@ -59,6 +60,7 @@ const initialState: AppState = {
             alert('From default getGenerated')
             return { error: ErrorType.Unknown }
         },
+        toggleDefaultPerson: async () => { },
         deleteGenerated: async () => { },
         registerDiscord: async () => {
             return { success: false }
@@ -516,6 +518,14 @@ export const AppProvider = ({ children }: any) => {
         return data;
     }
 
+    async function toggleDefaultPerson(person_id: number) {
+        const { error } = await apiService.setDefaultPerson(person_id);
+        if (error) {
+            console.error(error);
+            return;
+        }
+    }
+
     const state: AppState = {
         persons,
         user,
@@ -536,6 +546,7 @@ export const AppProvider = ({ children }: any) => {
             registerDiscord,
             // generate,
             addStylesToPending,
+            toggleDefaultPerson
         },
         generatedList
     };

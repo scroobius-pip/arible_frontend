@@ -1,6 +1,6 @@
 import { AppContext } from '@/lib/AppState';
 import { Person } from '@/types';
-import { Button, Text, useModal, Modal, Dropdown, Avatar, Loading } from '@nextui-org/react';
+import { Button, Text, useModal, Modal, Dropdown, Avatar, Loading, Switch } from '@nextui-org/react';
 // import { Camera, User, Plus } from '@odyssoft/iconly-clone';
 import { useCallback, useContext, useState } from 'react';
 
@@ -106,11 +106,13 @@ export default function PersonSelector({ persons, onSelect, selected_id }: Props
                     >
                         <div className='flex justify-between items-center w-full truncate'>
                             <p className='text-sm font-bold'>
-                                {item.name}
+                                {(item.name.length <= 20) ? item.name : item.name.slice(0, 20) + '...'}
                             </p>
 
                             {item?.error ? <></> : item.is_done ? <></> : <Loading className='w-full ml-2' size="xs" />}
                         </div>
+
+                        {/* <Button */}
                     </Dropdown.Item>
             )}
         </Dropdown.Menu>

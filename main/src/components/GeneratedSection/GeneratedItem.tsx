@@ -68,7 +68,7 @@ const GeneratedItem = ({ data: { status, id, marked_for_deletion }, onPress, onC
                     className='flex justify-between gap-1'
                 >
                     <Tooltip placeholder='right' content={
-                        <Badge color={'secondary'}>Copy this Style: Make More</Badge>
+                        <Badge color={'secondary'}>Copy this Style</Badge>
                     }>
                         <Button
                             onClick={onCopy}

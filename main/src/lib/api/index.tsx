@@ -12,6 +12,8 @@ export interface IUser {
     email: string;
     credits: number;
     persons: IPerson[];
+    default_person_id: number | null;
+    subscribed: boolean | null;
 }
 
 export interface IPerson {
@@ -20,6 +22,7 @@ export interface IPerson {
     name: string;
     person_type: 'Male' | 'Female' | 'Couple' | 'Product' | 'Dog' | 'Cat';
     model: IModel | null;
+
 }
 
 export function personFromIPerson(iPerson: IPerson): Person {
@@ -282,10 +285,7 @@ export class ApiService {
     }
 
     private static async handleResponse<T>(response: Response, isJson: boolean = true): Promise<RequestResult<T>> {
-
-
         const data = isJson ? await response.json() : await response.text();
-
 
         if (!data.error) {
             return { data };
@@ -332,6 +332,16 @@ export class ApiService {
         })
 
         return ApiService.handleResponse<IPerson>(response);
+    }
+
+    public async setDefaultPerson(person_id: number): Promise<RequestResult<void>> {
+        const url = `${ApiService.BASE_URL}/default_person/${person_id}`
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: this._header,
+        })
+
+        return ApiService.handleResponse<void>(response, false);
     }
 
     public async newCheckoutSession(product_id: string, success_path: string, discountID?: string, subscription = true): Promise<RequestResult<string>> {
@@ -388,6 +398,7 @@ export class ApiService {
 
         return ApiService.handleResponse<IGenerated>(response);
     }
+
 
     public static async generateDemo(input: IGeneratedInput): Promise<RequestResult<IGenerated>> {
         const url = `${ApiService.BASE_URL}/create_generated_demo`
