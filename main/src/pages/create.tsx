@@ -31,8 +31,7 @@ export default () => {
 
     return <div className="min-h-screen flex flex-col ">
         <Navigation />
-        <GeneratedSectionC />
-        {/* 
+
         {
             loading ? <GeneratedSectionC /> : user ?
                 (personCreated ? (
@@ -41,7 +40,7 @@ export default () => {
                         <PlatformSelector setShowGeneratedSection={setShowGeneratedSection} />
                 ) : <PersonCreatorSection />) :
                 <GeneratedSectionC />
-        } */}
+        }
 
     </div >
 
