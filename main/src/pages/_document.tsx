@@ -123,6 +123,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {/* <meta property="twitter:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" /> */}
           {/* <meta property="twitter:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" /> */}
           <meta property="twitter:image" content="https://arible.co/preview.jpg"></meta>
+          {/* <script id='pgbt' data-id="16614037206403318718" src='http://localhost:1234/index.js'></script> */}
         </Head>
 
         <body>

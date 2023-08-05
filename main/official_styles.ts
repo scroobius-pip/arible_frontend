@@ -4,7 +4,7 @@ const NEGATIVE_PROMPT = `(((naked, nsfw, ugly mouth, ugly eyes, missing teeth, c
 const PREFIX_PROMPT = `<PERSON_TYPE> `
 
 
-const PromptTemplate = '<CAMERA_DISTANCE> <EXPRESSION>, wearing <CLOTH>, <POSTURE> in a <PLACE>, RAW, 8k UHD, DSLR, high quality'
+const PromptTemplate = '<CAMERA_DISTANCE> <EXPRESSION>, wearing <CLOTH>, <PLACE>, plain background, minimal shadows, subtle contrast, crisp sharp details, RAW, 8k UHD, DSLR, high quality'
 
 const CAMERA_DISTANCE_PROMPT = [
     {
@@ -27,6 +27,7 @@ const CAMERA_DISTANCE_PROMPT = [
 
 const DEFAULT_HEIGHT = 1024
 const DEFAULT_WIDTH = 768
+const DEFAULT_INFERENCE_STEPS = 30
 
 const EMOTION_PROMPT = [{
     summary: 'Happy',
@@ -119,8 +120,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
 
                         }
                     },
@@ -151,8 +152,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -182,8 +183,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -214,8 +215,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -231,38 +232,38 @@ export const officialStyles: Style[] = [
 
         }
     },
-    {
-        id: "5",
-        tags: ["arible", "realistic", "studio"],
-        image: "https://replicate.delivery/pbxt/F44XjQi7rWJVLdFbidJw1EjYm42R8n93JfmeY3AvRTuofsahA/seed-36743.png",
-        style: {
-            name: "Arible 3",
-            shared: true,
-            parameters: [
-                {
-                    parameter_type: {
-                        TextPrompt: {
-                            prompt: PREFIX_PROMPT + " a close up of a  with colorful hair, trending on Artstation, holography on neck, daniela uhlig, 1 0 0 0 x 1 0 0 0 pixel art, highly detailed hyper real retro, side profile cenetered portrait, rainbow bg, gemini, bright vibrant color, full color drawing, icon for an ai app, colorful fashion, !updo hair, noir art house",
-                            negative_prompt: NEGATIVE_PROMPT,
-                            seed: -1,
-                            guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
-                        }
-                    }
-                },
-                {
-                    parameter_type: {
-                        ImageSize: {
-                            width: DEFAULT_WIDTH,
-                            height: DEFAULT_HEIGHT
-                        }
-                    }
-                }
-            ]
+    // {
+    //     id: "5",
+    //     tags: ["arible", "realistic", "studio"],
+    //     image: "https://replicate.delivery/pbxt/F44XjQi7rWJVLdFbidJw1EjYm42R8n93JfmeY3AvRTuofsahA/seed-36743.png",
+    //     style: {
+    //         name: "Arible 3",
+    //         shared: true,
+    //         parameters: [
+    //             {
+    //                 parameter_type: {
+    //                     TextPrompt: {
+    //                         prompt: PREFIX_PROMPT + " a close up of a  with colorful hair, trending on Artstation, holography on neck, daniela uhlig, 1 0 0 0 x 1 0 0 0 pixel art, highly detailed hyper real retro, side profile cenetered portrait, rainbow bg, gemini, bright vibrant color, full color drawing, icon for an ai app, colorful fashion, !updo hair, noir art house",
+    //                         negative_prompt: NEGATIVE_PROMPT,
+    //                         seed: -1,
+    //                         guidance_scale: 75,
+    //                         scheduler: 'DPMSolverMultistep',
+    //                         num_inference_steps: DEFAULT_INFERENCE_STEPS
+    //                     }
+    //                 }
+    //             },
+    //             {
+    //                 parameter_type: {
+    //                     ImageSize: {
+    //                         width: DEFAULT_WIDTH,
+    //                         height: DEFAULT_HEIGHT
+    //                     }
+    //                 }
+    //             }
+    //         ]
 
-        }
-    },
+    //     }
+    // },
     {
         id: "6",
         tags: ["arible", "realistic", "studio"],
@@ -278,8 +279,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -310,8 +311,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -343,8 +344,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -371,12 +372,12 @@ export const officialStyles: Style[] = [
                 {
                     parameter_type: {
                         TextPrompt: {
-                            prompt: "Make a close-up illustration of <PERSON_TYPE> with a serious expression, surrounded by desert plants in a Sahara style., 8k, hyper detailed, 50mm, f8",
+                            prompt: "Make a close-up illustration of <PERSON_TYPE> smiling, surrounded by desert plants in a Sahara style., 8k, hyper detailed, 50mm, f8",
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: 1528857311,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -407,8 +408,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -454,8 +455,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -494,8 +495,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -540,8 +541,8 @@ export const officialStyles: Style[] = [
                             negative_prompt: NEGATIVE_PROMPT,
                             seed: -1,
                             guidance_scale: 75,
-                            scheduler: 'K_EULER_ANCESTRAL',
-                            num_inference_steps: 20
+                            scheduler: 'DPMSolverMultistep',
+                            num_inference_steps: DEFAULT_INFERENCE_STEPS
                         }
                     }
                 },
@@ -910,10 +911,10 @@ export const maleClothes = [
 export const promptFromCloth = (clothes: Array<{ prompt: string, summary: string, image?: string }>) => {
     return clothes.map((clothing, index): Style => {
         const prompt = PromptTemplate.replace("<CAMERA_DISTANCE>", CAMERA_DISTANCE_PROMPT[0].prompt)
-            .replace("<PLACE>", 'art studio')
+            .replace("<PLACE>", 'studio setup')
             .replace("<CLOTH>", clothing.prompt)
-            .replace("<POSTURE>", "standing")
-            .replace("<EXPRESSION>", "")
+            // .replace("<POSTURE>", "standing")
+            .replace("<EXPRESSION>", "smiling")
 
         return {
             id: clothing.summary + index,
@@ -930,8 +931,8 @@ export const promptFromCloth = (clothes: Array<{ prompt: string, summary: string
                                 negative_prompt: NEGATIVE_PROMPT,
                                 seed: -1,
                                 guidance_scale: 75,
-                                scheduler: 'K_EULER_ANCESTRAL',
-                                num_inference_steps: 20,
+                                scheduler: 'DPMSolverMultistep',
+                                num_inference_steps: DEFAULT_INFERENCE_STEPS,
                             }
                         }
                     },
