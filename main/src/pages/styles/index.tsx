@@ -21,6 +21,7 @@ export default ({ styles }: PageData) => {
                 <meta name="description" content='Arible AI Portrait Avatars - All AI Portraits Available' />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content='ai avatars, ai portraits, stable diffusion style directory, ai art' />
+                {/* <meta name='pgbt:source' content='style selection' data-expires='600' /> */}
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main

@@ -122,8 +122,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta property="twitter:url" content="https://arible.co/" />
           {/* <meta property="twitter:title" content="Arible Avatars & Virtual Studio: Professional Photography Without Photographers Or The Camera" /> */}
           {/* <meta property="twitter:description" content="Unlimited Realistic or Artistic photos of yourself and others monthly" /> */}
-          <meta property="twitter:image" content="https://arible.co/preview.jpg"></meta>
-          {/* <script id='pgbt' data-id="16614037206403318718" src='http://localhost:1234/index.js'></script> */}
+          <meta name="twitter:image" content="https://arible.co/preview.jpg"></meta>
+          {/* <meta name='pgbt:source' content='https://arible.co/' /> */}
+          {/* <meta name='pgbt:source' data-expires='3600' /> */}
+          {/* <meta name='pgbt:source' content='https://arible.co/faq' data-expires='3600' />
+          <meta name='pgbt:source' content='https://arible.co/main' data-expires='600' />
+          <meta name='pgbt:source' content='https://arible.co/faq' data-expires='600' /> */}
+          {/* <meta name='pgbt:source' content='hello world' data-expires='600' /> */}
+
+          {/* <meta name='pgbt:qa' data-question='What is the meaning of life?' data-answer='42' />
+          <meta name='pgbt:qa' data-question='Is this the real life?' data-answer='Is this just fantasy?' />
+          <meta name='pgbt:qa' data-question='But what about the children?' data-answer='What about the children?' />
+
+          <script id='pgbt' data-id="1059050779408717183" src='http://localhost:1234/index.js'></script>
+          <meta name='pgbt:source' content='https://nextui.org/docs/getting-started' /> */}
+          {/* https://nextui.org/docs/getting-started */}
         </Head>
 
         <body>

@@ -526,7 +526,7 @@ export const useCamera = (): UseCameraHook => {
                         } else {
                             reject(new Error('Unable to convert canvas to blob'));
                         }
-                    });
+                    }, 'image/png', 1);
                 });
 
                 if (!imageBlob) {
