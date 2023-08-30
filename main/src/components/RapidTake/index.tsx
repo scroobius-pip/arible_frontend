@@ -130,7 +130,7 @@ const CameraComponent: React.FC<Props> = (props) => {
             {!stream && images.length < IMAGE_COUNT &&
                 <div className='p-4 gap-4 flex flex-col bg-neutral-900 rounded-3xl border-solid border-neutral-800 '>
                     <div className='flex flex-col gap-2'>
-                        <span className='rounded-3xl bg-neutral-800 w-fit p-2 font-bold text-xs'>Arible RapidTake v2.7</span>
+                        <span className='rounded-3xl bg-neutral-800 w-fit p-2 font-bold text-xs'>Arible RapidTake v2.8</span>
                         <p className='mt-4 font-extrabold text-2xl '>
                             Face Capture
                         </p>
