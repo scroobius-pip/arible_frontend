@@ -7,7 +7,7 @@ import ScrollingDiv from '@/components/ScrollingDiv'
 import AnimatedParagraph from '@/components/AnimatedParagraph'
 import { useEffect, useState } from 'react'
 import AnimatedImageGrid from '@/components/AnimatedImageGrid'
-// import Maintenance from './maintenance'
+import Maintenance from './maintenance'
 import { Footer } from '../components/Footer'
 import { ArrowRight } from 'lucide-react'
 
@@ -92,8 +92,9 @@ const imagesDescriptions = [
   }
 ]
 
-// export default Maintenance
-export default function Index() {
+export default Maintenance
+// export default
+function Index() {
 
   const [currentPhotoDescription, setCurrentPhotoDescription] = useState(imagesDescriptions[0])
 

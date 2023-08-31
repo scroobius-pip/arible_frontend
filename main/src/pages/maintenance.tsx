@@ -12,7 +12,7 @@ export default function Maintenance() {
             <Card isHoverable isPressable className='rounded-[3.5rem]  md:hidden lg:block' >
 
                 <Card.Image
-                    src="https://res.cloudinary.com/disn5401t/image/upload/v1680750466/pro_head3_fa8fr4.webp"
+                    src="/pro_head3.png"
                     objectFit="cover"
                     className='bg-neutral-200'
 
@@ -22,7 +22,7 @@ export default function Maintenance() {
             <Card isHoverable isPressable className='rounded-[3.5rem]  '>
 
                 <Card.Image
-                    src="https://res.cloudinary.com/disn5401t/image/upload/v1680750465/pro_head5_jnduod.webp"
+                    src="/pro_head5.png"
                     objectFit="cover"
                     className='bg-red-400'
 
@@ -32,7 +32,7 @@ export default function Maintenance() {
             <Card isHoverable isPressable className='rounded-[3.5rem] '>
 
                 <Card.Image
-                    src="https://res.cloudinary.com/disn5401t/image/upload/v1680750466/pro_head1_masjbp.webp"
+                    src="/pro_head1.png"
                     objectFit="cover"
                     className='bg-green-300'
 
@@ -42,7 +42,7 @@ export default function Maintenance() {
             <Card isHoverable isPressable className='rounded-[3.5rem] '>
 
                 <Card.Image
-                    src="https://res.cloudinary.com/disn5401t/image/upload/v1680750653/pro_head7_gy6jww.webp"
+                    src="/pro_head7.png"
                     objectFit="cover"
                     className='bg-blue-300'
 
