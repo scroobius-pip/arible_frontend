@@ -14,7 +14,8 @@ interface Props {
     close: () => void;
 }
 
-const cloudinary_base = `https://img.arible.co/cdn-cgi/image/format=webp/`
+// const cloudinary_base = `https://img.arible.co/cdn-cgi/image/format=webp/`
+const cloudinary_base = ''
 export default function GeneratedModal({ selected, close, watermark }: Props) {
     const {
         status,

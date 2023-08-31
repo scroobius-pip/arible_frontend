@@ -17,7 +17,8 @@ interface Props {
 const GeneratedItem = ({ data: { status, id, marked_for_deletion }, onPress, onCopy, onDrop, onDelete, watermark }: Props) => {
 
     const src = extractImageUrl(status) //null means generating
-    const optimizer_base = `https://img.arible.co/cdn-cgi/image/format=webp,quality=20/`
+    // const optimizer_base = `https://img.arible.co/cdn-cgi/image/format=webp,quality=20/`
+    const optimizer_base = ''
 
 
     const { getRootProps, getInputProps, isDragActive } = useDropzone({

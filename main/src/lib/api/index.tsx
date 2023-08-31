@@ -316,8 +316,8 @@ export class ApiService {
     public async createPerson(person_input: PersonInput, type: 'art' | 'real'): Promise<RequestResult<IPerson>> {
         const url = person_input.images_zip_url ? `${ApiService.BASE_URL}/create_person_model` : `${ApiService.BASE_URL}/create_person`
 
-        // const ckpt_url_realistic = "https://huggingface.co/simdi/CyberRealistic/resolve/main/CyberRealistic.ckpt"
-        const ckpt_url = ckpt_url_realistic
+        const ckpt_url = "https://huggingface.co/simdi/CyberRealistic/resolve/main/CyberRealistic.ckpt"
+        // const ckpt_url = ckpt_url_realistic
         const response = await fetch(url, {
             method: 'POST',
             headers: this._header,

@@ -92,9 +92,9 @@ const imagesDescriptions = [
   }
 ]
 
-export default Maintenance
+// export default Maintenance
 // export default
-function Index() {
+export default function Index() {
 
   const [currentPhotoDescription, setCurrentPhotoDescription] = useState(imagesDescriptions[0])
 
@@ -428,7 +428,8 @@ export function FaqSection({ rounded = false }) {
   </section>
 }
 
-const optimizer_base = "https://img.arible.co/cdn-cgi/image/format=webp,quality=80/"
+// const optimizer_base = "https://img.arible.co/cdn-cgi/image/format=webp,quality=80/"
+const optimizer_base = ""
 const sampleStyles = [
 
   "https://replicate.delivery/pbxt/MrPxYwZv36oJFxkPuPEQaQ6bY8vj8NKDxfTwqYMug4vB2QXIA/seed-304907254.png",
