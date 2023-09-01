@@ -62,20 +62,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
           {/* <script type="text/javascript"></script> */}
 
-          <script defer
+          {/* <script defer
             dangerouslySetInnerHTML={{
               __html: `
               window.$crisp=[];window.CRISP_WEBSITE_ID="b4953aeb-ba1b-4a05-af7b-47eb9629a5ee";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
               `,
             }}
-          />
-          {/* <script>(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3625461&variant_id=sf';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
-</script> */}
-          {/* <script
-            dangerouslySetInnerHTML={{
-              __html: `(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3625461&variant_id=sf';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();`
-            }}
           /> */}
+
 
           <script
             dangerouslySetInnerHTML={{
@@ -129,13 +123,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta name='pgbt:source' content='https://arible.co/main' data-expires='600' />
           <meta name='pgbt:source' content='https://arible.co/faq' data-expires='600' /> */}
           {/* <meta name='pgbt:source' content='hello world' data-expires='600' /> */}
-
-          {/* <meta name='pgbt:qa' data-question='What is the meaning of life?' data-answer='42' />
+          {/* 
+          <meta name='pgbt:qa' data-question='What is the meaning of life?' data-answer='42' />
           <meta name='pgbt:qa' data-question='Is this the real life?' data-answer='Is this just fantasy?' />
-          <meta name='pgbt:qa' data-question='But what about the children?' data-answer='What about the children?' />
+          <meta name='pgbt:qa' data-question='But what about the children?' data-answer='What about the children?' /> */}
 
-          <script id='pgbt' data-id="1059050779408717183" src='http://localhost:1234/index.js'></script>
-          <meta name='pgbt:source' content='https://nextui.org/docs/getting-started' /> */}
+          <script id='pgbt' data-id="1059050779408717183" src='https://s.thepagebot.com/pgbt.js'></script>
+          {/* <meta name='pgbt:source' content='https://nextui.org/docs/getting-started' /> */}
           {/* https://nextui.org/docs/getting-started */}
         </Head>
 
