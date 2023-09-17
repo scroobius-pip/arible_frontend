@@ -2,8 +2,7 @@ import { Person, PersonInput, Style } from '@/types';
 import JSONbig from 'json-bigint';
 import LosslessJSON from 'lossless-json';
 
-// const ckpt_url_art = 'https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0/resolve/main/dreamlike-diffusion-1.0.ckpt'
-const ckpt_url_realistic = "https://link.storjshare.io/raw/jwkojykabjm2niyhc27ryy3ophea/arible%2FicbinpICantBelieveIts_v7.ckpt"
+
 // const ckpt_url = 
 declare var Rewardful: any;
 export interface IUser {
