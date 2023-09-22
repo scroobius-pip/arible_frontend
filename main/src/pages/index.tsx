@@ -332,7 +332,7 @@ export default function Index() {
             className='w-full h-full bg-neutral-100 p-10 md:p-40 rounded-3xl shadow-2xl cursor-pointer border-white border-2 md:block flex justify-between flex-col'>
             <span className='text-2xl text-neutral-900 font-medium'>Starting @</span>
             <h1 className='text-4xl md:text-8xl font-black text-neutral-900'>
-              $14.99
+              $9.99
             </h1>
 
             <GetStarted />
@@ -386,7 +386,7 @@ export function FaqSection({ rounded = false }) {
       </Collapse>
       <Collapse title="How Much Does This Cost ?">
         <p>
-          Plans start at $14.99.
+          Plans start at $9.99.
         </p>
       </Collapse>
       <Collapse title="What Do You Do With My Uploaded Photos ?">
