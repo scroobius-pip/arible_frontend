@@ -128,7 +128,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta name='pgbt:qa' data-question='Is this the real life?' data-answer='Is this just fantasy?' />
           <meta name='pgbt:qa' data-question='But what about the children?' data-answer='What about the children?' /> */}
 
-          <script id='pgbt' data-pgbt_id="1059050779408717183" src='https://s.thepagebot.com/pgbt.js' />
+
+          <script data-pgbt_id="1059050779408717183" src='https://x.thepagebot.com' />
           {/* <meta name='pgbt:source' content='https://nextui.org/docs/getting-started' /> */}
           {/* https://nextui.org/docs/getting-started */}
         </Head>
