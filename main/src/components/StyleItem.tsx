@@ -17,7 +17,7 @@ interface Props {
 const StyleItem = ({ style: { image, style: { name } }, selected }: Props) => {
     // alert(prompt)
     const optimizer_base = 'https://ik.imagekit.io/crg7fqrjg/'
-    let optimized_src = image?.replace('https://replicate.delivery/', optimizer_base) + '?tr=w-256,fo-auto'
+    const optimized_src = image?.replace('https://replicate.delivery/', optimizer_base) + '?tr=w-256,fo-auto'
     // optimized_src = optimized_src ? `${optimized_src}?tr=w-256,fo-auto` : undefined
 
     return <Card

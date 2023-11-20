@@ -25,11 +25,10 @@ interface Props {
     onPress: (id: string) => void
 }
 
-const cloudinary_base = "https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/"
-
+const optimizer_base = 'https://ik.imagekit.io/crg7fqrjg/'
 
 function StyleItem({ data, selected, onPress }: Props) {
-    const image_src = data.image ? `${cloudinary_base}${data.image}` : '/arible_logo_light.svg'
+    const image_src = data.image ? `${data.image.replace('https://replicate.delivery/', optimizer_base)}?tr=w-256,fo-auto` : '/arible_logo_light.svg'
 
     return <Card
         color='success'
