@@ -94,7 +94,7 @@ function StylesSection() {
         >
             {styles.map((style, index) => {
                 const { style: { name, }, image } = style;
-                const image_src = `${optimizer_base}${image}`
+                const image_src = image.replace('https://replicate.delivery/', optimizer_base)
 
                 return <a href='/create'>
                     <img key={index} src={image_src} alt={name} className='rounded-3xl aspect-square p-0.5 border-2 border-solid border-opacity-30 hover:border-opacity-100 duration-300  border-neutral-900 cursor-pointer' />
@@ -105,8 +105,8 @@ function StylesSection() {
     </section>
 }
 
-const optimizer_base = "https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/"
-
+// const optimizer_base = "https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/"
+const optimizer_base = 'https://ik.imagekit.io/crg7fqrjg/'
 function MainSection() {
     return <section className='grid gap-0 lg:gap-4 grid-flow-row min-h-screen grid-cols-1 lg:grid-cols-2'>
         <div
