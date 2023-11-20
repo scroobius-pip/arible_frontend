@@ -12,11 +12,13 @@ interface Props {
 
 }
 
-const cloudinary_base = "https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/"
+// const cloudinary_base = "https://img.arible.co/cdn-cgi/image/width=256,height=256,fit=cover,format=auto/"
 
 const StyleItem = ({ style: { image, style: { name } }, selected }: Props) => {
     // alert(prompt)
-    const image_src = `${cloudinary_base}${image}`
+    const optimizer_base = 'https://ik.imagekit.io/crg7fqrjg/'
+    let optimized_src = image?.replace('https://replicate.delivery/', optimizer_base) + '?tr=w-256,fo-auto'
+    // optimized_src = optimized_src ? `${optimized_src}?tr=w-256,fo-auto` : undefined
 
     return <Card
 
@@ -32,7 +34,7 @@ const StyleItem = ({ style: { image, style: { name } }, selected }: Props) => {
 
                 placeholder='blur'
                 data-summary={name}
-                src={image_src}
+                src={optimized_src}
                 width="100%"
                 objectFit='cover'
                 height="100%"
