@@ -88,11 +88,11 @@ function PricingCard({ label, credits, title, price, duration, expiring, descrip
 const prices = [
 
     {
-        product_id: 'price_1Nt6jlAdKK78JiPHdYBCX7Nw',
+        product_id: 'price_1ND7pmAdKK78JiPHOLY9rAUt',
         title: 'Essential',
         duration: 'monthly',
         style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-neutral-500 via-grey-500 to-neutral-900',
-        price: '$9.99',
+        price: '$14.99',
         credits: '30',
         descriptions: ["Standard Resolution (30 Photos)", "High Resolution (15 Photos)", "Single Person Use", "Buy Extra Credits Anytime"],
         // label: <div className='text-slate-900 font-bold px-2 py-1 text-xs rounded-full bg-orange-500'>Amazing Value</div>
@@ -115,7 +115,7 @@ const prices = [
         title: 'Pro',
         duration: 'yearly',
         style: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500',
-        price: '$21',
+        price: '$20.99',
         actualPrice: '$600',
         credits: 'Unlimited',
         descriptions: ["Standard Resolution (Unlimited Photos)", "High Resolution (Unlimited Photos)", "Best Styles Sent To Your DM & Email Monthly", "Priority Support"],
