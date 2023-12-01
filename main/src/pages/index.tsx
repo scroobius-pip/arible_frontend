@@ -302,7 +302,7 @@ export default function Index() {
           <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
 
         </ScrollingText>
-        <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/6d6b3d28-5177-4e3b-dabc-37c20df2d800/public' className='max-w-2xl m-auto h-full object-cover' />
+        {/* <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/6d6b3d28-5177-4e3b-dabc-37c20df2d800/public' className='max-w-2xl m-auto h-full object-cover' /> */}
       </section>
 
       <section className='min-h-screen h-full p-4 md:p-8 pb-2 flex flex-col justify-between gap-6 rounded-3xl mb-20 md:mb-0'>
@@ -332,7 +332,7 @@ export default function Index() {
             className='w-full h-full bg-neutral-100 p-10 md:p-40 rounded-3xl shadow-2xl cursor-pointer border-white border-2 md:block flex justify-between flex-col'>
             <span className='text-2xl text-neutral-900 font-medium'>Starting @</span>
             <h1 className='text-4xl md:text-8xl font-black text-neutral-900'>
-              $9.99
+              $14.99
             </h1>
 
             <GetStarted />
@@ -386,7 +386,7 @@ export function FaqSection({ rounded = false }) {
       </Collapse>
       <Collapse title="How Much Does This Cost ?">
         <p>
-          Plans start at $9.99.
+          Plans start at $14.99.
         </p>
       </Collapse>
       <Collapse title="What Do You Do With My Uploaded Photos ?">
