@@ -112,9 +112,9 @@ export default function Index() {
         <div className='text-center flex justify-start mb-8'> <span><Logo /></span></div>
         <h1 className='text-lg font-sderif'>Arible V2: The App Store for AI, Launching March 2024</h1>
         <br />
-        <p  ><b className='font-serdif'>Eight months ago</b>, I launched Arible, my first foray into the SaaS world. It aimed to be the best AI Avatar Generator on the market, and in many ways, it succeeded. It offered features most competitors lacked, like a built-in face capture tool, a drag-and-drop style transfer interface, and a Discord bot for chat interaction.</p>
+        <p  ><b className='font-serdif'>Almost a year ago</b>, I launched Arible, my first foray into the SaaS world. It aimed to be the best AI Avatar Generator on the market, and in many ways, it succeeded. It offered features most competitors lacked, like a built-in face capture tool, a drag-and-drop style transfer interface, and a Discord bot for chat interaction.</p>
         <br />
-        <p>Fast forward 8 months, and the AI landscape is booming. New tools pop up daily, and even I created barcode.so, one of the first AI-powered QR code generators.</p>
+        <p>Fast forward one year, and the AI landscape is booming. New tools pop up daily, and even I created barcode.so, one of the first AI-powered QR code generators.</p>
         <br />
         <p>In this crowded space, AI Tools needs three things to thrive: differentiation, specialization, and distribution.</p>
         <ul className='text-neutral-900 list-disc [&>li]:mb-1 [&>li]:text-base'>
@@ -124,7 +124,7 @@ export default function Index() {
         </ul>
         <br />
         <h2 className='text-lg font-sderif'>Introducing Arible V2: Your Go-to Hub for Specialized AI Tools</h2>
-        <p  >Launching in March, Arible V2 is transforming into the "App Store for AI." Forget juggling multiple platforms! Developers can build and offer their specialized tools all in one place, accessible across web, Android, iOS, and even a macOS app bar. Imagine tens of thousands of hyper-focused tools, each tackling a specific need with expertise.</p>
+        <p  >Launching in March, Arible V2 is transforming into the "App Store for AI." Developers can build and offer their specialized tools all in one place, accessible across web, Android, iOS, and even a macOS app bar. Imagine tens of thousands of hyper-focused tools, each tackling a specific need.</p>
         <br />
         <h3 className='text-lg font-dserif'>What this means as a Developer:</h3>
         <ul className='text-neutral-900 list-disc [&>li]:mb-1 [&>li]:text-base'>
