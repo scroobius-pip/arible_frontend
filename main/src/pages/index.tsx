@@ -96,17 +96,6 @@ const imagesDescriptions = [
 // export default
 export default function Index() {
 
-  const [currentPhotoDescription, setCurrentPhotoDescription] = useState(imagesDescriptions[0])
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const nextIndex = imagesDescriptions.indexOf(currentPhotoDescription) + 1
-      setCurrentPhotoDescription(imagesDescriptions[nextIndex % imagesDescriptions.length])
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [currentPhotoDescription]);
-
-
 
   return <>
     <Head>
@@ -118,231 +107,49 @@ export default function Index() {
       {/* canonical */}
       <link rel='canonical' href='https://www.arible.co' />
     </Head>
-    <main
-      className='min-h-screen'
-    >
-      <section
-        className='min-h-screen p-4 md:p-8 grid grid-flow-row gap-6 grid-rows-1 lg:grid-rows-none lg:grid-flow-col lg:grid-cols-2 '
-      >
+    <main className='min-h-screen  grid'>
+      <div className='bg-neutral-50 rounded-2xl shadow-sm p-12 text-neutral-900 max-w-5xl m-auto [&>*]:text-base '>
+        <div className='text-center flex justify-start mb-8'> <span><Logo /></span></div>
+        <h1 className='text-lg font-sderif'>Arible V2: The App Store for AI, Launching March 2024</h1>
+        <br />
+        <p  ><b className='font-serdif'>Eight months ago</b>, I launched Arible, my first foray into the SaaS world. It aimed to be the best AI Avatar Generator on the market, and in many ways, it succeeded. It offered features most competitors lacked, like a built-in face capture tool, a drag-and-drop style transfer interface, and a Discord bot for chat interaction.</p>
+        <br />
+        <p>Fast forward 8 months, and the AI landscape is booming. New tools pop up daily, and even I created barcode.so, one of the first AI-powered QR code generators.</p>
+        <br />
+        <p>In this crowded space, AI Tools needs three things to thrive: differentiation, specialization, and distribution.</p>
+        <ul className='text-neutral-900 list-disc [&>li]:mb-1 [&>li]:text-base'>
+          <li><strong className='font-dserif'>Differentiation:</strong> <p>Basic features are no longer enough. AI products need unique selling points to stand out.</p></li>
+          <li><strong className='font-sderif'>Specialization:</strong> <p>Instead of trying to be everything to everyone, focusing on specific needs leads to better experiences.</p></li>
+          <li><strong className='font-sderif'>Distribution:</strong> <p>Many potential users still have no idea these amazing tools exist! We need better ways to connect them with what they need.</p></li>
+        </ul>
+        <br />
+        <h2 className='text-lg font-sderif'>Introducing Arible V2: Your Go-to Hub for Specialized AI Tools</h2>
+        <p  >Launching in March, Arible V2 is transforming into the "App Store for AI." Forget juggling multiple platforms! Developers can build and offer their specialized tools all in one place, accessible across web, Android, iOS, and even a macOS app bar. Imagine tens of thousands of hyper-focused tools, each tackling a specific need with expertise.</p>
+        <br />
+        <h3 className='text-lg font-dserif'>What this means as a Developer:</h3>
+        <ul className='text-neutral-900 list-disc [&>li]:mb-1 [&>li]:text-base'>
+          <li><p>Ditch the hassle of backend/frontend development, hosting, billing, domains, app development, GPU costs, and marketing. <strong>Just focus on writing AI related code in Python</strong></p></li>
+        </ul>
+        <br />
+        <h3 className='text-lg font-dserif'>What this means as a User:</h3>
+        <ul className='text-neutral-900 list-disc [&>li]:mb-0 [&>li]:text-base ' >
+          <li><p>No more platform hopping! Find everything you need in <strong>one trusted space.</strong></p></li>
+          <li><p>Stronger <strong>privacy</strong> protection.</p></li>
+          <li><p>Customer <strong>reviews and ratings</strong> to help you choose the right tool.</p></li>
+          <li><p><strong>Discover</strong> tools you never knew existed!</p></li>
+        </ul>
+        <br />
+        <p className='font-bold text-lg'>Stay tuned!</p>
+        <br />
 
-        <div className='bg-neutral-100 rounded-3xl p-8 md:p-16 flex gap-6 justify-between flex-col'>
-          <div>
-            <div className='mb-20 w-full flex justify-center md:justify-start'>
-              <Logo variant='dark' text='' />
-            </div>
-            <AnimatedParagraph className={''} sentence={currentPhotoDescription.description} />
-            <AnimatedImageGrid
-              small
-              className='lg:hidden mt-4'
-              images={currentPhotoDescription.images}
-              id={currentPhotoDescription.description}
-            />
-          </div>
-          <div className=''>
-
-            <p className='text-neutral-s font-medium text-base md:text-xl mt-6 text-purple-800 mb-4'>
-              Meet <b>Arible</b>: Your AI Photographer Buddy. Create and edit photos of yourself by chatting with Arible. No camera or photographer required.
-            </p>
-            <GetStarted />
-          </div>
+        <div className='flex flex-col items-end'>
+          <p className='font-bold fontd-serif'>Chisimdiri Ejinkeonye</p>
+          <p>Founder, Arible</p>
+          <a href='mailto:simdi@arible.co' className='font-bold underline'>simdi@arible.co</a>
+          <br />
+          <a href='https://twitter.com/nintharc' className='font-bold underline'>Twitter</a>
         </div>
-
-        <AnimatedImageGrid
-          className='hidden lg:grid'
-          images={currentPhotoDescription.images}
-          id={currentPhotoDescription.description}
-        />
-      </section>
-
-      <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col justify-between gap-6'>
-        <ScrollingText>
-          <h1 className='font-black text-5xl md:text-7xl   text-center '>Say Goodbye <span className='font-medium'>To</span> Terrible Camera Photos</h1>
-          <p className='text-xl text-center md:text-2xl font-medium text-neutral-300'>Unlimited Portraits Based On Your Face</p>
-          <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
-
-        </ScrollingText>
-        {/* masonry style grid */}
-        <ScrollingDiv className='w-full h-full flex gap-6 max-w-6xl m-auto'>
-
-          <div className='w-full h-full flex gap-6 flex-col'>
-            <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-              <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/11e39084-abfa-42e3-cb48-ae405b0dac00/public' className='w-full h-full object-cover rounded-3xl' />
-            </div>
-            <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-              <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/1d15ec3f-17b6-4314-85fb-64f641e5c200/public' className='w-full h-full object-cover rounded-3xl' />
-            </div>
-          </div>
-          <div className='w-full h-full flex gap-6 flex-col'>
-            <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-              <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/7362e610-fc06-4b7f-d08e-7d58397a7500/public' className='w-full h-full object-cover rounded-3xl' />
-            </div>
-            <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-              <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/acc2b6c6-cac9-4127-2a30-58b1e5c34000/public' className='w-full h-full object-cover rounded-3xl' />
-            </div>
-          </div>
-          <div className='w-full h-full flex gap-6 flex-col'>
-            <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-              <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/7a36e797-e762-4417-b433-b4c7b6f4bc00/public' className='w-full h-full object-cover rounded-3xl' />
-            </div>
-            <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-
-              <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/53f6c067-911a-4129-b206-d8e81c64d600/public' className='w-full h-full object-cover rounded-3xl' />
-            </div>
-          </div>
-        </ScrollingDiv>
-      </section>
-
-
-      <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col  gap-6'>
-        <ScrollingText className='text-center'>
-          <h1 className='font-black text-5xl md:text-7xl text-center m-auto  '><span className=''>
-            <span className='font-medium'>1000+</span>
-          </span> Ways To Express <span>
-              <span className='font-medium'>Yourself</span>
-            </span></h1>
-          <p className='text-xl md:text-2xl  m-auto mt-4 text-center  font-medium text-neutral-300'>
-            <span className='font-black'>
-              Powered by the community
-            </span> look different in 1000+ ways and share the love with everyone.</p>
-
-          <div className='mt-8'>
-            <a href='https://github.com/scroobius-pip/arible_prompts' target='_blank' className='p-6'>
-              <span className='md:text-left animate-pulse '> Open-sourced For Everyone</span>
-            </a>
-            <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
-          </div>
-        </ScrollingText>
-
-        <ScrollingDiv
-          className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4  overflow-hidden  '
-        >
-          <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-            <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/11e39084-abfa-42e3-cb48-ae405b0dac00/public' className='w-full h-full object-cover rounded-3xl' />
-
-          </div>
-          {
-            sampleStyles.map((style, index) => {
-              return <div key={index} className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                <img src={style} className='w-full h-full object-cover rounded-3xl' />
-              </div>
-            })
-          }
-
-        </ScrollingDiv>
-      </section>
-      <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col  gap-6 justify-between'>
-        <ScrollingText>
-          <h1 className='font-black text-5xl md:text-7xl   text-center '>Both Flexible and Easy To Use</h1>
-          <p className='text-xl text-center md:text-2xl font-medium text-neutral-300'>Use Either The Discord Bot or Web Interface </p>
-          <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
-        </ScrollingText>
-
-        <ScrollingDiv className='max-w-5xl mt-12 m-auto h-full justify-between gap-12 grid grid-flow-row md:grid-flow-col '>
-          <div className='bg-neutral-900  p-8 rounded-2xl  '>
-            <h3 className='text-white text-center font-extrabold text-4xl mb-8'>Discord</h3>
-            <div className='flex flex-col gap-12 '>
-              <div className=' bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer aspect-square'>
-                <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/9d0b37c1-b4de-4519-1ee8-82ea28bf7100/public' className='w-full h-full object-cover rounded-3xl' />
-              </div>
-              <div className=' bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-                <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/5c5956fb-8074-4638-9588-80ae3fcc0000/public' className='w-full h-full object-cover rounded-3xl' />
-              </div>
-            </div>
-          </div>
-          <div className='bg-white p-8 rounded-2xl  '>
-            <h3 className='text-neutral-900 text-center font-extrabold text-4xl mb-8'>Web Interface</h3>
-            <div className='flex flex-col gap-12 '>
-              <div className=' bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer aspect-square'>
-                <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/c46bed43-7d4b-4ebb-40dd-d2207700d600/public' className='w-full h-full object-cover rounded-3xl aspect-square' />
-              </div>
-              <div className=' bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer aspect-square'>
-                <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/c8fb4f0d-b7ec-46ad-f64a-4a3b650ba200/public' className='w-full h-full object-cover rounded-3xl aspect-square' />
-              </div>
-            </div>
-          </div>
-        </ScrollingDiv>
-      </section>
-      <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col justify-between gap-6 max-w-6xl m-auto'>
-        <ScrollingText>
-          <h1 className='font-black md:text-7xl text-5xl   text-center '>
-            Mix & Replicate <span className='font-medium'>Any</span> Photo
-          </h1>
-          <p className='text-2xl font-medium text-neutral-300 text-center '>
-            A  Nerd-free drag and drop interface
-          </p>
-          <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
-
-        </ScrollingText>
-        <div className='w-full h-full gap-12  grid grid-flow-row grid-cols-2 grid-row-1 '>
-
-          <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer col-span-2'>
-            <video preload='none' loop muted className='w-full h-full object-cover rounded-3xl'
-              poster='https://pub-7bbc6377635e4e588a0a4c5fdfb0df93.r2.dev/arible_clone.gif'
-              src='https://pub-7bbc6377635e4e588a0a4c5fdfb0df93.r2.dev/arible_clone.webm'
-            />
-          </div>
-          {/* <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-            <video preload='none' loop muted className='w-full h-full object-cover rounded-3xl'
-              poster='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/cdce83dc-ff6b-4d3d-2add-e62ae79a1c00/public'
-              src='/arible_selector.mp4'
-            />
-          </div>
-          <div className='w-full h-full bg-neutral-800 rounded-3xl shadow-2xl cursor-pointer'>
-            <video autoPlay loop muted className='w-full h-full object-cover rounded-3xl'
-              poster='/arible_styles.gif'
-              src='/arible_styles.mp4'
-            />
-          </div> */}
-        </div>
-      </section>
-      <section className='min-h-screen h-full p-4 md:p-20 pb-2 flex flex-col justify-between gap-6'>
-        <ScrollingText>
-          <h1 className='font-black text-5xl md:text-7xl   text-center '>Introducing RapidTake <span className='font-bold  relative -top-5 text-base py-2 px-4 bg-neutral-50 text-neutral-800 rounded-full'>TM</span></h1>
-          <p className='text-xl text-center md:text-2xl font-medium text-neutral-300'>Don't have enough photos ? No Problem! <br /><span className='font-semibold text-neutral-100'>The only AI Avatar Platform to have integrated Face Capture</span></p>
-          <GetStarted color='bg-neutral-50 max-w-xs m-auto my-8' text='text-neutral-900 ' />
-
-        </ScrollingText>
-        {/* <img src='https://imagedelivery.net/y45xHmEkXDWfOcNHu7OOpA/6d6b3d28-5177-4e3b-dabc-37c20df2d800/public' className='max-w-2xl m-auto h-full object-cover' /> */}
-      </section>
-
-      <section className='min-h-screen h-full p-4 md:p-8 pb-2 flex flex-col justify-between gap-6 rounded-3xl mb-20 md:mb-0'>
-        <ScrollingText>
-          <FaqSection rounded />
-        </ScrollingText>
-      </section>
-      <section className='p-4 md:p-20 pb-2 flex flex-col justify-between gap-6 mt-20'>
-        <ScrollingText>
-          <h1 className='font-black text-5xl md:text-7xl ' >
-            <span className='font-medium'>200%</span> Cheaper Than Hiring a Photographer<span className='font-medium'></span>
-          </h1>
-          <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>Photorealistic Portraits Indistinguishable From Real-life</p>
-          <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>1 Hour Turn Around Time</p>
-          <p className='md:text-2xl text-xl font-medium text-neutral-300 capitalize'>The most advanced AI Portrait Platform on the market</p>
-          <p className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Locations</p>
-          <p className='md:text-2xl text-xl font-medium text-neutral-300'>Unlimited Clothing & Styles</p>
-          <p className='md:text-2xl text-xl font-medium text-neutral-300'>100% Refunds <a href='https://bronze-brush-9b0.notion.site/Arible-Terms-Conditions-c3d47a0775ca4deebac66f64b987f06b' className='text-sm font-semibold'>Terms & Conditions apply</a></p>
-        </ScrollingText>
-        <div className='w-full h-full flex gap-6 '>
-          <ScrollingDiv
-            style={{
-              backgroundSize: '40px 40px',
-              backgroundColor: '#f3f3f3',
-              backgroundImage: 'linear-gradient(45deg, #d6eaff 25%, transparent 25%, transparent 50%, #d6eaff 50%, #d6eaff 75%, transparent 75%, transparent)'
-            }}
-            className='w-full h-full bg-neutral-100 p-10 md:p-40 rounded-3xl shadow-2xl cursor-pointer border-white border-2 md:block flex justify-between flex-col'>
-            <span className='text-2xl text-neutral-900 font-medium'>Starting @</span>
-            <h1 className='text-4xl md:text-8xl font-black text-neutral-900'>
-              $14.99
-            </h1>
-
-            <GetStarted />
-            {/* <a href='https://arible.getrewardful.com/signup'>
-              <Button flat color={'secondary'} className='mt-8 w-full' size='md'>Earn 20% Referring Someone</Button>
-            </a> */}
-          </ScrollingDiv>
-        </div>
-      </section>
-      <Footer bg='bg-neutral-100' text='text-neutral-900' logoVariant='dark' />
+      </div>
     </main >
   </>
 }

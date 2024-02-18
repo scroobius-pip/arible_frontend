@@ -21,6 +21,7 @@ const GeneratedItem = ({ data: { status, id, marked_for_deletion }, onPress, onC
     const optimizer_base = 'https://ik.imagekit.io/crg7fqrjg/'
     let optimized_src = src?.replace('https://replicate.delivery/', optimizer_base)
     optimized_src = optimized_src ? `${optimized_src}?tr=w-256,fo-auto` : undefined
+
     const { getRootProps, getInputProps, isDragActive } = useDropzone({
         onDrop,
         multiple: true,
