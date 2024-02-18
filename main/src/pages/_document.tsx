@@ -62,13 +62,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
           {/* <script type="text/javascript"></script> */}
 
-          <script defer
+          {/* <script defer
             dangerouslySetInnerHTML={{
               __html: `
               window.$crisp=[];window.CRISP_WEBSITE_ID="b4953aeb-ba1b-4a05-af7b-47eb9629a5ee";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
               `,
             }}
-          />
+          /> */}
 
 
           <script
